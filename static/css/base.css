@@ -1,4 +1,6 @@
-
+html{
+    height:100vh;
+}
 body {
     color: #555;
     font-family: 'Arimo', sans-serif;
