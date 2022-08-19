@@ -1,0 +1,138 @@
+[
+ {
+   "pk": 1,
+   "model": "clothes.category",
+   "fields": {
+      "name": "beachwear",
+      "friendly_name": "Beachwear"
+   }
+},
+ {
+   "pk": 2,
+   "model": "clothes.category",
+   "fields": {
+      "name": "blouse",
+      "friendly_name": "Blouse"
+   }
+},
+ {
+   "pk": 3,
+   "model": "clothes.category",
+   "fields": {
+      "name": "dress",
+      "friendly_name": "Dress"
+   }
+},
+ {
+   "pk": 4,
+   "model": "clothes.category",
+   "fields": {
+      "name": "slimfit",
+      "friendly_name": "Slimfit"
+   }
+},
+ {
+   "pk": 5,
+   "model": "clothes.category",
+   "fields": {
+      "name": "gym",
+      "friendly_name": "Gymwear"
+   }
+},
+ {
+   "pk": 6,
+   "model": "clothes.category",
+   "fields": {
+      "name": "hats",
+      "friendly_name": "Hats"
+   }
+},
+ {
+   "pk": 7,
+   "model": "clothes.category",
+   "fields": {
+      "name": "jacket",
+      "friendly_name": "Jackets"
+   }
+},
+ {
+   "pk": 8,
+   "model": "clothes.category",
+   "fields": {
+      "name": "jeans",
+      "friendly_name": "Jeans"
+   }
+},
+ {
+   "pk": 9,
+   "model": "clothes.category",
+   "fields": {
+      "name": "lingerie",
+      "friendly_name": "Lingerie"
+   }
+},
+ {
+   "pk": 10,
+   "model": "clothes.category",
+   "fields": {
+      "name": "onepiece",
+      "friendly_name": "Onepiece"
+   }
+},
+ {
+   "pk": 11,
+   "model": "clothes.category",
+   "fields": {
+      "name": "pants",
+      "friendly_name": "Pants"
+   }
+},
+ {
+   "pk": 12,
+   "model": "clothes.category",
+   "fields": {
+      "name": "plussize",
+      "friendly_name": "Plus-size"
+   }
+},
+ {
+   "pk": 13,
+   "model": "clothes.category",
+   "fields": {
+      "name": "shoes",
+      "friendly_name": "Shoes"
+   }
+},
+ {
+   "pk": 14,
+   "model": "clothes.category",
+   "fields": {
+      "name": "shorts",
+      "friendly_name": "Shorts"
+   }
+},
+ {
+   "pk": 15,
+   "model": "clothes.category",
+   "fields": {
+      "name": "t-shirts",
+      "friendly_name": "T-shirts"
+   }
+},
+ {
+   "pk": 16,
+   "model": "clothes.category",
+   "fields": {
+      "name": "tops",
+      "friendly_name": "Tops"
+   }
+},
+ {
+   "pk": 17,
+   "model": "clothes.category",
+   "fields": {
+      "name": "yoga",
+      "friendly_name": "Yoga Wear"
+   }
+}
+]

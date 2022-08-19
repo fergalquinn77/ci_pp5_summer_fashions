@@ -1,0 +1,2676 @@
+[
+ {
+   "pk": 1,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Sexy Mini Dress",
+      "description": "Women's Casual Summer Sleeveless Sexy Mini Dress",
+      "price": 8,
+      "category": 3,
+      "rating": 3.45,
+      "image_url": "https://contestimg.wish.com/api/webimage/58940d436a0d3d5da4e95a38-medium.jpg",
+      "image": "58940d436a0d3d5da4e95a38-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 2,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Long Thin Cardigan",
+      "description": "2020 New Arrival Women Spring and Summer Beach Wear Long Thin Cardigan Open Front Kimono Green Leaf Printed Chiffon Cardigan S-5XL",
+      "price": 8,
+      "category": 16,
+      "rating": 3.57,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ea10e2c617580260d55310a-medium.jpg",
+      "image": "5ea10e2c617580260d55310a-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 3,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve O Neck Cotton T-shirt",
+      "description": "Hot Summer Cool T Shirt for Women Fashion Tops Bee Printed Letters Short Sleeve O Neck Cotton T-shirts Tops Tee Clothing",
+      "price": 8,
+      "category": 16,
+      "rating": 4.03,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cedf17ad1d44c52c59e4aca-medium.jpg",
+      "image": "5cedf17ad1d44c52c59e4aca-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 4,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Pants",
+      "description": "Women Summer Shorts Lace Up Elastic Waistband Loose Thin Casual Pants Plus Size S-8XL",
+      "price": 2.72,
+      "category": 14,
+      "rating": 3.1,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ebf5819ebac372b070b0e70-medium.jpg",
+      "image": "5ebf5819ebac372b070b0e70-medium.jpg",
+      "stock": 6
+   }
+},
+ {
+   "pk": 5,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Sleeveless Rompers",
+      "description": "Plus Size Summer Women Casual Sleeveless Rompers Jumpsuits Solid Color Suspender Ttrousers Loose Overalls",
+      "price": 3.92,
+      "category": 16,
+      "rating": 5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ec645bafd107a02279c8c54-medium.jpg",
+      "image": "5ec645bafd107a02279c8c54-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 6,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Loose Lace Blouse",
+      "description": "Women Fashion Loose Lace Blouse V Neck Bat Sleeves T Shirt Hollow Out Tops Plus Size XS-8XL",
+      "price": 7,
+      "category": 2,
+      "rating": 3.84,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c63a337d5e2ce4bbb3152cf-medium.jpg",
+      "image": "5c63a337d5e2ce4bbb3152cf-medium.jpg",
+      "stock": 4
+   }
+},
+ {
+   "pk": 7,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Women's Baggy Tunic Dress",
+      "description": "Women's Baggy Tunic Dress Summer Dress Denim Dress Denim Shirt Dress Shift Dress",
+      "price": 12,
+      "category": 3,
+      "rating": 3.76,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e0ae5ebc2efb76ccf0a3391-medium.jpg",
+      "image": "5e0ae5ebc2efb76ccf0a3391-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 8,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve Slim Dress",
+      "description": "Women's Summer Casual Dress Fashion Short Sleeve Slim Dress",
+      "price": 11,
+      "category": 3,
+      "rating": 3.47,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e6f1fb7fe4a5bb4b8bf36e5-medium.jpg",
+      "image": "5e6f1fb7fe4a5bb4b8bf36e5-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 9,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Loose V Neck",
+      "description": "Summer Women Plus Size Casual Loose V Neck Short Sleeve Floral Printed Blouse Tops",
+      "price": 5.78,
+      "category": 2,
+      "rating": 3.6,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ccfaf238a8d535cec2dfb47-medium.jpg",
+      "image": "5ccfaf238a8d535cec2dfb47-medium.jpg",
+      "stock": 4
+   }
+},
+ {
+   "pk": 10,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Loose Sleeveless Dress",
+      "description": "Women's Fashion Summer Loose Sleeveless Pockets Solid Color Maxi Dress Casual Dress Plus Size",
+      "price": 5.79,
+      "category": 3,
+      "rating": 3.46,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cac5af68de7960d89e54fe0-medium.jpg",
+      "image": "5cac5af68de7960d89e54fe0-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 11,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve Blouse",
+      "description": "Summer Sexy Women Fashion Casual Loose Tops Casual T-Shirt Summer V-Neck Solid Color Plus Size Short Sleeve Blouse",
+      "price": 6,
+      "category": 15,
+      "rating": 3.31,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ec49d527d7044ccfa3f1c04-medium.jpg",
+      "image": "5ec49d527d7044ccfa3f1c04-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 12,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Drawstring Short Pants",
+      "description": "New Women's Summer Causal Shorts Drawstring Short Pants Loose Short Pants",
+      "price": 1.91,
+      "category": 11,
+      "rating": 3.45,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e9da39dc737cf255eddd4bf-medium.jpg",
+      "image": "5e9da39dc737cf255eddd4bf-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 13,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Tank Top",
+      "description": "Women Fashion Sleeveless Deep Neck Cross Spaghetti Strap Solid Color Tank Top Loose Blouse Beach Vest Top and Blouse Summer Casual T-shirts Plus Size",
+      "price": 5.79,
+      "category": 16,
+      "rating": 3.32,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d1db3c0e2b5cc0f74e091af-medium.jpg",
+      "image": "5d1db3c0e2b5cc0f74e091af-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 14,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Polka Dot V-neck",
+      "description": "2019 Summer Women's Fashion New Sleeveless Polka Dot V-neck Strap Mini Backless Casual Top Dresses",
+      "price": 2,
+      "category": 16,
+      "rating": 3.65,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cc2ce18bc97595b6549fa14-medium.jpg",
+      "image": "5cc2ce18bc97595b6549fa14-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 15,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Flare Sleeve Shirt",
+      "description": "Summer Fashion Flare Sleeve Plus Size T-shirt Off The Shoulder Cute Solid Color Top Long Sleeve Shirt",
+      "price": 11,
+      "category": 16,
+      "rating": 3.92,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c85d47641ec3b55d4d14f79-medium.jpg",
+      "image": "5c85d47641ec3b55d4d14f79-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 16,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Polka Dot V-neck Dress",
+      "description": "New Summer Women's Fashion Sleeveless Polka Dot V-neck Dress Strap Mini Backless Party Dress Casual Top Dresses",
+      "price": 11,
+      "category": 16,
+      "rating": 3.72,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cd3e795ebe403118bbc0f89-medium.jpg",
+      "image": "5cd3e795ebe403118bbc0f89-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 17,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Lace Crop Top",
+      "description": "2018 New Fashion Women's Tops Sexy Strappy Sleeveless Lace Crop Tops",
+      "price": 5,
+      "category": 16,
+      "rating": 3.83,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b07a7c6e997b33c6f9947da-medium.jpg",
+      "image": "5b07a7c6e997b33c6f9947da-medium.jpg",
+      "stock": 8
+   }
+},
+ {
+   "pk": 18,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Double Layer Tank Top",
+      "description": "5 Color Plus Size Summer New Women Fashion Ladies Casual Sleeveless Tops Summer Sexy Cutout Back Open Double Layer Tank Top(S-5XL)",
+      "price": 9,
+      "category": 16,
+      "rating": 3.82,
+      "image_url": "https://contestimg.wish.com/api/webimage/5a8f82375e2ae101c8913122-medium.jpg",
+      "image": "5a8f82375e2ae101c8913122-medium.jpg",
+      "stock": 2
+   }
+},
+ {
+   "pk": 19,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Slim Fit Tank To",
+      "description": "S~5XL Zipper Vest Tee New V-neck Sleeveless Plus Size Slim Fit Tank Tops Summer Solid Color Casual Tops Blouses",
+      "price": 7,
+      "category": 16,
+      "rating": 3.67,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cf648ce373ac2069fd6317d-medium.jpg",
+      "image": "5cf648ce373ac2069fd6317d-medium.jpg",
+      "stock": 8
+   }
+},
+ {
+   "pk": 20,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Bikini 2016 Sexy",
+      "description": "Top Swimsuit Sets Fashion Swimwear Women Bikini 2016 Sexy Padded",
+      "price": 11,
+      "category": 16,
+      "rating": 3.84,
+      "image_url": "https://contestimg.wish.com/api/webimage/57416238fc6f7d5d698f3c9f-medium.jpg",
+      "image": "57416238fc6f7d5d698f3c9f-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 21,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Cotton T-shirt",
+      "description": "Summer Women Fashion Vest Solid Color Women Sleeveless Cotton T-shirt Lace Up Hollow Sexy Slim Tank Tops Tee",
+      "price": 5,
+      "category": 16,
+      "rating": 3.6,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c244b73e6a1c618296f73db-medium.jpg",
+      "image": "5c244b73e6a1c618296f73db-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 22,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Cotton Sleeveless Tank Top",
+      "description": "Dew Design Women Summer Fashion Sexy V-Neck Vest Button Spaghetti Strap Tank Top Cotton Sleeveless Tank Top Solid Color Camisole Casual Loose Tops Holiday Beach Wear Plus Size S-5XL 5 Colors",
+      "price": 11,
+      "category": 16,
+      "rating": 3.38,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e1056784fff5f26e6f1745d-medium.jpg",
+      "image": "5e1056784fff5f26e6f1745d-medium.jpg",
+      "stock": 18
+   }
+},
+ {
+   "pk": 23,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "U-neck Slim T-shirt",
+      "description": "Summer Fashion Women Short Sleeve U-neck Slim T-shirt Casual Style Cotton Pullover Women Fashion Tee Plus Size Blouse Tops Tee",
+      "price": 7,
+      "category": 16,
+      "rating": 3.67,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d15731024c17f6b8b9bd97a-medium.jpg",
+      "image": "5d15731024c17f6b8b9bd97a-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 24,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Tank Top",
+      "description": "New Ladies Fashion Summer Tank Tops Sexy Backless Shirts Summer Vest Tops",
+      "price": 5.71,
+      "category": 16,
+      "rating": 3.75,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c63adf7edc5d6528e8b1ca3-medium.jpg",
+      "image": "5c63adf7edc5d6528e8b1ca3-medium.jpg",
+      "stock": 6
+   }
+},
+ {
+   "pk": 25,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Camouflage Tank Top",
+      "description": "2018 Summer Fashion Women Casual Camouflage Tank Top Sleeveless O-neck Vest",
+      "price": 9,
+      "category": 16,
+      "rating": 4.15,
+      "image_url": "https://contestimg.wish.com/api/webimage/5bed2a42bdf0421a30e62c6c-medium.jpg",
+      "image": "5bed2a42bdf0421a30e62c6c-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 26,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Bathing Suit",
+      "description": "New Women Lace Crochet Bikini Cover Up Swimwear Bathing Suit Summer Swimwear",
+      "price": 9,
+      "category": 1,
+      "rating": 4.03,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b5edbae1e222732845e655f-medium.jpg",
+      "image": "5b5edbae1e222732845e655f-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 27,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Cotton Vest Casual Tank Top",
+      "description": "Spring/Summer Fashion Women \"honey\"Letter Print Sleeveless Shirt Sexy Embroidered Bodycon Vest Knitted Cotton Vest Casual Tank Top ",
+      "price": 5.65,
+      "category": 17,
+      "rating": 4.29,
+      "image_url": "https://contestimg.wish.com/api/webimage/5a4f2d8f5dcd0221008b2c36-medium.jpg",
+      "image": "5a4f2d8f5dcd0221008b2c36-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 28,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Tank Top",
+      "description": "2020 New Fashion Summer Women Sleeveless Black White Pink Scalloped Trim Deep V Neck Lace Vest Solid Slim Tank Tops Tee",
+      "price": 1.74,
+      "category": 16,
+      "rating": 4.25,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e5e09065b03ef0b420f333f-medium.jpg",
+      "image": "5e5e09065b03ef0b420f333f-medium.jpg",
+      "stock": 16
+   }
+},
+ {
+   "pk": 29,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Brief Pullover Tank Top",
+      "description": "4 Color Women's Fashion Casual Solid Color tops Sleeveless Sheath Summer Fashion Plus Size Brief Pullover Strapless Short Cotton Tunic Top Crop Top",
+      "price": 5.65,
+      "category": 16,
+      "rating": 4.06,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cc0049aca0c3b3d01a87964-medium.jpg",
+      "image": "5cc0049aca0c3b3d01a87964-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 30,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve Party Dress",
+      "description": "HODMEXI Fashion Love Graffiti Print Summer Dress Short Sleeve Party Dresses Plus Size Women Clothing Vestidos",
+      "price": 14,
+      "category": 3,
+      "rating": 4.06,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c9d920da94960780239d468-medium.jpg",
+      "image": "5c9d920da94960780239d468-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 31,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Spaghetti Strap Vest Top",
+      "description": "Sweet Beading Cami Tank Tops for Women Spaghetti Strap Summer Vest Tops",
+      "price": 5.65,
+      "category": 16,
+      "rating": 4.37,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c9ee457c233fd74ef4c8a84-medium.jpg",
+      "image": "5c9ee457c233fd74ef4c8a84-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 32,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Slim Beach Dress",
+      "description": "Summer Women Sling Dresses Casual Backless Dress Ladies Floral Printed Dress Swallowtail Dresses Slim Beach Dress",
+      "price": 8,
+      "category": 3,
+      "rating": 3.81,
+      "image_url": "https://contestimg.wish.com/api/webimage/5dc4488112f5e91a9d4bb52e-medium.jpg",
+      "image": "5dc4488112f5e91a9d4bb52e-medium.jpg",
+      "stock": 6
+   }
+},
+ {
+   "pk": 33,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Tube Crop Top",
+      "description": "Solid Color T-shirts Bandeau Yoga Vest Off Shoulder Women Strapless Bra Tube Crop Top",
+      "price": 2.66,
+      "category": 15,
+      "rating": 3.44,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b582d5ec4561c4f6b53feeb-medium.jpg",
+      "image": "5b582d5ec4561c4f6b53feeb-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 34,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Camisole Tank Tops",
+      "description": "Women Fashion Vest Plus Size Loose Casual Pure Color Lace Sleeveless Camisole Summer Tank Tops",
+      "price": 9,
+      "category": 16,
+      "rating": 3.8,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cae1d6c836ecb39e57e9e80-medium.jpg",
+      "image": "5cae1d6c836ecb39e57e9e80-medium.jpg",
+      "stock": 4
+   }
+},
+ {
+   "pk": 35,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve Flowy Blouse",
+      "description": "Floral Print Cold Shoulder Ruffled Summer Short Sleeve Flowy Blouse Plus Size Sexy Tops",
+      "price": 11,
+      "category": 16,
+      "rating": 4.16,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b10cf0b7cc4492c87411045-medium.jpg",
+      "image": "5b10cf0b7cc4492c87411045-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 36,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Butterfly tank top",
+      "description": "Summer fashion female butterfly tank vest sleeveless round neck casual top",
+      "price": 8,
+      "category": 16,
+      "rating": 2.75,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb4dcebdaa4b90940076979-medium.jpg",
+      "image": "5eb4dcebdaa4b90940076979-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 37,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Washed Short Jeans",
+      "description": "New Women Ladies Fashion Summer Skinny High Wasist Washed Short Jeans Pants",
+      "price": 14,
+      "category": 11,
+      "rating": 4.06,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c80e8a150c63d28c67b8f14-medium.jpg",
+      "image": "5c80e8a150c63d28c67b8f14-medium.jpg",
+      "stock": 2
+   }
+},
+ {
+   "pk": 38,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Sweatshirt",
+      "description": "Women's Cotton Sleeveless Round Neck Shirt T-Shirt Loose Fit Pattern Print Sweatshirt",
+      "price": 5.8,
+      "category": 15,
+      "rating": 3.83,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e7adc5458a95b3323a3c6eb-medium.jpg",
+      "image": "5e7adc5458a95b3323a3c6eb-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 39,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Mini-Dress",
+      "description": "5 Color Women's Fashion Summer Slim Sleeveless Camouflage Print Dress High Waist Lace Up Casual Pocket Mini Dresses Plus Size S-5XL",
+      "price": 13,
+      "category": 3,
+      "rating": 4.16,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d2fd5a9af7a0c5b21369a05-medium.jpg",
+      "image": "5d2fd5a9af7a0c5b21369a05-medium.jpg",
+      "stock": 1
+   }
+},
+ {
+   "pk": 40,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Beach Shirt Mini Dress",
+      "description": "Sexy Women Casual Striped T-shirt Long Tops Blouse Kaftan Beach Shirt Mini Dress",
+      "price": 9,
+      "category": 2,
+      "rating": 4.26,
+      "image_url": "https://contestimg.wish.com/api/webimage/556fbe8595528719e004fa27-medium.jpg",
+      "image": "556fbe8595528719e004fa27-medium.jpg",
+      "stock": 2
+   }
+},
+ {
+   "pk": 41,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Tie Front Mini Dress",
+      "description": "Women's Summer Fashion Spaghetti Strap Floral Print Tie Front Mini Dress Sexy Dress",
+      "price": 7,
+      "category": 3,
+      "rating": 1.5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ea69521f5e1e65a3c70faa8-medium.jpg",
+      "image": "5ea69521f5e1e65a3c70faa8-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 42,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve T-shirts",
+      "description": "Summer New Women Fashion Let It ~ Bee Printed Casual Round Neck Graphic Tee Cute Short Sleeve Cotton T-shirts",
+      "price": 3.69,
+      "category": 15,
+      "rating": 3.53,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e702eb03aa1f42076ffabc9-medium.jpg",
+      "image": "5e702eb03aa1f42076ffabc9-medium.jpg",
+      "stock": 7
+   }
+},
+ {
+   "pk": 43,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Crochet Kimono Top",
+      "description": "New Fashion Women Ladies Crochet Kimono Tops Hollow Coat",
+      "price": 5,
+      "category": 7,
+      "rating": 3.82,
+      "image_url": "https://contestimg.wish.com/api/webimage/57d3bc906cfeb9135f44ded5-medium.jpg",
+      "image": "57d3bc906cfeb9135f44ded5-medium.jpg",
+      "stock": 2
+   }
+},
+ {
+   "pk": 44,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Bodycon Sleeveless Tank Top",
+      "description": "Women Spring and Summer Fashion Soild Color Vest Off Shoulder Bandage Vest Casual Low Cut Sport Wear Ladies Bodycon Sleeveless Tank Top",
+      "price": 5.84,
+      "category": 17,
+      "rating": 3.28,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c136c3cb870cf4e458afee4-medium.jpg",
+      "image": "5c136c3cb870cf4e458afee4-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 45,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Rose Boho Beach Shorts",
+      "description": "Fashion Women Jumpsuits Slit Bohemia Maxi Long Dress Womens Printed Dress Rose Boho Beach Shorts",
+      "price": 13,
+      "category": 3,
+      "rating": 4.03,
+      "image_url": "https://contestimg.wish.com/api/webimage/5af6bc9c13927d50370db58a-medium.jpg",
+      "image": "5af6bc9c13927d50370db58a-medium.jpg",
+      "stock": 7
+   }
+},
+ {
+   "pk": 46,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Floral print summer dress",
+      "description": "Plus Size Women's Fashion Loose Casual V neck long sleeve Floral print summer dress",
+      "price": 9,
+      "category": 3,
+      "rating": 3.18,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d1573a55a16864c5de706ab-medium.jpg",
+      "image": "5d1573a55a16864c5de706ab-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 47,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Don't Flatter Yourself",
+      "description": "Summer Fashion New Women Letter Funny O-neck T-shirt \" I Only Look Up To You \" Love T-shirt / \" Don't Flatter Yourself \" Graphic Tee / March T-shirt",
+      "price": 7,
+      "category": 15,
+      "rating": 3.8,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c9212fc8de79667e3c7ca59-medium.jpg",
+      "image": "5c9212fc8de79667e3c7ca59-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 48,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "V Neck Camisole Vest",
+      "description": "Women Fashion Summer V Neck Camisole Vest Solid Color Tops Sleeveless T-shirt Loose Casual Plus Size Tank Tops",
+      "price": 11,
+      "category": 16,
+      "rating": 3.43,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ea2877224b9643185e52b58-medium.jpg",
+      "image": "5ea2877224b9643185e52b58-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 49,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Two Pieces Split Bikini Set",
+      "description": "Women Fashion Swimwear Two Pieces Split Bikini Set Summer Printed Beach Bathing Swimsuits",
+      "price": 5.84,
+      "category": 1,
+      "rating": 4.19,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d806ae97c339c307264cf76-medium.jpg",
+      "image": "5d806ae97c339c307264cf76-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 50,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Summer Sleeveless Graphic Shirt",
+      "description": "Womens Fashion 3D Skull Print Cut Out Back Tank Top Summer Sleeveless Graphic Shirt Slim Fit Cotton Gothic Tee Tops Plus Size Vest",
+      "price": 1,
+      "category": 15,
+      "rating": 3.8,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ee717cbcb636e7b8b597fc3-medium.jpg",
+      "image": "5ee717cbcb636e7b8b597fc3-medium.jpg",
+      "stock": 7
+   }
+},
+ {
+   "pk": 51,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "V Neck Long Dress",
+      "description": "Women Loose Casual Printed V Neck Long Dress Plus Size Wave Point Dress Summer Dress",
+      "price": 11,
+      "category": 3,
+      "rating": 3.38,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ebb9faea86f7a4d86e2f6fb-medium.jpg",
+      "image": "5ebb9faea86f7a4d86e2f6fb-medium.jpg",
+      "stock": 1
+   }
+},
+ {
+   "pk": 52,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Backless Casual Dress",
+      "description": "NEW Women's Summer Floral Sleeveless Spaghetti Strap Backless Casual Dress Short Dress MINI Dress Party Dress Plus Size S-5XL",
+      "price": 9,
+      "category": 3,
+      "rating": 4.03,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ceb62be9795ee4693f2cd00-medium.jpg",
+      "image": "5ceb62be9795ee4693f2cd00-medium.jpg",
+      "stock": 13
+   }
+},
+ {
+   "pk": 53,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Summer Beach Mini Dress",
+      "description": "Women Sexy Lace Patchwork V-Neck Backless Summer Beach Mini Dress",
+      "price": 6,
+      "category": 3,
+      "rating": 3.5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5af519e189a29b15fca1b13b-medium.jpg",
+      "image": "5af519e189a29b15fca1b13b-medium.jpg",
+      "stock": 1
+   }
+},
+ {
+   "pk": 54,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Loose Big Swing Skirt",
+      "description": "New Fashion Summer Women Casual Dress Round Neck Loose Big Swing Skirt Sleeveless Soild Color Beach dress",
+      "price": 1,
+      "category": 1,
+      "rating": 3.56,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e81acbde187530740f207c6-medium.jpg",
+      "image": "5e81acbde187530740f207c6-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 55,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Summer Tank Top",
+      "description": "Sexy Solid Ruffled Chiffon Sling Top Pure Color Women Summer Tank Top Plus Size",
+      "price": 9,
+      "category": 12,
+      "rating": 4.06,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c879aba202e6b38cd317164-medium.jpg",
+      "image": "5c879aba202e6b38cd317164-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 56,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sling Dress V-neck Floral",
+      "description": "Summer Women Sling Dress V-neck Floral Pleated Strap Casual Pocket Large Dress",
+      "price": 6,
+      "category": 3,
+      "rating": 4,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ed1b644b1e34008ce012d4b-medium.jpg",
+      "image": "5ed1b644b1e34008ce012d4b-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 57,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Loose Maxi Dress",
+      "description": "Zanzea S-5XL Summer Women Crew Neck Sleeveless Graffiti Printed Casual Loose Maxi Dress Robes",
+      "price": 11,
+      "category": 3,
+      "rating": 4.13,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d52b1d7314eb61030644375-medium.jpg",
+      "image": "5d52b1d7314eb61030644375-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 58,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Sports Short Pants",
+      "description": "Women's Summer New Fashion Sports Shorts Solid Color Elastic Shorts Female Slim Fit Running Short Pants Gym Workout Elastic Casual Sports Short Pants",
+      "price": 7,
+      "category": 11,
+      "rating": 4,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ebff6d34a4cf4438dba5d80-medium.jpg",
+      "image": "5ebff6d34a4cf4438dba5d80-medium.jpg",
+      "stock": 16
+   }
+},
+ {
+   "pk": 59,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Trousers Wide Leg Pants",
+      "description": "Women s New Fashion Solid Color Pants Loose Casual Trousers Wide Leg Pants",
+      "price": 5,
+      "category": 11,
+      "rating": 5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eba6ecb9a9e129fb97b5dfd-medium.jpg",
+      "image": "5eba6ecb9a9e129fb97b5dfd-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 60,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Thin Casual Pants",
+      "description": "Women Summer Shorts Lace Up Elastic Waistband Loose Thin Casual Pants Plus Size S-8XL",
+      "price": 2.72,
+      "category": 11,
+      "rating": 3.1,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ebf5819ebac372b070b0e70-medium.jpg",
+      "image": "5ebf5819ebac372b070b0e70-medium.jpg",
+      "stock": 18
+   }
+},
+ {
+   "pk": 61,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short-sleeved Cotton Dress",
+      "description": "European and American Classic Fashion Summer Ladies Short-sleeved Cotton Dress",
+      "price": 5.87,
+      "category": 3,
+      "rating": 3.91,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d04e3db2ec1245228829a64-medium.jpg",
+      "image": "5d04e3db2ec1245228829a64-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 62,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Ladies Jumpsuit Romper",
+      "description": "2018 New Fashion Women Casual Playsuit Ladies Jumpsuit Romper Summer Floral Playsuit Brand New (3 Colors)",
+      "price": 11,
+      "category": 14,
+      "rating": 3.72,
+      "image_url": "https://contestimg.wish.com/api/webimage/5aec22cec25735338c544690-medium.jpg",
+      "image": "5aec22cec25735338c544690-medium.jpg",
+      "stock": 15
+   }
+},
+ {
+   "pk": 63,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve Long Dress",
+      "description": "Women Summer Three-color Stitching Short Sleeve Long Dress Ladies Casual V Collar Cotton Plus Size Long Dresses XS-5XL",
+      "price": 8,
+      "category": 3,
+      "rating": 2.71,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ec5cf37cd3da70de19c3f18-medium.jpg",
+      "image": "5ec5cf37cd3da70de19c3f18-medium.jpg",
+      "stock": 13
+   }
+},
+ {
+   "pk": 64,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Linen Shirt",
+      "description": "Plus Size 4XL 5XL Chinese Clothing Shirts for Men Cotton Linen Shirt Tops Summer",
+      "price": 14,
+      "category": 12,
+      "rating": 3.81,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d034039c822d263d90f58d4-medium.jpg",
+      "image": "5d034039c822d263d90f58d4-medium.jpg",
+      "stock": 16
+   }
+},
+ {
+   "pk": 65,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Soild Color Beach dress",
+      "description": "New Fashion Summer Women Casual Dress Round Neck Loose Big Swing Skirt Sleeveless Soild Color Beach dress",
+      "price": 2,
+      "category": 3,
+      "rating": 3.47,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e940265ea3640c9ca0353aa-medium.jpg",
+      "image": "5e940265ea3640c9ca0353aa-medium.jpg",
+      "stock": 7
+   }
+},
+ {
+   "pk": 66,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Lace Summer Tank Top",
+      "description": "Women Fashion Loose Casual Soild Color Camisole Sleeveless Lace Summer Tank Tops",
+      "price": 8,
+      "category": 12,
+      "rating": 3.93,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c9ca27e5aee12258c2f341c-medium.jpg",
+      "image": "5c9ca27e5aee12258c2f341c-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 67,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve Long Blouse",
+      "description": "Summer Beach Fashion Plus Size Women's Loose Short Sleeve Long Blouses Plus Size Deep V-neck Party Dress Ladies Casual Solid Color Beach Wear Swimsuit Cover-up Short Linen Dress",
+      "price": 5.79,
+      "category": 12,
+      "rating": 3.41,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d29bc2ed35393550e31d6f3-medium.jpg",
+      "image": "5d29bc2ed35393550e31d6f3-medium.jpg",
+      "stock": 15
+   }
+},
+ {
+   "pk": 68,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Printed Women T-shirt",
+      "description": "Trend Summer New Design Letter Printed Women T-shirts Deep V-neck Sleeveless Shirts Casual Tank Tops",
+      "price": 8,
+      "category": 12,
+      "rating": 3.74,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e86c211d22ae539102d25c7-medium.jpg",
+      "image": "5e86c211d22ae539102d25c7-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 69,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Sleeveless Dress",
+      "description": "Summer Women Round Neck Dress Casual Sleeveless Dress Floral Printed Dress Slim Flower Dress",
+      "price": 4.94,
+      "category": 3,
+      "rating": 3.93,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d2407e66e8e037b4dd9fad3-medium.jpg",
+      "image": "5d2407e66e8e037b4dd9fad3-medium.jpg",
+      "stock": 17
+   }
+},
+ {
+   "pk": 70,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Asymmetric Tank Top",
+      "description": "2018 Women Ladies Fashion Musical Note Asymmetric Tank Top",
+      "price": 8,
+      "category": 16,
+      "rating": 3.82,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b0386696040cc41f2331c83-medium.jpg",
+      "image": "5b0386696040cc41f2331c83-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 71,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Trousers",
+      "description": "Women Summer Printed Plus Size Loose Casual Trousers Harlan Pants Long Pants",
+      "price": 11,
+      "category": 11,
+      "rating": 3.46,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d5d038d99df1e17cc9313cf-medium.jpg",
+      "image": "5d5d038d99df1e17cc9313cf-medium.jpg",
+      "stock": 4
+   }
+},
+ {
+   "pk": 72,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Lace Vest Loose V Neck",
+      "description": "Fashion Women Sleeveless Lace Vest Loose V Neck Solid Silk  Lady Casual Sexy Black Tank Tops",
+      "price": 8,
+      "category": 16,
+      "rating": 5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ed0dfc51fa8446451b19c0d-medium.jpg",
+      "image": "5ed0dfc51fa8446451b19c0d-medium.jpg",
+      "stock": 15
+   }
+},
+ {
+   "pk": 73,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "round neck heart-shaped t-shirt",
+      "description": "New trend round neck heart-shaped t-shirt casual loose tops women cute funny t-shirt plus size",
+      "price": 9,
+      "category": 16,
+      "rating": 4.5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb0f23c904507255ca6530c-medium.jpg",
+      "image": "5eb0f23c904507255ca6530c-medium.jpg",
+      "stock": 6
+   }
+},
+ {
+   "pk": 74,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Jumpsuit",
+      "description": "Women Fashion Short Jumpsuit Spaghetti Strap Sleeveless Rompers Summer One Piece Set Casual Summer Outfits",
+      "price": 7,
+      "category": 10,
+      "rating": 4.26,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e4267d60640954a435e64f5-medium.jpg",
+      "image": "5e4267d60640954a435e64f5-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 75,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Shorts Suit",
+      "description": "New Fashion Women Casual Shorts Suit Summer Tie-dye Print Halter Bandage Sleeveless Backless Crop Top and Elastic Waist Shorts Pants Two Piece Set",
+      "price": 11,
+      "category": 16,
+      "rating": 4.24,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b29e5b5080ea2661b2287f6-medium.jpg",
+      "image": "5b29e5b5080ea2661b2287f6-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 76,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Good Vibes Shirt Summer Shirt",
+      "description": "Good Vibes Shirt Summer Shirt Rainbow Shirt Rainbow Pattern Shirt Letter Print Shirt Round Neck Short Sleeve Shirt Splicing Shirt Solid Colour Cotton Shirt Slim Fit Top Plus Size S-5XL",
+      "price": 8,
+      "category": 12,
+      "rating": 3.56,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eafcf8a1f07813cd5404b52-medium.jpg",
+      "image": "5eafcf8a1f07813cd5404b52-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 77,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Two Pieces Split Bikini Set",
+      "description": "2019 Women's Fashion Swimwear Two Pieces Split Bikini Set Summer Printed Beach Bathing Swimsuits",
+      "price": 5.83,
+      "category": 1,
+      "rating": 4.22,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c91e1ecb14bfa747e277427-medium.jpg",
+      "image": "5c91e1ecb14bfa747e277427-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 78,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Striped Sling Mini Dress",
+      "description": "S-6XL Summer Cotton Plus Size Women Fashion Loose Casual Sleeveless Striped Sling Mini Dress",
+      "price": 8,
+      "category": 12,
+      "rating": 3.42,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ccd341e8cc067595fcba7c4-medium.jpg",
+      "image": "5ccd341e8cc067595fcba7c4-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 79,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Top Blouse Lace Vest Tank Shirt",
+      "description": "7 Colors Tops 2018 Women Lady Sexy Summer Sleeveless Top Blouse Lace Vest Tank Shirt",
+      "price": 5.77,
+      "category": 12,
+      "rating": 4,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ec773b5967eb036b2c2e668-medium.jpg",
+      "image": "5ec773b5967eb036b2c2e668-medium.jpg",
+      "stock": 18
+   }
+},
+ {
+   "pk": 80,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Floral Printing Sling Dress",
+      "description": "XS-8XL Women's Fashion Summer Sleeveless Floral Printing Sling Dress Deep V-Neck Slim Fit Big Swing Beach Skirts Loose Casual Long Maxi Dresses Ladies Plus Size Party Dresses",
+      "price": 5.9,
+      "category": 12,
+      "rating": 3.64,
+      "image_url": "https://contestimg.wish.com/api/webimage/5de079e771151e6e9e85ee05-medium.jpg",
+      "image": "5de079e771151e6e9e85ee05-medium.jpg",
+      "stock": 13
+   }
+},
+ {
+   "pk": 81,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Strappy Mini Dress",
+      "description": "Sexy Women Solid Color Strappy Mini Dress Summer Fashion Sleeveless Short Dress Plus Size",
+      "price": 6,
+      "category": 3,
+      "rating": 3.08,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e97e0c7cb3cec329c7b4e98-medium.jpg",
+      "image": "5e97e0c7cb3cec329c7b4e98-medium.jpg",
+      "stock": 16
+   }
+},
+ {
+   "pk": 82,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Tank Top",
+      "description": "2018 Summer Fashion Women Tank Tops Sexy Women Sleeveless Crop Tops Casual Style Women Cotton Print Lace Stitching Irregular Blouse Tops（S-5XL)",
+      "price": 7,
+      "category": 12,
+      "rating": 4.41,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ad987d8918dae087d633040-medium.jpg",
+      "image": "5ad987d8918dae087d633040-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 83,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Trendy Sleeve Feather Print Lace Up V-neck",
+      "description": "New Summer Womens Fashion Plus Size Tops Trendy Sleeve Feather Print Lace Up V-neck Off Shoulder Blouse &Shirts S-5XL",
+      "price": 8,
+      "category": 16,
+      "rating": 3.7,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cc67417a01bbd6b6c066df2-medium.jpg",
+      "image": "5cc67417a01bbd6b6c066df2-medium.jpg",
+      "stock": 2
+   }
+},
+ {
+   "pk": 84,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "V Neck Floral Printed Fold Sling Dress",
+      "description": "Plus Size Summer Women Casual Dresses Deep V Neck Floral Printed Fold Sling Dresses",
+      "price": 12,
+      "category": 3,
+      "rating": 3.81,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d0b4268d5c8e1784b6e23b4-medium.jpg",
+      "image": "5d0b4268d5c8e1784b6e23b4-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 85,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Colorblock Bikini Sets Beachwear",
+      "description": "Women's 2019 Fashion Bandage SwimSuits Colorblock Bikini Sets Beachwear",
+      "price": 5.78,
+      "category": 1,
+      "rating": 4,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c061cf358603c4b35a19363-medium.jpg",
+      "image": "5c061cf358603c4b35a19363-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 86,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Leopard Lips Crewneck",
+      "description": "Women Fashion Leopard Lips Crewneck Tee Short Sleeve Casual T-shirt",
+      "price": 12,
+      "category": 16,
+      "rating": 3.94,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e5f5289a950c34147f0d94b-medium.jpg",
+      "image": "5e5f5289a950c34147f0d94b-medium.jpg",
+      "stock": 1
+   }
+},
+ {
+   "pk": 87,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Dress Sling Dress",
+      "description": "NEW Women Summer Floral Printed  Sleeveless Dress Sling Dress V-neck Backless Dress",
+      "price": 11,
+      "category": 3,
+      "rating": 4.07,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cf5e44b3c8b9e101a5db52c-medium.jpg",
+      "image": "5cf5e44b3c8b9e101a5db52c-medium.jpg",
+      "stock": 18
+   }
+},
+ {
+   "pk": 88,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Dress Sleeveless Waist Dress",
+      "description": "Summer Women Fashion Short Dress Sleeveless Waist Dress Camouflage Dress Bodycon Slim Fit Dress Plus Size S-5XL",
+      "price": 8,
+      "category": 3,
+      "rating": 4.29,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d78eb19cc404c03393c83b5-medium.jpg",
+      "image": "5d78eb19cc404c03393c83b5-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 89,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Loose Casual Trousers",
+      "description": "Women Summer Printed Plus Size Loose Casual Trousers Harlan Pants Long Pants",
+      "price": 11,
+      "category": 11,
+      "rating": 3.46,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d5d038d99df1e17cc9313cf-medium.jpg",
+      "image": "5d5d038d99df1e17cc9313cf-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 90,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Camisole Spaghetti Strap Long Tank Top",
+      "description": "Women Stretchy Camisole Spaghetti Strap Long Tank Top Slip Mini Dress 4Color SIZE XXL is available Now",
+      "price": 5.77,
+      "category": 3,
+      "rating": 4.1,
+      "image_url": "https://contestimg.wish.com/api/webimage/544b079d1280fa28eee9b380-medium.jpg",
+      "image": "544b079d1280fa28eee9b380-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 91,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual robe femme",
+      "description": "COMENII Women Summer Tunics T-shirt Dresses Fold Casual  robe femme Loose Swing Flare Short Sleeves Dress Beach Dress Sexy O-neck Plus Size Tank Tops Dress Pocket Dress Ruffles Party Mini Dress Ladies Fashion Solid Color Pleated Cotton Dress",
+      "price": 9,
+      "category": 3,
+      "rating": 3.7,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b35cab04f75026255f2364a-medium.jpg",
+      "image": "5b35cab04f75026255f2364a-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 92,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve T Shirt",
+      "description": "Summer Women's Fashion Short Sleeve T Shirt Ladies Female V-neck Hollow Out Casual Loose Blouse Plus Size Tops",
+      "price": 1.72,
+      "category": 12,
+      "rating": 3.77,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ebe0ead593b960eb1c82d0b-medium.jpg",
+      "image": "5ebe0ead593b960eb1c82d0b-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 93,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Solid Color Pants",
+      "description": "Women s New Fashion Solid Color Pants Loose Casual Trousers Wide Leg Pants",
+      "price": 1.86,
+      "category": 11,
+      "rating": 3.57,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e958754a9136f26ddb12929-medium.jpg",
+      "image": "5e958754a9136f26ddb12929-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 94,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Stranger Things Print Tracksuit",
+      "description": "New Summer Fashion Women Striped Stitching Stranger Things Print Tracksuit Stranger Things Clothes 2 Piece Set Woman Sports Suits Shorts Crop Tops   Shorts Pants Outfit",
+      "price": 14,
+      "category": 16,
+      "rating": 4.54,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb8b430e015797901090ac0-medium.jpg",
+      "image": "5eb8b430e015797901090ac0-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 95,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual V neck",
+      "description": "Plus Size Women's Fashion Loose Casual V neck Wave point Floral print splice Summer Vest camisole",
+      "price": 3.69,
+      "category": 16,
+      "rating": 3.64,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e7f13c2bd7ab15d52e9b5f9-medium.jpg",
+      "image": "5e7f13c2bd7ab15d52e9b5f9-medium.jpg",
+      "stock": 15
+   }
+},
+ {
+   "pk": 96,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Spaghetti Strap Solid Color Tank Top",
+      "description": "Women Fashion Sleeveless Deep Neck Cross Spaghetti Strap Solid Color Tank Top Loose Blouse Beach Vest Top and Blouse Summer Casual T-shirts Plus Size",
+      "price": 5.79,
+      "category": 15,
+      "rating": 3.32,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d1db3c0e2b5cc0f74e091af-medium.jpg",
+      "image": "5d1db3c0e2b5cc0f74e091af-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 97,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Camouflage Loose Shorts",
+      "description": "Men Cotton Overalls Camouflage Loose Shorts Elasticity Waist Pants",
+      "price": 11,
+      "category": 11,
+      "rating": 4.11,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e9d55038d475a01721c1c7f-medium.jpg",
+      "image": "5e9d55038d475a01721c1c7f-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 98,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Loose Solid Tank Jumpsuit",
+      "description": "6 Colors Autumn Summer Ladies Casual Loose Solid Tank Jumpsuit Long Suspender Overalls Bib Pants Plus Size S-5XL",
+      "price": 9,
+      "category": 11,
+      "rating": 3.18,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eaa6d9c8d99eb3ec06709f4-medium.jpg",
+      "image": "5eaa6d9c8d99eb3ec06709f4-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 99,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Spaghetti Strap T-Shirt",
+      "description": "2018 6 Color Summer Women’s New Fashion Sexy Cute Whiskey Print Lace Patchwork Spaghetti Strap T-Shirts Slim Bodycon Off The Shoulder Short Sleeve Blouse Casual Cotton Outdoor Tops Plus Size S-XXXXL",
+      "price": 6,
+      "category": 15,
+      "rating": 3.96,
+      "image_url": "https://contestimg.wish.com/api/webimage/5a5db5398988991d7f7aec44-medium.jpg",
+      "image": "5a5db5398988991d7f7aec44-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 100,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "V-neck Bow Top",
+      "description": "Women Summer Off Shoulder V-neck Bow Top Cotton Casual Stretch Slim Fitted T-Shirt",
+      "price": 5.66,
+      "category": 15,
+      "rating": 3.89,
+      "image_url": "https://contestimg.wish.com/api/webimage/5a4b9eba2b0a1c3062666033-medium.jpg",
+      "image": "5a4b9eba2b0a1c3062666033-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 101,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Spaghetti Strap Beach Dress",
+      "description": "New Fashon Women Summer Sleeveless Spaghetti Strap Beach Dress Dresses for Women Casual Floral Print Party Dress",
+      "price": 8,
+      "category": 3,
+      "rating": 3.61,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c5fc9a63af7386b63c00d25-medium.jpg",
+      "image": "5c5fc9a63af7386b63c00d25-medium.jpg",
+      "stock": 2
+   }
+},
+ {
+   "pk": 102,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Fashion Beach Swimsuit",
+      "description": "Summer Cool Leaf Printed Bikini Set Women Fashion Beach Swimsuit",
+      "price": 11,
+      "category": 1,
+      "rating": 3.96,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b1f9afe694fab75ca9fa8ea-medium.jpg",
+      "image": "5b1f9afe694fab75ca9fa8ea-medium.jpg",
+      "stock": 18
+   }
+},
+ {
+   "pk": 103,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Summer Dress Floral Print",
+      "description": "New Women's Fashion Summer Dress Floral Print Sleeveless Knee Length Dresses Ladies Loose Casual Spaghetti Strap Dress Plus Size",
+      "price": 7,
+      "category": 3,
+      "rating": 4.2,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e9915ef9fae4f26f32f15df-medium.jpg",
+      "image": "5e9915ef9fae4f26f32f15df-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 104,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Leaf Printed Loose Mini Dress",
+      "description": "Casual Women Crew Neck Short Sleeve Leaf Printed Loose Mini Dress Summer",
+      "price": 11,
+      "category": 3,
+      "rating": 3.77,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c78151c27202a28a75752b7-medium.jpg",
+      "image": "5c78151c27202a28a75752b7-medium.jpg",
+      "stock": 17
+   }
+},
+ {
+   "pk": 105,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "V-neck Solid Color Slim Fit",
+      "description": "2020 Women Fashion V-neck Solid Color Slim Fit Casual Cotton Two Pieces Sports Wear",
+      "price": 5.81,
+      "category": 14,
+      "rating": 2.61,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e743eded2656b046017c719-medium.jpg",
+      "image": "5e743eded2656b046017c719-medium.jpg",
+      "stock": 16
+   }
+},
+ {
+   "pk": 106,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Backless Lace Hollow Out",
+      "description": "Classic Women Backless Lace Hollow Out Halter Neck Mini Evening Party Dress",
+      "price": 14,
+      "category": 3,
+      "rating": 3.93,
+      "image_url": "https://contestimg.wish.com/api/webimage/5acb7ae3a69e662bb0133546-medium.jpg",
+      "image": "5acb7ae3a69e662bb0133546-medium.jpg",
+      "stock": 7
+   }
+},
+ {
+   "pk": 107,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "2pc Set Ladies Casual Round Neck",
+      "description": "Womens Summer Fashion Lip Print 2pc Set Ladies Casual Round Neck Short Sleeve T Shirt and Shorts",
+      "price": 5,
+      "category": 14,
+      "rating": 5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb90ab5ad67f63678d15ed9-medium.jpg",
+      "image": "5eb90ab5ad67f63678d15ed9-medium.jpg",
+      "stock": 1
+   }
+},
+ {
+   "pk": 108,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Denim Shorts",
+      "description": "Fashion Women Denim Shorts Stitching Lace Summer Jeans Shorts 3 Colors",
+      "price": 5,
+      "category": 8,
+      "rating": 4.3,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e9d3df803ee35376979fe40-medium.jpg",
+      "image": "5e9d3df803ee35376979fe40-medium.jpg",
+      "stock": 7
+   }
+},
+ {
+   "pk": 109,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Half Sleeve Loose Blouse",
+      "description": "Women Half Sleeve Loose Casual Summer Shirts Blouse Tops Plus Size XS-8XL",
+      "price": 11,
+      "category": 2,
+      "rating": 4.12,
+      "image_url": "https://contestimg.wish.com/api/webimage/5dd00194ea9f8e175c5561a9-medium.jpg",
+      "image": "5dd00194ea9f8e175c5561a9-medium.jpg",
+      "stock": 4
+   }
+},
+ {
+   "pk": 110,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short T-shirt",
+      "description": "Women Short T-shirt   Shorts Suit Summer Sport Wear Casual Cotton Yoga Lady Crop Top and Shorts",
+      "price": 12,
+      "category": 14,
+      "rating": 3.67,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb8a1d594d1e31702a4ef7c-medium.jpg",
+      "image": "5eb8a1d594d1e31702a4ef7c-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 111,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "sunscreen fisherman hat",
+      "description": "Fashion double-sided electric embroidery small daisy pattern woman summer outdoor sunscreen fisherman hat",
+      "price": 5.68,
+      "category": 6,
+      "rating": 4.5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ec118ec7b4679d720f8de1d-medium.jpg",
+      "image": "5ec118ec7b4679d720f8de1d-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 112,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Loose Drawstring hot Short Pants",
+      "description": "VANGULL Camouflage Shorts Fashion Basic New Board Shorts Women Loose Drawstring hot Short Pants Without Belt",
+      "price": 17,
+      "category": 11,
+      "rating": 4.16,
+      "image_url": "https://contestimg.wish.com/api/webimage/5780938ff1ab1f1146be7dd1-medium.jpg",
+      "image": "5780938ff1ab1f1146be7dd1-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 113,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Printed V-neck Sleeveless",
+      "description": "Women's Fashion Summer Tank Top Casual Printed V-neck Sleeveless Camisole Vest",
+      "price": 7,
+      "category": 16,
+      "rating": 3.71,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e3fa5ca9c4021248d4e1c37-medium.jpg",
+      "image": "5e3fa5ca9c4021248d4e1c37-medium.jpg",
+      "stock": 15
+   }
+},
+ {
+   "pk": 114,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Front Knot Cotton Sleeveless",
+      "description": "Summer Casual Front Knot Cotton Sleeveless Irregular Hem Tank Top",
+      "price": 7,
+      "category": 16,
+      "rating": 5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5edf1267c771c4255ceee25d-medium.jpg",
+      "image": "5edf1267c771c4255ceee25d-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 115,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "butterfly tank vest",
+      "description": "Summer fashion female butterfly tank vest sleeveless round neck casual top",
+      "price": 7,
+      "category": 16,
+      "rating": 3,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb4dd169263020a42be1a88-medium.jpg",
+      "image": "5eb4dd169263020a42be1a88-medium.jpg",
+      "stock": 1
+   }
+},
+ {
+   "pk": 116,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Silver Letter Print Dress",
+      "description": "S-5XL Summer New Fashion Women Silver Letter Print Dress Short Sleeve Skirt Fashion Casual T Shirt Dress Plus Size",
+      "price": 11,
+      "category": 3,
+      "rating": 4.11,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d93f4284385140973836ddf-medium.jpg",
+      "image": "5d93f4284385140973836ddf-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 117,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Sport Fitness Pants",
+      "description": "2020 Summer Women's Fashion Elastic Waist 3/4 Jogging Capri Hose Strass Dance Paisley Drawstring Casual Sport Fitness Pants",
+      "price": 12,
+      "category": 11,
+      "rating": 3.59,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e74326f3ae3412b2f7d9f42-medium.jpg",
+      "image": "5e74326f3ae3412b2f7d9f42-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 118,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Two-piece Set Sports Set",
+      "description": "Women Summer Fashion Tie-dye Printed Casual Printed Shorts Two-piece Set Sports Set",
+      "price": 13,
+      "category": 14,
+      "rating": 3.61,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb8d93dbd495919c2a0feb6-medium.jpg",
+      "image": "5eb8d93dbd495919c2a0feb6-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 119,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Beach Long Dress",
+      "description": "Women's Casual Sleeveless Stripe T Shirts Dress Big Swing Maxi Dress Summer Beach Long Dress Plus Size XS-5XL",
+      "price": 2.72,
+      "category": 12,
+      "rating": 5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ed3ae8e7bf8821d5cf4bc64-medium.jpg",
+      "image": "5ed3ae8e7bf8821d5cf4bc64-medium.jpg",
+      "stock": 15
+   }
+},
+ {
+   "pk": 120,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Tank Top",
+      "description": "NEW Women Casual Tank Top Blouses O-neck Sleeveless Gradient Color Cotton Printing T-shirt Summer Vest Blouses Loose Plus Size S-5XL",
+      "price": 6,
+      "category": 12,
+      "rating": 3.99,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cf509abb483551e0278ac5e-medium.jpg",
+      "image": "5cf509abb483551e0278ac5e-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 121,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve Crop Top",
+      "description": "Spring and Summer New Tik Tok Ing Endless Loose Large Size Short Sleeve Crop Top and Shorts Set",
+      "price": 9,
+      "category": 16,
+      "rating": 4.03,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e946e7e5a19660b52733c7e-medium.jpg",
+      "image": "5e946e7e5a19660b52733c7e-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 122,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve Off Shoulder",
+      "description": "Ladies Summer Tie Dye Print Short Sleeve Off Shoulder Casual Plus Size Dress",
+      "price": 5,
+      "category": 3,
+      "rating": 5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ed868776a5a342472182986-medium.jpg",
+      "image": "5ed868776a5a342472182986-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 123,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Summer Casual Tops V-Neck",
+      "description": "XS-8XL Women Summer Casual Tops V-Neck Short Sleeve Shirts Ladies Fashion Solid Color Cotton Loose T-shirt Plus Size Candy Color Lady Pullovers Blouse",
+      "price": 5.86,
+      "category": 16,
+      "rating": 3.73,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ce74be097a9f1764b0df1f3-medium.jpg",
+      "image": "5ce74be097a9f1764b0df1f3-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 124,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Summer Sleeveless U-neck",
+      "description": "Women's Summer Sleeveless U-neck Floral Print Fashion Tank Tops Casual Plus Size Tops(S-5XL)",
+      "price": 2,
+      "category": 16,
+      "rating": 3.99,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cf632d1c0baab5b15e71437-medium.jpg",
+      "image": "5cf632d1c0baab5b15e71437-medium.jpg",
+      "stock": 1
+   }
+},
+ {
+   "pk": 125,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Shirt",
+      "description": "2019 Women's Fashion Letter Print Sleeveless Shirt Summer Casual Fashion Tank Top",
+      "price": 7,
+      "category": 16,
+      "rating": 4.38,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cef6f6f1d8cd844d8dade14-medium.jpg",
+      "image": "5cef6f6f1d8cd844d8dade14-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 126,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Maxi Boho Dress",
+      "description": "New Women's Fashion Letter Print Tie Dye Halter Sleeveless Long Dress Summer Cotton Bohemian Maxi Boho Dress",
+      "price": 13,
+      "category": 3,
+      "rating": 4.11,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d2432e4e991b724c8327597-medium.jpg",
+      "image": "5d2432e4e991b724c8327597-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 127,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Polka Dot Dress",
+      "description": "2019 Summer Women's New Fashion Sleeveless Polka Dot V-neck Strap Mini Backless Casual Top Dresses",
+      "price": 8,
+      "category": 16,
+      "rating": 3.6,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ce604beadbdfb572729ca3f-medium.jpg",
+      "image": "5ce604beadbdfb572729ca3f-medium.jpg",
+      "stock": 15
+   }
+},
+ {
+   "pk": 128,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Open Toe Sandals",
+      "description": "Women Casual Round Open Toe Sandals Female Slippers Vintage Orthopedic Buckle Strap Anti-slip Breathable Summer Beach Sandals Roman Gladiator",
+      "price": 11,
+      "category": 13,
+      "rating": 3.78,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e7482a975c1d92dea899a18-medium.jpg",
+      "image": "5e7482a975c1d92dea899a18-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 129,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "tankini top swimwear",
+      "description": "Women's stripes Lined up double up tankini top swimwear(plus size)",
+      "price": 8,
+      "category": 1,
+      "rating": 4.05,
+      "image_url": "https://contestimg.wish.com/api/webimage/57639e8824841762459c5e5c-medium.jpg",
+      "image": "57639e8824841762459c5e5c-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 130,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Flip-flops Sandals",
+      "description": "2020 New Women's Summer Leisure Holiday Flat Shoes Hot Drilling Flip-flops Sandals",
+      "price": 11,
+      "category": 13,
+      "rating": 4.6,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ebb8a4dc5b72c3e982ec9c1-medium.jpg",
+      "image": "5ebb8a4dc5b72c3e982ec9c1-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 131,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Playsuit",
+      "description": "2018 New Fashion Women Casual Playsuit Ladies Jumpsuit Romper Summer Floral Playsuit Brand New (3 Colors)",
+      "price": 11,
+      "category": 14,
+      "rating": 3.72,
+      "image_url": "https://contestimg.wish.com/api/webimage/5aec22cec25735338c544690-medium.jpg",
+      "image": "5aec22cec25735338c544690-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 132,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sexy Chiffon Top",
+      "description": "Women Off Shoulder Chest Wrapped Sexy Chiffon Tops Halter Neck Loose Long Sleeve T Shirts",
+      "price": 8,
+      "category": 16,
+      "rating": 4.16,
+      "image_url": "https://contestimg.wish.com/api/webimage/57eccd2865007e1903d250d8-medium.jpg",
+      "image": "57eccd2865007e1903d250d8-medium.jpg",
+      "stock": 10
+   }
+},
+ {
+   "pk": 133,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Slim Short Jeans",
+      "description": "Women Fashion Ripped Denim Shorts Casual Summer Slim Short Jeans Legging Pant Plus Size S-XXXL",
+      "price": 14,
+      "category": 11,
+      "rating": 4.04,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cd939cadb29322e7a79b575-medium.jpg",
+      "image": "5cd939cadb29322e7a79b575-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 134,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Lady's Push Up Vest",
+      "description": "2020 Summer Sexy Women Halter Tops Beach Swimming Letter Print Swimwear Lady's Push Up Vest Bra S-5XL",
+      "price": 7,
+      "category": 16,
+      "rating": 3.6,
+      "image_url": "https://contestimg.wish.com/api/webimage/5dea1d9cec016f062ce8aab1-medium.jpg",
+      "image": "5dea1d9cec016f062ce8aab1-medium.jpg",
+      "stock": 6
+   }
+},
+ {
+   "pk": 135,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Dress Party Dress",
+      "description": "New Fashion Women Sleeveless Plaid Dess Vintage Dress Summer Knee-length Casual Dress Party Dress",
+      "price": 12,
+      "category": 3,
+      "rating": 3.89,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d05d9ca81f992576d4f0d23-medium.jpg",
+      "image": "5d05d9ca81f992576d4f0d23-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 136,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve V-neck Dress",
+      "description": "NEW Women Casual Loose Solid Color Dress Short Sleeve V-neck Dress Plus Size",
+      "price": 7,
+      "category": 3,
+      "rating": 3.49,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d80989a9abb1f75b86fb8ce-medium.jpg",
+      "image": "5d80989a9abb1f75b86fb8ce-medium.jpg",
+      "stock": 1
+   }
+},
+ {
+   "pk": 137,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Elastic Waistband Loose Panties",
+      "description": "10 Color Women Summer Shorts Lace Up Elastic Waistband Loose Panties Plus Size S-6XL",
+      "price": 2,
+      "category": 9,
+      "rating": 3.07,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eccd22b4497b86fd48f16b4-medium.jpg",
+      "image": "5eccd22b4497b86fd48f16b4-medium.jpg",
+      "stock": 17
+   }
+},
+ {
+   "pk": 138,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Elastic Waistband Loose Panties",
+      "description": "Women Summer Shorts Lace Up Elastic Waistband Loose Panties Plus Size",
+      "price": 6,
+      "category": 9,
+      "rating": 3.11,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb650f019701819801f42b2-medium.jpg",
+      "image": "5eb650f019701819801f42b2-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 139,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Cotton Tank Top",
+      "description": "New Women's Summer Tops Sleeveless Spaghetti Strap Casual Printed Cotton Tank Tops",
+      "price": 8,
+      "category": 2,
+      "rating": 4.07,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cfa8fd7b5db0b6cbdb5f4a6-medium.jpg",
+      "image": "5cfa8fd7b5db0b6cbdb5f4a6-medium.jpg",
+      "stock": 6
+   }
+},
+ {
+   "pk": 140,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Bikini Swimsuit Set",
+      "description": "NewWomen's Push-Up Triangle Bikini Swimsuit Set",
+      "price": 8,
+      "category": 1,
+      "rating": 3.96,
+      "image_url": "https://contestimg.wish.com/api/webimage/58e0f38f9bf29f55183efd0d-medium.jpg",
+      "image": "58e0f38f9bf29f55183efd0d-medium.jpg",
+      "stock": 6
+   }
+},
+ {
+   "pk": 141,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Panel Tie Dye Tank Top",
+      "description": "Women Ladies Fashion Openwork Panel Tie Dye Tank Top",
+      "price": 8,
+      "category": 16,
+      "rating": 4,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ebe24ca1c5e1d1d5306a00b-medium.jpg",
+      "image": "5ebe24ca1c5e1d1d5306a00b-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 142,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Shoulder Top",
+      "description": "Women Summer Off Shoulder Tops Lace Stitching Shirts Casual Shorts Sleeves Loose Blouse",
+      "price": 11,
+      "category": 16,
+      "rating": 3.97,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d134234b8b4be6c4ed403ff-medium.jpg",
+      "image": "5d134234b8b4be6c4ed403ff-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 143,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Blouse Beachwear",
+      "description": "S-5XL Sleeveless Blouse Beachwear Plus Size Pleated Loose Sling Tank Tops  Women Casual Summer Loose Off Shoulder Deep V-Neck Backless Vest",
+      "price": 3.66,
+      "category": 16,
+      "rating": 3.19,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cb854e30715c33b71bcd318-medium.jpg",
+      "image": "5cb854e30715c33b71bcd318-medium.jpg",
+      "stock": 2
+   }
+},
+ {
+   "pk": 144,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Dress Round Neck",
+      "description": "New Fashion Summer Women Casual Dress Round Neck Loose Big Swing Skirt Sleeveless Soild Color Beach dress",
+      "price": 1.68,
+      "category": 3,
+      "rating": 3.67,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e93d60ebc5446aedde50c50-medium.jpg",
+      "image": "5e93d60ebc5446aedde50c50-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 145,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Ladies Beach Dress",
+      "description": "Fashion Women Summer Sleeveless Dresses V Neck Backless Lace Dress Ladies Beach Dresses White Dress",
+      "price": 13,
+      "category": 3,
+      "rating": 2.5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eda07ab0e295c2097c36590-medium.jpg",
+      "image": "5eda07ab0e295c2097c36590-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 146,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Two Piece Sets Summer T-shirt + Shorts",
+      "description": "Women Fashion Sexy Tie Dye Printed Two Piece Sets Summer T-shirt + Shorts 2 Piece Set Slim Fit Outfit Suits",
+      "price": 13,
+      "category": 12,
+      "rating": 3.82,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ec37404c1831f02b79b7cd9-medium.jpg",
+      "image": "5ec37404c1831f02b79b7cd9-medium.jpg",
+      "stock": 17
+   }
+},
+ {
+   "pk": 147,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Vintage Overalls",
+      "description": "Women Summer Casual Loose Solid Color Vintage Overalls Strap Long Pants Jumpsuits Rompers Plus Size",
+      "price": 11,
+      "category": 12,
+      "rating": 2.92,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ece1b9e57fd6f3ea96f0b26-medium.jpg",
+      "image": "5ece1b9e57fd6f3ea96f0b26-medium.jpg",
+      "stock": 8
+   }
+},
+ {
+   "pk": 148,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Round Neck Sleeveless Pure Color Casual Pocket Dress",
+      "description": "Summer Fashion Women Round Neck Sleeveless Pure Color Casual Pocket Dress",
+      "price": 7,
+      "category": 3,
+      "rating": 3.75,
+      "image_url": "https://contestimg.wish.com/api/webimage/5a3e27622b0a1c693c87e849-medium.jpg",
+      "image": "5a3e27622b0a1c693c87e849-medium.jpg",
+      "stock": 8
+   }
+},
+ {
+   "pk": 149,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Cotton Shirt Vest Loose Blouse",
+      "description": "4 Color Women Fashion Summer Sleeveless Letters Print Tops Casual Workout Tank Tops Casual Cotton Shirt Vest Loose Blouse (S-5XL)",
+      "price": 4.81,
+      "category": 16,
+      "rating": 4.16,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b74c8f200e4c40836165131-medium.jpg",
+      "image": "5b74c8f200e4c40836165131-medium.jpg",
+      "stock": 18
+   }
+},
+ {
+   "pk": 150,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Letter Print Funny T-Shirt",
+      "description": "2019 Summer Letter Print Funny T-Shirt Women Fashion Cute Sloth Printed Short Sleeved T-shirt Summer Lady Casual Graphic T Shirts Round Neck Pure Color Tee",
+      "price": 9,
+      "category": 15,
+      "rating": 4.29,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cad4ef199e9b858928efbff-medium.jpg",
+      "image": "5cad4ef199e9b858928efbff-medium.jpg",
+      "stock": 8
+   }
+},
+ {
+   "pk": 151,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "V-neck Short Sleeve Dress",
+      "description": "Summer Elegant Temperament Printing Women Dresses New Fashion Sexy V-neck Short Sleeve Silk Office Lady Dress A-line",
+      "price": 18,
+      "category": 3,
+      "rating": 3.68,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b1bf3ccbe42dd67af401067-medium.jpg",
+      "image": "5b1bf3ccbe42dd67af401067-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 152,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Shorts",
+      "description": "Women Casual Shorts Fashion Sports Shorts Women Summer Plus Size Loose Pants Cotton Shorts",
+      "price": 7,
+      "category": 11,
+      "rating": 3.63,
+      "image_url": "https://contestimg.wish.com/api/webimage/5bf4c675e52f7426b0d688f3-medium.jpg",
+      "image": "5bf4c675e52f7426b0d688f3-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 153,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Jogging Suit",
+      "description": "Summer mens cool sport suit Sports Wear Casual Jogging Suits Short Sleeve Outfit Sets",
+      "price": 16,
+      "category": 14,
+      "rating": 3,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e9a74e447f7d92c8db8d14b-medium.jpg",
+      "image": "5e9a74e447f7d92c8db8d14b-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 154,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Evening Party Backless Beachwear Mini Dress",
+      "description": "Sexy Women's Summer Casual Sleeveless Evening Party Backless Beachwear Mini Dress 12 colors",
+      "price": 5,
+      "category": 3,
+      "rating": 3.06,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e9e8180ec24302643422eff-medium.jpg",
+      "image": "5e9e8180ec24302643422eff-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 155,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Lace Up Short Pants",
+      "description": "Women Summer Fashion Lace Up Short Pants Casual High Waist Pure Color Crepe Woven Tie Beach Shorts Pocket Cotton Short Pants",
+      "price": 1.68,
+      "category": 11,
+      "rating": 3.76,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e9acdb9faf87d3f938dbbe6-medium.jpg",
+      "image": "5e9acdb9faf87d3f938dbbe6-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 156,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Printed Tank Top",
+      "description": "Women's Summer Sleeveless Tank Cotton Vest Printed Tank Tops",
+      "price": 6,
+      "category": 16,
+      "rating": 2.67,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb4f323b67a8d189a8f8380-medium.jpg",
+      "image": "5eb4f323b67a8d189a8f8380-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 157,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Slim Ladies Jumpsuit",
+      "description": "Casual Summer Women's Romper Short Lace Playsuit V-Neck Slim Ladies Jumpsuit",
+      "price": 11,
+      "category": 1,
+      "rating": 3.46,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e21311e2e434806022e2d5f-medium.jpg",
+      "image": "5e21311e2e434806022e2d5f-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 158,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Holiday Beach Dress",
+      "description": "Women Summer Off Sholuder V-Neck Printed Big Swing Loose Casual Plus Size Holiday  Beach Gradient Color Long Dress Sling Dress Plus Size",
+      "price": 7,
+      "category": 12,
+      "rating": 3.29,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d9cbb8cf401a262dbc2f81c-medium.jpg",
+      "image": "5d9cbb8cf401a262dbc2f81c-medium.jpg",
+      "stock": 7
+   }
+},
+ {
+   "pk": 159,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Loose Casual Round neck blouse",
+      "description": "Plus Size Women's Fashion Loose Casual Round neck Tie Dye Gradient short sleeves Summer T Shirts tops blouses",
+      "price": 12,
+      "category": 16,
+      "rating": 2,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb0d6ce8924cd08428a902a-medium.jpg",
+      "image": "5eb0d6ce8924cd08428a902a-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 160,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "2Piece Set Crop Top and Shorts",
+      "description": "Women Summer 2Piece Set Crop Top and Shorts Bodycon Outfit Short Yoga Sport suit",
+      "price": 6,
+      "category": 16,
+      "rating": 4.14,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c7a4ff0fc2f9d2ebdc57be4-medium.jpg",
+      "image": "5c7a4ff0fc2f9d2ebdc57be4-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 161,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "T-shirts Ulzzang Streetwear",
+      "description": "Summer casual Women T-shirts Ulzzang Streetwear kawaii cartoon print Tshirt Korean Style Tops Harajuku short sleeve t shirt",
+      "price": 6,
+      "category": 15,
+      "rating": 3.28,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e71e299eb0f3b5a3af7c35f-medium.jpg",
+      "image": "5e71e299eb0f3b5a3af7c35f-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 162,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Yoga Shorts",
+      "description": "Women's Fashion Double-layer High Waist Workout Yoga Shorts Summer Gym Shorts Pants",
+      "price": 8,
+      "category": 11,
+      "rating": 3.89,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ec1ed21f4cb0a320a390bca-medium.jpg",
+      "image": "5ec1ed21f4cb0a320a390bca-medium.jpg",
+      "stock": 17
+   }
+},
+ {
+   "pk": 163,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Slim Fit Party Dress",
+      "description": "Women Summer T Shirt Dress V-neck Slim Fit Party Dress Casual Soild Color Plus Size Midi Dress Ladies Beach Wear Loose Mini Dresses",
+      "price": 8,
+      "category": 3,
+      "rating": 3.14,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d5531bfde263a630dedc093-medium.jpg",
+      "image": "5d5531bfde263a630dedc093-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 164,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Bikini Blockbuster Underwear",
+      "description": "Women Bikini Blockbuster Underwear Padded Swimwear Swimsuit Bathing Swimwear Suit Bikini Summer Plus Swimming Suit Patchwork Beachwear Plus Size XS-8XL",
+      "price": 11,
+      "category": 1,
+      "rating": 3.98,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c6770a544f429173fab6b0d-medium.jpg",
+      "image": "5c6770a544f429173fab6b0d-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 165,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Spaghetti Strap Cotton Tank Top",
+      "description": "2019 The New Women Fashion Bone Hand Pattern Print Spaghetti Strap Cotton Tank Tops Summer Women Casual Bodycon Slim Fit Sleeveless Beach Style Vest",
+      "price": 6,
+      "category": 16,
+      "rating": 4.04,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d401a46387b8d36d665b17b-medium.jpg",
+      "image": "5d401a46387b8d36d665b17b-medium.jpg",
+      "stock": 14
+   }
+},
+ {
+   "pk": 166,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Floral Print Beach Sling Dress",
+      "description": "NEW Summer Womens Sleeveless V-neck Floral Print Beach Sling Dress Big Swing Dress Loose Casual Long Vest Dresses Ladies Party Dress Plus Size XS-8XL",
+      "price": 9,
+      "category": 3,
+      "rating": 4.16,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e4b795796159b77894f2afd-medium.jpg",
+      "image": "5e4b795796159b77894f2afd-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 167,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "High Waist Short Pants",
+      "description": "Summer Women s  Fashion  Lace Up Tie Pants  Plus Size Casual High Waist Short Pants",
+      "price": 3.78,
+      "category": 11,
+      "rating": 3.35,
+      "image_url": "https://contestimg.wish.com/api/webimage/5dde07c651fe4539f9c3ee70-medium.jpg",
+      "image": "5dde07c651fe4539f9c3ee70-medium.jpg",
+      "stock": 1
+   }
+},
+ {
+   "pk": 168,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Yoga Shorts",
+      "description": "Fashion Yoga Shorts Women Summer Shorts Casual Sports Shorts Gym Workout Waistband Skinny Shorts S-XL",
+      "price": 8,
+      "category": 11,
+      "rating": 3.89,
+      "image_url": "https://contestimg.wish.com/api/webimage/5bff59032065bf4285123b4a-medium.jpg",
+      "image": "5bff59032065bf4285123b4a-medium.jpg",
+      "stock": 15
+   }
+},
+ {
+   "pk": 169,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Bikini Set Colorblock High Waist",
+      "description": "New Summer Women Bikini Set Colorblock High Waist Swimming Bottom Casual Female Beachwear Bathing Suit Swimsuit Underwear",
+      "price": 6,
+      "category": 1,
+      "rating": 3.83,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e782fc60185361b7bee805f-medium.jpg",
+      "image": "5e782fc60185361b7bee805f-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 170,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sexy Split Pencil Skirts",
+      "description": "2018 Summer New Women Long Skirts Solid Sexy Split Pencil Skirts",
+      "price": 9,
+      "category": 3,
+      "rating": 4.09,
+      "image_url": "https://contestimg.wish.com/api/webimage/59cc60cb86ac5b2f32a92b8a-medium.jpg",
+      "image": "59cc60cb86ac5b2f32a92b8a-medium.jpg",
+      "stock": 4
+   }
+},
+ {
+   "pk": 171,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Crochet bikini top",
+      "description": "Crochet bikini top, Crochet top, bikini top, bikini, beachwear, croshet clothing, boho top, top, sexy top",
+      "price": 5.65,
+      "category": 16,
+      "rating": 4.06,
+      "image_url": "https://contestimg.wish.com/api/webimage/5abddcc030a7eb0beba353d5-medium.jpg",
+      "image": "5abddcc030a7eb0beba353d5-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 172,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sleeveless Sexy Deep V-neck Tank Top",
+      "description": "New Summer Women's Fashion Sleeveless Sexy Deep V-neck Tank Top Package Hip Zipper Tunic Top Vest Casual Women Slim Fit Cotton Tees Shirt Plus Size S-5XL",
+      "price": 3,
+      "category": 15,
+      "rating": 3.4,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e79a626daa3f125000815ad-medium.jpg",
+      "image": "5e79a626daa3f125000815ad-medium.jpg",
+      "stock": 15
+   }
+},
+ {
+   "pk": 173,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Loose Dress",
+      "description": "Summer Short Sleeve Dress Women Casual Loose Dress Plus Size V-neck Floral Dress",
+      "price": 8,
+      "category": 12,
+      "rating": 3.8,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ec5e902610fbb0cb0ab6da2-medium.jpg",
+      "image": "5ec5e902610fbb0cb0ab6da2-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 174,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "THAT'S A HORRIBLE IDEA WHAT TIME Art Letter Print T-shirt",
+      "description": "THAT'S A HORRIBLE IDEA WHAT TIME Art Letter Print T-shirt Summer Fashion Women Vest Sleeveless Round Neck Casual T-shirt Loose Cotton Tank Top Basic Tee Shirt Sport Yoga Top Plus Size XS-5XL",
+      "price": 5.74,
+      "category": 16,
+      "rating": 3.99,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e3bc68087e8cb10820b3161-medium.jpg",
+      "image": "5e3bc68087e8cb10820b3161-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 175,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Pleated Tennis Skirt",
+      "description": "Women's Active Skort Athletic Stretchy Pleated Tennis Skirt for Running Golf Workout",
+      "price": 5,
+      "category": 3,
+      "rating": 5,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ed1c059630f990d1d44592c-medium.jpg",
+      "image": "5ed1c059630f990d1d44592c-medium.jpg",
+      "stock": 3
+   }
+},
+ {
+   "pk": 176,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sexy Beach Dress",
+      "description": "Bohemian Fashion Women Dresses Tassel Decoration Geometric Print Off the Shoulder Sexy Beach Dress",
+      "price": 8,
+      "category": 12,
+      "rating": 3.61,
+      "image_url": "https://contestimg.wish.com/api/webimage/5525ebeb3056e817e9ccba1d-medium.jpg",
+      "image": "5525ebeb3056e817e9ccba1d-medium.jpg",
+      "stock": 9
+   }
+},
+ {
+   "pk": 177,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Slippers",
+      "description": "2019 Summer Beach Shoes Couple Ventilative Sandals Casual Shoes Slippers",
+      "price": 3.67,
+      "category": 13,
+      "rating": 4.31,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d03bea61eff7835fb25338b-medium.jpg",
+      "image": "5d03bea61eff7835fb25338b-medium.jpg",
+      "stock": 17
+   }
+},
+ {
+   "pk": 178,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Short Sleeve V-neck Dress",
+      "description": "NEW Women Casual Loose Solid Color Dress Short Sleeve V-neck Dress Plus Size",
+      "price": 7,
+      "category": 12,
+      "rating": 3.49,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d80989a9abb1f75b86fb8ce-medium.jpg",
+      "image": "5d80989a9abb1f75b86fb8ce-medium.jpg",
+      "stock": 7
+   }
+},
+ {
+   "pk": 179,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Off Shoulder Bandeau Maxi Dress",
+      "description": "New Women Summer Beach Off Shoulder Bandeau Maxi Dress Holiday Swimwear Cover Up Sexy Bikini Cover Up Beach Swimwear Dress",
+      "price": 8,
+      "category": 3,
+      "rating": 3.69,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b1f7d6c3c6b9b16c50a857c-medium.jpg",
+      "image": "5b1f7d6c3c6b9b16c50a857c-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 180,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Sexy Slim Fit Elegant Women Dress",
+      "description": "6 Color Summer Women Fashion Sexy Slim Fit Elegant Women Dress Plus Size Solid Color Fit and Flare Rockabilly Dress  S-5XL",
+      "price": 11,
+      "category": 3,
+      "rating": 3.64,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b909b94073c6b7adb985307-medium.jpg",
+      "image": "5b909b94073c6b7adb985307-medium.jpg",
+      "stock": 20
+   }
+},
+ {
+   "pk": 181,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Tank Top Carole Baskin Shirt",
+      "description": "Women's Hey All You Cool Cats and Kittens Tees Funny Women Tank Tops Carole Baskin Shirt",
+      "price": 8,
+      "category": 16,
+      "rating": 4,
+      "image_url": "https://contestimg.wish.com/api/webimage/5eb2218fbeadef13bbcd71ad-medium.jpg",
+      "image": "5eb2218fbeadef13bbcd71ad-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 182,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Hollow Out Lace Dress",
+      "description": "Women's Fashion Vintage Hollow Out Lace Dress Women Elegant Sleeveless White Dress Summer Chic Party Dress Vestidos Robe",
+      "price": 22,
+      "category": 3,
+      "rating": 3.38,
+      "image_url": "https://contestimg.wish.com/api/webimage/5c6275876c0cb22f5e6ba570-medium.jpg",
+      "image": "5c6275876c0cb22f5e6ba570-medium.jpg",
+      "stock": 19
+   }
+},
+ {
+   "pk": 183,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Chiffon Shirt Sleeveless Loose Top",
+      "description": "Women's Fashion Chiffon Shirt Sleeveless Loose Tops T Shirt Plus Size S-5XL",
+      "price": 8,
+      "category": 12,
+      "rating": 3.7,
+      "image_url": "https://contestimg.wish.com/api/webimage/5bcd4a045d689f171be1655b-medium.jpg",
+      "image": "5bcd4a045d689f171be1655b-medium.jpg",
+      "stock": 11
+   }
+},
+ {
+   "pk": 184,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Swing Print Boho Dress",
+      "description": "Women Halter Long Sling Dress Swing Print Boho Dress",
+      "price": 19,
+      "category": 3,
+      "rating": 3.01,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d0062d51eff785af2761c47-medium.jpg",
+      "image": "5d0062d51eff785af2761c47-medium.jpg",
+      "stock": 12
+   }
+},
+ {
+   "pk": 185,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "V-neck Sling Dress",
+      "description": "Summer Women's Loose V-neck Sling Dress Sleeveless Dress Lace Dress",
+      "price": 11,
+      "category": 3,
+      "rating": 3.67,
+      "image_url": "https://contestimg.wish.com/api/webimage/5d05b9c3ffe84667e45db71e-medium.jpg",
+      "image": "5d05b9c3ffe84667e45db71e-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 186,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Floral Printed V-neck Shirt",
+      "description": "Summer Women Casual Sleeveless Loose Tops Floral Printed V-neck Shirt Blouse Ladies Fashion Buttoned T-shirts Lady Vest Plus Size Tank Tops XS-8XL",
+      "price": 6,
+      "category": 16,
+      "rating": 4.17,
+      "image_url": "https://contestimg.wish.com/api/webimage/5ce55cc2ebe4035d7fbeb4f8-medium.jpg",
+      "image": "5ce55cc2ebe4035d7fbeb4f8-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 187,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Letter Print \"BUT DID YOU DIE\" Tank Top",
+      "description": "4 Colors Summer Women Fashion Sleeveless Cotton Letter Print \"BUT DID YOU DIE\" Tank Tops Workout Tank Top T-shirt Tee In Blue White and Grey",
+      "price": 7,
+      "category": 12,
+      "rating": 4.16,
+      "image_url": "https://contestimg.wish.com/api/webimage/5b73bf7b7594b445df99384e-medium.jpg",
+      "image": "5b73bf7b7594b445df99384e-medium.jpg",
+      "stock": 17
+   }
+},
+ {
+   "pk": 188,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "V-neck Loose Party Dress",
+      "description": "XS-8XL Womens Fashion Summer Short Sleeve Long Blouses Deep V-neck Loose Party Dress Ladies Casual Loose Solid Color Plus Size Beach Wear Cover-up Short Linen Dress",
+      "price": 7,
+      "category": 12,
+      "rating": 3.84,
+      "image_url": "https://contestimg.wish.com/api/webimage/5cce7e4242b1b85f6d3e5fa6-medium.jpg",
+      "image": "5cce7e4242b1b85f6d3e5fa6-medium.jpg",
+      "stock": 5
+   }
+},
+ {
+   "pk": 189,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Vintage Overalls",
+      "description": "Women Summer Casual Loose Solid Color Vintage Overalls Strap Long Pants Jumpsuits Rompers Plus Size",
+      "price": 8,
+      "category": 11,
+      "rating": 2.81,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e68654e4d9d67070047a61b-medium.jpg",
+      "image": "5e68654e4d9d67070047a61b-medium.jpg",
+      "stock": 6
+   }
+},
+ {
+   "pk": 190,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Jumpsuit Romper",
+      "description": "Women Spring Floral Printed Demin Jumpsuit Romper Ladies Embroidery Summer Overalls Trousers Jeans Plus Size",
+      "price": 14,
+      "category": 8,
+      "rating": 3.61,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e58c7425692c749b5631d44-medium.jpg",
+      "image": "5e58c7425692c749b5631d44-medium.jpg",
+      "stock": 6
+   }
+},
+ {
+   "pk": 191,
+   "model": "clothes.clothes",
+   "fields": {
+      "name": "Casual Beach Wear Sundress",
+      "description": "Summer Women Boho Maxi Polka Dot Dress Irregular Sleeveless Casual Beach Wear Sundress",
+      "price": 6,
+      "category": 3,
+      "rating": 3.67,
+      "image_url": "https://contestimg.wish.com/api/webimage/5e142dee04c3e579e89576a3-medium.jpg",
+      "image": "5e142dee04c3e579e89576a3-medium.jpg",
+      "stock": 8
+   }
+}
+]
