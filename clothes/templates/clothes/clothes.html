@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="overlay"></div>
+<div class="container-fluid clothes-images">
+    <div class="row">
+        <div class="clothes-container col-10 offset-1">
+            <div class="row">
+                {% for item in clothes %}
+                <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
+
+                    <div class="card border-0" style="width: 16rem;">
+                        <img src="{{ item.image.url }}" class="card-img-top" alt="{{ item.name }}">
+                        <div class="card-body">
+                            <p class="card-text text-nowrap overflow-hidden">{{ item.name }}</p>
+                            <p class="card-text">${{ item.price }}</p>
+                        </div>
+                    </div>
+
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
