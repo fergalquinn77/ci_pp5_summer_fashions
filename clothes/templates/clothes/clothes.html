@@ -20,7 +20,15 @@
                 <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3">
 
                     <div class="card border-0" style="width: 16rem;">
-                        <img src="{{ item.image.url }}" class="card-img-top" alt="{{ item.name }}">
+                        {% if item.image %}
+                        <a href="{% url 'item_details' item.id %}">
+                            <img src="{{ item.image.url }}" class="card-img-top" alt="{{ item.name }}">
+                        </a>
+                        {% else %} 
+                        <a href="{% url 'item_details' item.id %}">
+                            <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="{{ item.name }}">
+                        </a>
+                        {% endif %}
                         <div class="card-body">
                             <p class="card-text text-nowrap overflow-hidden">{{ item.name }}</p>
                             <p class="card-text">${{ item.price }}</p>

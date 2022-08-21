@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="overlay"></div>
+<div class="container-fluid clothes-images">
+    <div class="row">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-4">
+            <div class="image-container my-5">
+
+                {% if item.image %}
+                <a href="{{ item.image.url }}" target="_blank">
+                    <img src="{{ item.image.url }}" class="card-img-top" alt="{{ item.name }}">
+                </a>
+                {% else %}
+                <a href="">
+                    <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="{{ item.name }}">
+                </a>
+                {% endif %}
+
+            </div>
+
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 mt-5">
+            <p class="mb-0 text font-weight-bold">{{ item.name }}</p>
+            <p class="text-muted">{{ item.description }}</p>
+            <p class="mb-0">Price: ${{ item.price }}</p>
+            <p class="mb-0">Category: {{ item.category }}</p>
+
+            {% if item.rating %}
+            <small class="text-muted"><i class="fas fa-star mr-1"></i>Rating: {{ item.rating }} / 5</small>
+            {% else %}
+            <small class="text-muted">Rating: No Rating</small>
+            {% endif %}
+            {% if request.user.is_superuser %}
+            <small class="ml-3">
+                <a href="">Edit</a> |
+                <a class="text-danger" href="">Delete</a>
+            </small>
+            {% endif %}
+        </div>
+    </div>
+</div>
+
+
+{% endblock %}
