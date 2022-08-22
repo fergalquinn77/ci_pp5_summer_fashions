@@ -1,14 +1,29 @@
-from django.shortcuts import render, get_object_or_404
+from django.shortcuts import render, redirect, reverse, get_object_or_404
+from django.contrib import messages
+from django.db.models import Q
 from .models import Clothes
 
 # Create your views here.
 
 def all_clothes(request):
     """ View to return all clothes, including sorting and search queries"""
-
+    query = None
     clothes = Clothes.objects.all()
+    
+    if request.GET:
+        if 'q' in request.GET:
+            query = request.GET['q']
+            if not query:
+                messages.error(request, "You didn't enter any search criteria!")
+                return redirect(reverse('clothes'))
+            
+            queries = Q(name__icontains=query) | Q(description__icontains=query)
+            clothes = clothes.filter(queries)
+    
+    
     context = {
         'clothes': clothes,
+        'search_term': query,
     }
     return render(request, 'clothes/clothes.html', context)
 
