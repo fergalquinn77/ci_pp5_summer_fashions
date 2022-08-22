@@ -9,6 +9,9 @@ def all_clothes(request):
     """ View to return all clothes, including sorting and search queries"""
     query = None
     category = None
+    sort = None
+    direction = None
+    
     clothes = Clothes.objects.all()
     
     if request.GET:
