@@ -1,16 +1,23 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Clothes
+from .models import Clothes, Category
 
 # Create your views here.
 
 def all_clothes(request):
     """ View to return all clothes, including sorting and search queries"""
     query = None
+    category = None
     clothes = Clothes.objects.all()
     
     if request.GET:
+
+        if 'category' in request.GET:
+            categories = request.GET['category'].split(',')
+            clothes = clothes.filter(category__name__in=categories)
+            categories = Category.objects.filter(name__in=categories)
+
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:

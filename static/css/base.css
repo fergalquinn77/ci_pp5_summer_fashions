@@ -34,3 +34,12 @@ body {
 .clothes-images{
     margin-top: 13rem;
 }
+
+div.dropdown-multicol2{
+    width: 30em;
+  }
+
+div.dropdown-multicol2>div.dropdown-col{
+    display:inline-block;
+    width: 32%;
+  }

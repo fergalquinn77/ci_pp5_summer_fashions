@@ -1,31 +1,52 @@
 <div class="collapse navbar-collapse" id="main-nav">
-  <ul class="navbar-nav w-auto mx-auto">
-      <li class="nav-item d-block d-md-none">
-          <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
-              Home
-          </a>
-      </li>
-      <li class="nav-item">
-          <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'clothes' %}" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              All Items
-          </a>
-      </li>
+    <ul class="navbar-nav w-auto mx-auto">
+        <li class="nav-item d-block d-md-none">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'home' %}" id="home-link">
+                Home
+            </a>
+        </li>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="{% url 'clothes' %}">
+                All Items
+            </a>
+        </li>
 
-      <li class="nav-item dropdown">
-          <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              By Category
-          </a>
-          <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-              <a href="" class="dropdown-item">Beachwear</a>
-              <a href="" class="dropdown-item">Dress</a>
-              <a href="" class="dropdown-item">Gymwear</a>
-              <a href="" class="dropdown-item">T-Shirts</a>
-          </div>
-      </li>
+        <li class="nav-item dropdown">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                By Category
+            </a>
+            <div class="dropdown-menu dropdown-multicol2 border-0" aria-labelledby="clothing-link">
+                <div class="dropdown-col">
+                    <a href="{% url 'clothes' %}?category=beachwear" class="dropdown-item">Beachwear</a>
+                    <a href="{% url 'clothes' %}?category=blouse" class="dropdown-item">Blouse</a>
+                    <a href="{% url 'clothes' %}?category=dress" class="dropdown-item">Dress</a>
+                    <a href="{% url 'clothes' %}?category=slimfit" class="dropdown-item">Slimfit</a>
+                    <a href="{% url 'clothes' %}?category=gym" class="dropdown-item">Gym</a>
+                </div>
+                <div class="dropdown-col">
+                    <a href="{% url 'clothes' %}?category=hats" class="dropdown-item">Hats</a>
+                    <a href="{% url 'clothes' %}?category=jacket" class="dropdown-item">Jackets</a>
+                    <a href="{% url 'clothes' %}?category=jeans" class="dropdown-item">Jeans</a>
+                    <a href="{% url 'clothes' %}?category=lingerie" class="dropdown-item">Lingerie</a>
+                    <a href="{% url 'clothes' %}?category=onepiece" class="dropdown-item">One-Piece</a>
+                </div>
+                <div class="dropdown-col">
+                    <a href="{% url 'clothes' %}?category=pants" class="dropdown-item">Pants</a>
+                    <a href="{% url 'clothes' %}?category=plussize" class="dropdown-item">Plus-Size</a>
+                    <a href="{% url 'clothes' %}?category=shoes" class="dropdown-item">Shoes</a>
+                    <a href="{% url 'clothes' %}?category=shorts" class="dropdown-item">Shorts</a>
+                    <a href="{% url 'clothes' %}?category=t-shirts" class="dropdown-item">T-Shirts</a>
+                </div>
+                <!-- <a href="{% url 'clothes' %}?category=tops" class="dropdown-item">Tops</a>
+                <a href="{% url 'clothes' %}?category=yoga" class="dropdown-item">Yoga</a> -->
+            </div>
+        </li>
 
-      <li class="nav-item">
-          <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              Sale Items
-          </a>
-      </li>
-  </ul>
+        <li class="nav-item">
+            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Sale Items
+            </a>
+        </li>
+    </ul>
