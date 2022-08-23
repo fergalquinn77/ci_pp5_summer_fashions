@@ -32,7 +32,7 @@ body {
 }
 
 .clothes-images{
-    margin-top: 13rem;
+    margin-top: 16rem;
 }
 
 div.dropdown-multicol2{
@@ -48,6 +48,10 @@ div.dropdown-multicol2>div.dropdown-col{
     color:red;
 }
 
+#sort-banner{
+    background-color:red;
+}
+
 /* #mobile-logo{
     position: absolute;
     margin-left: 4rem
@@ -61,4 +65,5 @@ div.dropdown-multicol2>div.dropdown-col{
     margin-right:1 rem;
     float:right;
 }
+
 
