@@ -43,3 +43,22 @@ div.dropdown-multicol2>div.dropdown-col{
     display:inline-block;
     width: 32%;
   }
+
+.fa-fire{
+    color:red;
+}
+
+/* #mobile-logo{
+    position: absolute;
+    margin-left: 4rem
+} */
+
+/* #mobile-nav{
+    justify-content: space-between;
+} */
+
+#mobile-buttons{
+    margin-right:1 rem;
+    float:right;
+}
+
