@@ -2,6 +2,10 @@ from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
 from .models import Clothes, Category
+from django.db.models.functions import Lower
+from django.core.paginator import Paginator
+
+
 
 # Create your views here.
 
@@ -21,7 +25,7 @@ def all_clothes(request):
             sort = sortkey
             if sortkey == 'name':
                 sortkey = 'lower_name'
-                clothes = clothes.annotate(lower_name=Lower('name'))
+                clothes = clothes.annotate(lower_name = Lower('name'))
             if sortkey == 'category':
                 sortkey = 'category__name'
             if 'direction' in request.GET:
@@ -46,12 +50,17 @@ def all_clothes(request):
     
     current_sorting = f'{sort}_{direction}'
 
-    print(current_sorting)
+   
+
+    paginator = Paginator(clothes, 16)
+    page_number = request.GET.get('page')
+    page_obj = paginator.get_page(page_number)
     
     context = {
         'clothes': clothes,
         'search_term': query,
         'current_sorting':current_sorting,
+        'page_obj':page_obj,
     }
     return render(request, 'clothes/clothes.html', context)
 
