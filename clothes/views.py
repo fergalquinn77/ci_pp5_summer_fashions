@@ -45,6 +45,8 @@ def all_clothes(request):
             clothes = clothes.filter(queries)
     
     current_sorting = f'{sort}_{direction}'
+
+    print(current_sorting)
     
     context = {
         'clothes': clothes,
