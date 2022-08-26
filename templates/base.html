@@ -54,8 +54,8 @@
             <div class="col-12 col-lg-5 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'clothes' %}">
                     <div class="input-group">
-                        <input class="form-control border rounded-pill-left border-right-0" type="search" value="Search our site"
-                            id="example-search-input">
+                        <input class="form-control border rounded-pill-left border-right-0" type="search"
+                            value="Search our site" id="example-search-input">
                         <span class="input-group-append">
                             <button class="btn btn-outline-secondary border rounded-pill-right border-left-0 bg-white"
                                 type="button">
@@ -87,17 +87,18 @@
                             {% endif %}
                         </div>
                     </li>
+
                     <li class="list-inline-item">
                         <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
                             href="{% url 'view_bag' %}">
-                            <div class="text-center">
-                                <i class="text-white fas fa-shopping-bag fa-lg"></i>
+                            <div id="bag-icon" class="text-center">
                                 <span id="bag-count" class="text-black">
-                                    1
                                     {% if product_count > 0 %}
-                                    ${{ product_count }}
+                                    {{ product_count }}
                                     {% endif %}
                                 </span>
+                                <i class="text-white fas fa-shopping-bag fa-lg"></i>
+                                
                             </div>
                         </a>
                     </li>
