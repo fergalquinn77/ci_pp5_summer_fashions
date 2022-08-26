@@ -88,26 +88,30 @@
                         </div>
                     </li>
 
+
                     <li class="list-inline-item">
-                        <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
-                            href="{% url 'view_bag' %}">
-                            <div id="bag-icon" class="text-center">
-                                <span id="bag-count" class="text-black">
-                                    {% if product_count > 0 %}
-                                    {{ product_count }}
-                                    {% endif %}
-                                </span>
-                                <i class="text-white fas fa-shopping-bag fa-lg"></i>
-                                
-                            </div>
-                        </a>
-                    </li>
-                    <li class="list-inline-item">
-                        <div class="text-center">
-                            <i class="far fa-heart"></i>
+                        <div class="container bag-icon">
+                            <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
+                                href="{% url 'view_bag' %}">
+                                <i class="text-white fas fa-shopping-bag fa-lg layer2"></i>
+                                <div class="text-center">
+                                    <span class="bag-count text-black layer1">
+                                        {% if item_count > 0 %}
+                                        {{ item_count }}
+                                        {% endif %}
+                                    </span>
+                                </div>
+                            </a>
                         </div>
                     </li>
 
+                    <li class="list-inline-item">
+                        <a class="nav-link" href="">
+                            <div class="text-center">
+                                <i class="far fa-heart text-white"></i>
+                            </div>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>

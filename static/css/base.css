@@ -73,16 +73,6 @@ header ul{
 }
 
 
-
-/* #mobile-logo{
-    position: absolute;
-    margin-left: 4rem
-} */
-
-/* #mobile-nav{
-    justify-content: space-between;
-} */
-
 #mobile-buttons{
     margin-right:1 rem;
     float:right;
@@ -91,6 +81,20 @@ header ul{
 #shopping-bag{
     margin-top: 9rem;
 }
+
+.bag-icon{
+  
+    position: relative;
+    text-align: center;
+
+}
+
+.bag-count {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
 
 /* Rounded pill classes for horizontal sides */
 .rounded-pill-left {
