@@ -48,13 +48,32 @@ div.dropdown-multicol2>div.dropdown-col{
     color:#f21137   ;
 }
 
+#topnav{
+    background-color: black!important;
+}
+
+#search-button{
+    margin-left:-50px;
+}
+
+#topnav ul i{
+    font-size: 2rem;
+}
+
+header ul{
+    margin:auto;
+}
 
 #sort-banner{
     background-color:#f21137;
 }
 
 #delivery-banner{
-    background-color: #680206;
+    background-color: black    ;
+}
+
+#bag-count{
+    margin-top:-22px;
 }
 
 /* #mobile-logo{
@@ -74,5 +93,37 @@ div.dropdown-multicol2>div.dropdown-col{
 #shopping-bag{
     margin-top: 9rem;
 }
+
+/* Rounded pill classes for horizontal sides */
+.rounded-pill-left {
+    border-top-left-radius: 50rem !important;
+    border-bottom-left-radius: 50rem !important;
+  }
+  .rounded-pill-right {
+    border-top-right-radius: 50rem !important;
+    border-bottom-right-radius: 50rem !important;
+  }
+  
+  /* Another classes to use */
+  .rounded-t-l-0 {
+    border-top-left-radius: 0 !important;
+  }
+  .rounded-t-r-0 {
+    border-top-right-radius: 0 !important;
+  }
+  .rounded-b-l-0 {
+    border-bottom-left-radius: 0 !important;
+  }
+  .rounded-b-r-0 {
+    border-bottom-right-radius: 0 !important;
+  }
+  .rounded-x-l-0 {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+  }
+  .rounded-x-r-0 {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+  }
 
 
