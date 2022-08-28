@@ -9,7 +9,7 @@
                 data-item_id="{{ clothing.product_id }}"
                 id="id_qty_{{ clothing.product_id }}" type="number">
                 
-            {% if item.clothes.has_sizes %}
+            {% if bag_item.product.has_sizes %}
                 <input type="hidden" name="product_size" value="{{ item.size }}">
             {% endif %}
         </div>

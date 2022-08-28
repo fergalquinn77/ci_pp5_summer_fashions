@@ -1,23 +1,27 @@
-<form class="form update-form" method="POST" action="">
+<form class="form update-form" method="POST" action="{% url 'adjust_bag' bag_item.item_id %}">
     {% csrf_token %}
-    
+
     <div class="form-group">
-        
+
         <div class="input-group mb-3">
             <div class="input-group-prepend">
-              <label class="input-group-text" for="inputGroupSelect01">Qty: </label>
+                <label class="input-group-text" for="inputGroupSelect01">Qty: </label>
             </div>
-            <select id="id_qty_{{ clothing.item_id }}" class="qty-input" value="{{ clothing.quantity }}" data-item_id="{{ clothing.item_id }}"
-            type="dropdown">
-                
-              <option selected>{{ clothing.quantity }}</option>
-              {% for i in '123456789' %}
-              <option class="qty-dropdown">{{ i }}</option>
+            <select id="id_qty_{{ bag_item.item_id }}" class="qty-input" data-item_id="{{ bag_item.item_id }}"
+                type="dropdown" name="quantity">
+
+                <option selected>{{ bag_item.quantity }}</option>
+                {% for i in '123456789' %}
+                <option class="qty-dropdown">{{ i }}</option>
                 {% endfor %}
             </select>
-          </div>
+            {% if bag_item.product.has_sizes %}
+            <input type="hidden" name="item_size" value="{{ bag_item.size }}">
+            {% endif %}
+        </div>
     </div>
-</form>
-<a class="update-link text-info"><small>Update</small></a>
-<a class="remove-item text-danger" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
 
+</form>
+<button class="update-link btn text-info"><small>Update</small></button>
+<button class="remove-item btn text-danger" id="remove_{{ item.item_id }}"
+    data-product_size="{{ item.size }}"><small>Remove</small></button>
