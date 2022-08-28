@@ -1,0 +1,23 @@
+<form class="form update-form" method="POST" action="">
+    {% csrf_token %}
+    
+    <div class="form-group">
+        
+        <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="inputGroupSelect01">Qty: </label>
+            </div>
+            <select id="id_qty_{{ clothing.item_id }}" class="qty-input" value="{{ clothing.quantity }}" data-item_id="{{ clothing.item_id }}"
+            type="dropdown">
+                
+              <option selected>{{ clothing.quantity }}</option>
+              {% for i in '123456789' %}
+              <option class="qty-dropdown">{{ i }}</option>
+                {% endfor %}
+            </select>
+          </div>
+    </div>
+</form>
+<a class="update-link text-info"><small>Update</small></a>
+<a class="remove-item text-danger" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+

@@ -16,27 +16,66 @@
     <div class="row">
         <div class="col">
             <hr>
-            <h2 class="logo-font mb-4 d-flex justify-content-center text-black"><i class="mt-2 fas fa-shopping-bag fa-lg"></i></h2>
+            <h2 class="logo-font mb-4 d-flex justify-content-center text-black"><i
+                    class="mt-2 fas fa-shopping-bag fa-lg"></i></h2>
         </div>
     </div>
 
     <div class="row">
-        <div class="col">
+        <div class="col-12 col-lg-6">
             {% if bag_items %}
-            <div class="table-responsive rounded">
-                {{ bag_items }}
+
+            <div class="row">
+                <div class="col">
+                    {% include "bag/bag-total.html" %}
+                </div>
             </div>
-            {% else %} 
-            <p class="lead mb-5 d-flex justify-content-center text-black">Your bag is empty.</p>
-                    <a href="{% url 'clothes' %}" class="btn btn-outline-black rounded-0 btn-lg d-flex justify-content-center">
-                        <span class="icon">
-                            <i class="fas fa-chevron-left"></i>
-                        </span>
-                        <span class="text-uppercase text-center">Keep Shopping</span>
-                    </a>
-            {% endif %}
+            {% for clothing in bag_items %}
+       
+            <div class="comtainer bag-items">
+                <div class="row mt-1">
+                    <div class="col-3">
+                        {% include "bag/item-image.html" %}
+                    </div>
+                    <div class="col-8">
+                        {% include "bag/item-info.html" %}
+                        {% include "bag/quantity-form.html" %}
+                    </div>
+                    <div class="col-1">
+                        <i class="fas fa-times"></i>
+                    </div>
+                </div>
+            </div>
+            
+            {% endfor %}
         </div>
+
+        {% else %}
+        <p class="lead mb-5 d-flex justify-content-center text-black">Your bag is empty.</p>
+        <a href="{% url 'clothes' %}" class="btn btn-outline-black rounded-0 btn-lg d-flex justify-content-center">
+            <span class="icon">
+                <i class="fas fa-chevron-left"></i>
+            </span>
+            <span class="text-uppercase text-center">Keep Shopping</span>
+        </a>
+        {% endif %}
     </div>
 </div>
+</div>
+
+{% endblock %}
+
+{% block postloadjs %}
+
+<script type="text/javascript">
+    var closestInput = $(this).closest('.input-group').find('.qty_input')[0];
+    var currentValue = parseInt($(closestInput).val());
+    let qtyDropDown = document.getElementsByClassName('qty-dropdown')[0];
+    var currentValue = parseInt($(closestInput).val());
+    qtyDropDown.addEventListener("change", function(event) {
+    qtyInput.value = qtyDropDown.value;
+        });
+</script>
+
 
 {% endblock %}

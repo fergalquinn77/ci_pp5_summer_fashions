@@ -1,0 +1,33 @@
+<form class="form update-form" method="POST" action="">
+    {% csrf_token %}
+    
+    <div class="form-group">
+        
+        <div class="input-group">
+            <p class="mb-0">Qty: </p>    <input class="form-control form-control-sm qty_input" 
+                name="quantity" value="{{ clothing.quantity }}" min="1" max="9"
+                data-item_id="{{ clothing.product_id }}"
+                id="id_qty_{{ clothing.product_id }}" type="number">
+                
+            {% if item.clothes.has_sizes %}
+                <input type="hidden" name="product_size" value="{{ item.size }}">
+            {% endif %}
+        </div>
+    </div>
+</form>
+<a class="update-link text-info"><small>Update</small></a>
+<a class="remove-item text-danger" id="remove_{{ item.item_id }}" data-product_size="{{ item.size }}"><small>Remove</small></a>
+
+{% block postloadjs %}
+
+<script type="text/javascript">
+    
+    let qtyDropDown = document.getElementsByClassName('qty-dropdown')[0];
+    let qtyInput = document.getElementsByClassName('qty-input')[0];
+    qtyDropDown.addEventListener("change", function(event) {
+    qtyInput.value = qtyDropDown.value;
+        });
+</script>
+
+
+{% endblock %}

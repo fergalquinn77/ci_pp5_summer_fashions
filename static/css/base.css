@@ -27,7 +27,7 @@ body {
 	top: 0;
 	left: 0;
 	position: fixed;
-	background: white;
+	background: #EEEEEE;
 	z-index: -1;
 }
 
@@ -82,11 +82,10 @@ header ul{
     margin-top: 9rem;
 }
 
+/* Bag Icon in Navbar */
 .bag-icon{
-  
     position: relative;
     text-align: center;
-
 }
 
 .bag-count {
@@ -128,4 +127,23 @@ header ul{
     border-bottom-right-radius: 0 !important;
   }
 
+.bag-card{
+    flex-direction: row;
+}
 
+.bag-card img {
+    width: 30%;
+}
+
+.bag-total{
+  background-color:  white;
+  max-width:400px;
+}
+
+.bag-items{
+  background-color: white;
+}
+
+.qty_input{
+  width:40px;
+}
