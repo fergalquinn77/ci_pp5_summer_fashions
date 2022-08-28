@@ -52,7 +52,6 @@ def adjust_bag(request, item_id):
     if 'item_size' in request.POST:
         size = request.POST['item_size']
     bag = request.session.get('bag', {})
-    print(size)
     if size:
         if quantity > 0:
             bag[item_id]['items_by_size'][size] = quantity
@@ -79,8 +78,8 @@ def remove_from_bag(request, item_id):
     try:
         product = get_object_or_404(Clothes, pk=item_id)
         size = None
-        if 'product_size' in request.POST:
-            size = request.POST['product_size']
+        if 'item_size' in request.POST:
+            size = request.POST['item_size']
         bag = request.session.get('bag', {})
 
         if size:
