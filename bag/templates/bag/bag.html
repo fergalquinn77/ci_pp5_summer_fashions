@@ -22,32 +22,37 @@
     </div>
 
     <div class="row">
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-12">
             {% if bag_items %}
 
             <div class="row">
-                <div class="col">
+
+                <div class="offset-md-2 col-5 bag-items">
+                    {% for bag_item in bag_items %}
+
+
+                    <div class="row m-1 border-bottom">
+                        <div class="col-4 mt-2">
+                            {% include "bag/item-image.html" %}
+                        </div>
+                        <div class="col-7 mt-2">
+                            {% include "bag/item-info.html" %}
+                            {% include "bag/quantity-form.html" %}
+                        </div>
+                        <div class="col-1 mt-2">
+                            <i id="remove_{{ bag_item.item_id }}" class="remove-item fas fa-times"
+                                data-item_size="{{ bag_item.size }}"></i>
+                        </div>
+                    </div>
+
+                    {% endfor %}
+                </div>
+                <div class="col-5">
                     {% include "bag/bag-total.html" %}
                 </div>
             </div>
-            {% for bag_item in bag_items %}
-       
-            <div class="comtainer bag-items">
-                <div class="row mt-1">
-                    <div class="col-3">
-                        {% include "bag/item-image.html" %}
-                    </div>
-                    <div class="col-8">
-                        {% include "bag/item-info.html" %}
-                        {% include "bag/quantity-form.html" %}
-                    </div>
-                    <div class="col-1">
-                        <i class="fas fa-times"></i>
-                    </div>
-                </div>
-            </div>
-            
-            {% endfor %}
+
+
         </div>
 
         {% else %}
@@ -66,27 +71,30 @@
 {% endblock %}
 
 {% block postloadjs %}
-
+{{ block.super }}
 <script type="text/javascript">
     // Update Quantity
 
-    $('.update-link').click(function(e) {
+    $('.update-link').click(function (e) {
         var form = $(this).prev('.update-form');
         form.submit();
     })
 
-        // Remove item and reload on click
-    $('.remove-item').click(function(e) {
+    // Remove item and reload on click
+    $('.remove-item').click(function (e) {
         var csrfToken = "{{ csrf_token }}";
         var itemId = $(this).attr('id').split('remove_')[1];
         var size = $(this).data('item_size');
         var url = `/bag/remove/${itemId}/`;
-        var data = {'csrfmiddlewaretoken': csrfToken, 'item_size': size};
+        var data = {
+            'csrfmiddlewaretoken': csrfToken,
+            'item_size': size
+        };
 
         $.post(url, data)
-         .done(function() {
-             location.reload();
-         });
+            .done(function () {
+                location.reload();
+            });
     })
 </script>
 

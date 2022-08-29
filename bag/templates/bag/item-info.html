@@ -1,3 +1,3 @@
 <p><strong>{{ bag_item.product.name }}</strong></p>
-<p><strong>{{ bag_item.product.price }}</strong></p>
-<p><strong>Size: </strong>{% if bag_item.product.has_sizes %}{{ bag_item.size|upper }}{% else %}N/A{% endif %}</p>
+<p>Price ${{ bag_item.product.price }}</p>
+<p>Size: {% if bag_item.product.has_sizes %}{{ bag_item.size|upper }}{% else %}N/A{% endif %}</p>

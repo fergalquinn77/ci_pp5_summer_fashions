@@ -6,7 +6,7 @@
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <label class="input-group-text" for="inputGroupSelect01">Qty: </label>
-            </div>
+            </div> 
             <select id="id_qty_{{ bag_item.item_id }}" class="qty-input" data-item_id="{{ bag_item.item_id }}"
                 type="dropdown" name="quantity">
 
@@ -15,13 +15,12 @@
                 <option class="qty-dropdown">{{ i }}</option>
                 {% endfor %}
             </select>
+            <button class="update-link btn text-info"><small>Update</small></button>
             {% if bag_item.product.has_sizes %}
             <input type="hidden" name="item_size" value="{{ bag_item.size }}">
             {% endif %}
         </div>
     </div>
-
+    
 </form>
-<button class="update-link btn text-info"><small>Update</small></button>
-<button class="remove-item btn text-danger" id="remove_{{ bag_item.item_id }}"
-    data-item_size="{{ bag_item.size }}"><small>Remove</small></button>
+
