@@ -149,7 +149,8 @@ header ul{
 }
 
 .update-link,
-.remove-item {
+.remove-item,
+.trash-can {
     cursor: pointer;
 }
 
@@ -168,3 +169,5 @@ header ul{
 .toast-capper {
   height: 2px;
 }
+
+/* Toast Messages */

@@ -54,8 +54,8 @@
             <div class="col-12 col-lg-5 my-auto py-1 py-lg-0">
                 <form method="GET" action="{% url 'clothes' %}">
                     <div class="input-group">
-                        <input class="form-control border rounded-pill-left border-right-0" type="search"
-                            value="Search our site" id="example-search-input">
+                        <input class="form-control border rounded-pill-left border-right-0" type="text"
+                            placeholder="Search our site" name="q">
                         <span class="input-group-append">
                             <button class="btn btn-outline-secondary border rounded-pill-right border-left-0 bg-white"
                                 type="button">
@@ -169,6 +169,8 @@
     {% block postloadjs %}
     <script type="text/javascript">
         $('.toast').toast('show');
+
+        
     </script>
     {% endblock %}
 </body>

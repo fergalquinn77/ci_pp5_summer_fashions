@@ -41,6 +41,7 @@ def all_clothes(request):
 
         if 'q' in request.GET:
             query = request.GET['q']
+            print(query)
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('clothes'))
@@ -49,8 +50,6 @@ def all_clothes(request):
             clothes = clothes.filter(queries)
     
     current_sorting = f'{sort}_{direction}'
-
-   
 
     paginator = Paginator(clothes, 16)
     page_number = request.GET.get('page')

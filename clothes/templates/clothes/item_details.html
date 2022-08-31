@@ -104,3 +104,10 @@
 
 
 {% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+
+{% include 'clothes/includes/update-remove-script.html' %}
+
+{% endblock %}
