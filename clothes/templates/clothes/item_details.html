@@ -14,7 +14,7 @@
 <div class="overlay"></div>
 <div class="container-fluid clothes-images">
     <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-4">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-3">
             <div class="image-container my-5">
 
                 {% if item.image %}
@@ -30,10 +30,11 @@
             </div>
 
         </div>
-        <div class="col-12 col-md-6 col-lg-4 mt-5">
-            <p class="mb-0 text font-weight-bold">{{ item.name }}</p>
-            <p class="text-muted">{{ item.description }}</p>
-            <p class="mb-0">Price: ${{ item.price }}</p>
+        <div class="col-12 col-md-6 col-lg-2 mt-5">
+            <p class="mb-0 text">{{ item.name }}</p>
+            <p class="mb-0 font-weight-bold mb-1">${{ item.price }}</p>
+            <p class="text-muted small">{{ item.description }}</p>
+
 
             {% if item.rating %}
             <small class="text-muted"><i class="fas fa-star mr-1"></i>Rating: {{ item.rating }} / 5</small>
@@ -58,34 +59,40 @@
                 <div class="form-row">
                     {% with item.has_sizes as s %}
                     {% if s %}
-                    <div class="col-12">
-                        <p><strong>Size:</strong></p>
-                        <select class="form-control rounded-0 w-50" name="item_size" id='id_item_size'>
+                    <div class="col-12 mt-1">
+                        <p class="small mb-1">SIZE:</p>
+                        <select class="custom-select" name="item_size" id='id_item_size'>
+                            <option selected disabled>Select Size</option>
                             <option value="xs">XS</option>
                             <option value="s">S</option>
-                            <option value="m" selected>M</option>
+                            <option value="m">M</option>
                             <option value="l">L</option>
                             <option value="xl">XL</option>
                         </select>
                     </div>
                     {% endif %}
-                    <div class="col-12">
+                    <!-- <div class="col-12">
                         <div class="input-group mb-3">
                             <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect01">Qty: </label>
+                                <label class="input-group-text" for="inputGroupSelect01">Quantity: </label>
                             </div>
                             <select id="id_qty_{{ clothing.item_id }}" class="qty-input" data-item_id="{{ clothing.item_id }}"
                                 type="dropdown" name="quantity">
-                
-                                <option selected>1</option>
+                                <option selected disabled>Quantity</option>
+                                
                                 {% for i in '123456789' %}
                                 <option class="qty-dropdown">{{ i }}</option>
                                 {% endfor %}
                             </select>
                         </div>
+                    </div> -->
+                    <div class="text-center col-12">
+                        <a href="" class="btn btn-success rounded-0 mb-2 w-100 mt-1">
+                            <span class="text-uppercase">ADD TO BAG</span>
+                            
+                        </a>
                     </div>
-
-                    <div class="col{% if s %}-12 mt-2{% endif %}">
+                    <!-- <div class="col{% if s %}-12 mt-2{% endif %}">
                         <a href="{% url 'clothes' %}" class="btn rounded-0 mt-5">
                             <span class="icon">
                                 <i class="fas fa-chevron-left"></i>
@@ -93,7 +100,7 @@
                             <span class="text-uppercase">Keep Shopping</span>
                         </a>
                         <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
-                    </div>
+                    </div> -->
                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     {% endwith %}
                 </div>
