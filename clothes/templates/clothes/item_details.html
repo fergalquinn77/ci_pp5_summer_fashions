@@ -71,36 +71,11 @@
                         </select>
                     </div>
                     {% endif %}
-                    <!-- <div class="col-12">
-                        <div class="input-group mb-3">
-                            <div class="input-group-prepend">
-                                <label class="input-group-text" for="inputGroupSelect01">Quantity: </label>
-                            </div>
-                            <select id="id_qty_{{ clothing.item_id }}" class="qty-input" data-item_id="{{ clothing.item_id }}"
-                                type="dropdown" name="quantity">
-                                <option selected disabled>Quantity</option>
-                                
-                                {% for i in '123456789' %}
-                                <option class="qty-dropdown">{{ i }}</option>
-                                {% endfor %}
-                            </select>
-                        </div>
-                    </div> -->
-                    <div class="text-center col-12">
-                        <a href="" class="btn btn-success rounded-0 mb-2 w-100 mt-1">
-                            <span class="text-uppercase">ADD TO BAG</span>
-                            
-                        </a>
-                    </div>
-                    <!-- <div class="col{% if s %}-12 mt-2{% endif %}">
-                        <a href="{% url 'clothes' %}" class="btn rounded-0 mt-5">
-                            <span class="icon">
-                                <i class="fas fa-chevron-left"></i>
-                            </span>
-                            <span class="text-uppercase">Keep Shopping</span>
-                        </a>
-                        <input type="submit" class="btn btn-black rounded-0 text-uppercase mt-5" value="Add to Bag">
-                    </div> -->
+
+
+                    <input type="submit" class="text-center col-12 btn btn-success rounded-0 mb-2 w-100 mt-1"
+                        value="Add to Bag">
+
                     <input type="hidden" name="redirect_url" value="{{ request.path }}">
                     {% endwith %}
                 </div>

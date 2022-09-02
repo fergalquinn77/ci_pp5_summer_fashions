@@ -27,15 +27,15 @@
 
             <div class="row">
 
-                <div class="offset-md-2 col-5 bag-items">
+                <div class="offset-md-2 col-7 bag-items">
                     {% for bag_item in bag_items %}
 
 
                     <div class="row m-1 border-bottom">
-                        <div class="col-4 mt-2">
+                        <div class="col-5 mt-2">
                             {% include "bag/item-image.html" %}
                         </div>
-                        <div class="col-7 mt-2">
+                        <div class="col-6 mt-2">
                             {% include "bag/item-info.html" %}
                             {% include "bag/quantity-form.html" %}
                         </div>
@@ -47,7 +47,7 @@
 
                     {% endfor %}
                 </div>
-                <div class="col-5">
+                <div class="col-3">
                     {% include "bag/bag-total.html" %}
                 </div>
             </div>
