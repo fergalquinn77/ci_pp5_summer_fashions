@@ -32,13 +32,17 @@ def add_to_bag(request, item_id):
         else:
             bag[item_id] = {'items_by_size': {size: quantity}}
             messages.success(request, f'Added size {size.upper()} {product.name} to your bag')
+
     else:
-        if item_id in list(bag.keys()):
-            bag[item_id] += quantity
-            messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
+        if size is None:
+            messages.error(request, f'Please select item size')
         else:
-            bag[item_id] = quantity
-            messages.success(request, f'Added {product.name} to your bag')
+            if item_id in list(bag.keys()):
+                bag[item_id] += quantity
+                messages.success(request, f'Updated {product.name} quantity to {bag[item_id]}')
+            else:
+                bag[item_id] = quantity
+                messages.success(request, f'Added {product.name} to your bag')
     request.session['bag'] = bag
     return redirect(redirect_url)
 

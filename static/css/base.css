@@ -170,4 +170,10 @@ header ul{
   height: 2px;
 }
 
-/* Toast Messages */
+/* Order Summary */
+
+.order-summary{
+  height:fit-content;
+}
+
+
