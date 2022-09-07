@@ -82,12 +82,16 @@ header ul{
     float:right;
 }
 
-.shopping-bag{
+.header-margin{
     margin-top: 9rem;
 }
 
 input[name='q']::placeholder {
   color: #aab7c4;
+}
+
+.table td, .table th {
+  border-top:0;
 }
 
 /* Bag Icon in Navbar */

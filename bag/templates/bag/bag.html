@@ -13,7 +13,7 @@
 {% block content %}
 
 <div class="overlay"></div>
-<div class="shopping-bag container mb-2">
+<div class="header-margin container mb-2">
     <div class="row">
         <div class="col">
             <hr>
@@ -32,7 +32,7 @@
                     {% for bag_item in bag_items %}
 
 
-                    <div class="row m-1 border-bottom">
+                    <div class="row m-1">
                         <div class="col-5 mt-2">
                             {% include "bag/item-image.html" %}
                         </div>
@@ -45,6 +45,7 @@
                                 data-item_size="{{ bag_item.size }}"></i>
                         </div>
                     </div>
+                    <hr>
 
                     {% endfor %}
                 </div>

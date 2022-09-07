@@ -24,3 +24,20 @@
     
 </form>
 
+{% block postloadjs %}
+
+<script type="text/javascript">
+   
+    let itemId = $(this).attr('id');
+    let qtyDropDown = document.getItemByElementName('id_qty_{{ clothing.item_id }}
+    let qtyInput = document.getElementsByClassName('qty-input')[0];
+    print(qtyInput);
+    qtyDropDown.addEventListener("change", function(event) {
+    qtyInput.value = qtyDropDown.value;
+        });
+</script>
+
+
+
+
+{% endblock %}
