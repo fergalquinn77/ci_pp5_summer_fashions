@@ -70,7 +70,7 @@
     {% for item in page_obj %}
     <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
 
-        <div class="card border-0" style="width: 16rem;">
+        <div class="card border-0" style="width: 18rem;">
             {% if item.image %}
             <a href="{% url 'item_details' item.id %}">
                 <img src="{{ item.image.url }}" class="card-img-top" alt="{{ item.name }}">
@@ -80,10 +80,16 @@
                 <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top" alt="{{ item.name }}">
             </a>
             {% endif %}
-            <div class="card-body">
-                <p class="card-text text-nowrap overflow-hidden">{{ item.name }}</p>
-                <p class="card-text">${{ item.price }}</p>
+            <div class="card-body p-0">
+                <p class="card-text text-wrap mt-1">{{ item.name }}</p>
+                <p class="card-text font-weight-bold mb-2">${{ item.price }}</p>
             </div>
+            {% if request.user.is_superuser %}
+            <small class="mb-3 p-0">
+                <a href="{% url 'edit_item' item.id %}">Edit</a> |
+                <a class="text-danger" href="{% url 'delete_item' item.id %}">Delete</a>
+            </small>
+            {% endif %}
         </div>
 
     </div>
@@ -93,8 +99,8 @@
 <div class="pagination d-flex justify-content-center">
     <span class="step-links">
         {% if page_obj.has_previous %}
-            <a href="?page=1">&laquo; first</a>
-            <a href="?page={{ page_obj.previous_page_number }}">previous</a>
+        <a href="?page=1">&laquo; first</a>
+        <a href="?page={{ page_obj.previous_page_number }}">previous</a>
         {% endif %}
 
         <span class="current">
@@ -102,8 +108,8 @@
         </span>
 
         {% if page_obj.has_next %}
-            <a href="?page={{ page_obj.next_page_number }}">next</a>
-            <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
+        <a href="?page={{ page_obj.next_page_number }}">next</a>
+        <a href="?page={{ page_obj.paginator.num_pages }}">last &raquo;</a>
         {% endif %}
     </span>
 </div>
@@ -112,31 +118,31 @@
 {% endblock %}
 
 {% block postloadjs %}
-    {{ block.super }}
-   
-    
-    <script type="text/javascript">
-        $('#sort-selector').change(function() {
-            var selector = $(this);
-            var currentUrl = new URL(window.location);
+{{ block.super }}
 
-            var selectedVal = selector.val();
-            if(selectedVal != "reset"){
-                var sort = selectedVal.split("_")[0];
-                var direction = selectedVal.split("_")[1];
 
-                currentUrl.searchParams.set("sort", sort);
-                currentUrl.searchParams.set("direction", direction);
+<script type="text/javascript">
+    $('#sort-selector').change(function () {
+        var selector = $(this);
+        var currentUrl = new URL(window.location);
 
-                window.location.replace(currentUrl);
-            } else {
-                currentUrl.searchParams.delete("sort");
-                currentUrl.searchParams.delete("direction");
+        var selectedVal = selector.val();
+        if (selectedVal != "reset") {
+            var sort = selectedVal.split("_")[0];
+            var direction = selectedVal.split("_")[1];
 
-                window.location.replace(currentUrl);
-            }
-        })
-    </script>
+            currentUrl.searchParams.set("sort", sort);
+            currentUrl.searchParams.set("direction", direction);
+
+            window.location.replace(currentUrl);
+        } else {
+            currentUrl.searchParams.delete("sort");
+            currentUrl.searchParams.delete("direction");
+
+            window.location.replace(currentUrl);
+        }
+    })
+</script>
 
 {% include 'clothes/includes/update-remove-script.html' %}
 

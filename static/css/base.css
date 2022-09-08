@@ -107,6 +107,8 @@ input[name='q']::placeholder {
     transform: translate(-50%, -50%);
   }
 
+  
+
 /* Rounded pill classes for horizontal sides */
 .rounded-pill-left {
     border-top-left-radius: 50rem !important;
