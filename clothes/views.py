@@ -1,10 +1,11 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
 from django.contrib import messages
 from django.db.models import Q
-from .models import Clothes, Category
 from django.db.models.functions import Lower
 from django.core.paginator import Paginator
 
+from .forms import ProductForm
+from .models import Clothes, Category
 
 
 # Create your views here.
@@ -71,3 +72,14 @@ def item_details(request, item_id):
         'item': item,
     }
     return render(request, 'clothes/item_details.html', context)
+
+def add_item(request):
+    """ Add an item to the store """
+    form = ProductForm()
+    template = 'clothes/add_item.html'
+    context = {
+        'form': form,
+    }
+
+    return render(request, template, context)
+
