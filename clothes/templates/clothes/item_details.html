@@ -50,8 +50,8 @@
             {% endif %}
             {% if request.user.is_superuser %}
             <small class="">
-                <a href="">Edit</a> |
-                <a class="text-danger" href="">Delete</a>
+                <a href="{% url 'edit_item' %}">Edit</a> |
+                <a class="text-danger" href="{% url 'delete_item' %}">Delete</a>
             </small>
             {% endif %}
             <form class="form" action="{% url 'add_to_bag' item.id %}" method="POST">
