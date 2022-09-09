@@ -18,7 +18,7 @@
 
 <div class="overlay"></div>
 <div class="header-margin container">
-    <div class="row">
+    <div class="row justify-content-center">
         <div class="col-12 col-md-6">
             <hr>
             <h2 class="mb-4 d-flex text-black">Product Management</h2>
@@ -27,7 +27,7 @@
         </div>
     </div>
 
-    <div class="row">
+    <div class="row justify-content-center">
         <div class="col-12 col-md-6">
             <form method="POST" action="{% url 'edit_item' item.id %}" class="form mb-2" enctype="multipart/form-data">
                 {% csrf_token %}
