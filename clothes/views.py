@@ -154,6 +154,18 @@ def toggle_wishlist(request, item_id):
         item.wishlists.add(request.user)
         messages.success(request, f'Added {item.name} to wishlist')
     
-    return redirect(reverse('clothes'))
+    return redirect(request.META['HTTP_REFERER'])
+
+def view_wishlist(request):
+    """ View to a users wishlist"""
+    clothes = Clothes.objects.all()
+    wishlist=[]
+    for item in clothes:
+        if item.wishlists.filter(id=request.user.id).exists():
+            wishlist.append(item) 
+    context = {
+        'wishlist': wishlist,
+    }
+    return render(request, 'clothes/wishlist.html', context)
 
 # 

@@ -87,11 +87,11 @@
 
             {% if user.is_authenticated %}
                 {% if item in request.user.wishlist.all %}
-            <div id="wishlist-{{ item.id }}" class="icon position-absolute rounded-circle bg-white p-1 mt-1 ml-1">
+            <div id="wishlist-{{ item.id }}" class="position-absolute rounded-circle bg-white p-1 mt-1 ml-1">
                 <a href="{% url 'toggle_wishlist' item.id %}"><i class="fa-fire fas fa-heart fa-2x" title="Remove from wishlist"></i></a>
             </div>
                 {% else %}
-            <div id="wishlist-{{ item.id }}" class="icon position-absolute rounded-circle bg-white p-1 mt-1 ml-1">
+            <div id="wishlist-{{ item.id }}" class="position-absolute rounded-circle bg-white p-1 mt-1 ml-1">
                 <a class="text-dark" href="{% url 'toggle_wishlist' item.id %}"><i class="far fa-heart fa-2x align-items-center" title="Add to wishlist"></i></a>
             </div>
                 {% endif %}
@@ -160,11 +160,6 @@
     })
 </script>
 
-<script>
-    $( ".icon" ).click(function() {
-  
-});
-</script>
 
 {% include 'clothes/includes/update-remove-script.html' %}
 

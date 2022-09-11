@@ -1,0 +1,71 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block page_header %}
+<div class="container margin-view-all header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+
+
+
+
+{% endblock %}
+
+
+
+
+{% block content %}
+
+<div class="row">
+
+    {% for item in wishlist %}
+    <div class="col-sm-6 col-md-6 col-lg-4 col-xl-3 d-flex justify-content-center">
+
+        <div class="card border-0" style="width: 18rem;">
+
+            {% if item.image %}
+
+            <a href="{% url 'item_details' item.id %}">
+                <img src="{{ item.image.url }}" class="card-img-top position-relative" alt="{{ item.name }}">
+            </a>
+            
+            {% else %}
+            <a href="{% url 'item_details' item.id %}">
+                <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top position-relative" alt="{{ item.name }}">
+            </a>
+
+            {% endif %}
+
+            {% if user.is_authenticated %}
+                {% if item in request.user.wishlist.all %}
+            <div id="wishlist-{{ item.id }}" class="position-absolute rounded-circle bg-white p-1 mt-1 ml-1">
+                <a href="{% url 'toggle_wishlist' item.id %}"><i class="fa-fire fas fa-heart fa-2x" title="Remove from wishlist"></i></a>
+            </div>
+                {% else %}
+            <div id="wishlist-{{ item.id }}" class="position-absolute rounded-circle bg-white p-1 mt-1 ml-1">
+                <a class="text-dark" href="{% url 'toggle_wishlist' item.id %}"><i class="far fa-heart fa-2x align-items-center" title="Add to wishlist"></i></a>
+            </div>
+                {% endif %}
+            {% endif %}
+            <div class="card-body p-0">
+                <p class="card-text text-wrap mt-1">{{ item.name }}</p>
+                <p class="card-text font-weight-bold mb-2">${{ item.price }}</p>
+            </div>
+            {% if request.user.is_superuser %}
+            <small class="mb-3 p-0">
+                <a href="{% url 'edit_item' item.id %}">Edit</a> |
+                <a class="text-danger" href="{% url 'delete_item' item.id %}">Delete</a>
+            </small>
+            {% endif %}
+        </div>
+
+    </div>
+    {% endfor %}
+</div>
+
+
+
+{% endblock %}
+

@@ -109,7 +109,7 @@
                     </li>
                     {% if user.is_authenticated %}
                     <li class="list-inline-item">
-                            <a class="nav-link" href="" title="View Wishlist">
+                            <a class="nav-link" href="{% url 'view_wishlist' %}" title="View Wishlist">
                                 <i class="{% if wish_count %} fa-fire {% else %}text-white{% endif %} fas fa-heart"></i>
                             </a>
                     </li>
