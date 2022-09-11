@@ -10,7 +10,7 @@ body {
 #hero-image {
     background: url('/media/Hero-Image.jpg') no-repeat center center fixed;
     background-size: cover;
-    height: 600px;
+    height:100vh;
 }
 
 .text-black {
@@ -41,6 +41,11 @@ body {
 
 .margin-view-all{
   margin-top: 18rem;
+}
+
+#summer-fashions-text{
+  width:fit-content;
+  margin: auto;
 }
 
 div.dropdown-multicol2{
