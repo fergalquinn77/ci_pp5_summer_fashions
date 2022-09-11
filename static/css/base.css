@@ -35,8 +35,12 @@ body {
 	z-index: -1;
 }
 
-.clothes-images{
+.margin-detail-view{
     margin-top: 10rem;
+}
+
+.margin-view-all{
+  margin-top: 18rem;
 }
 
 div.dropdown-multicol2{
@@ -49,7 +53,7 @@ div.dropdown-multicol2>div.dropdown-col{
   }
 
 .fa-fire{
-    color:#f21137   ;
+    color:#f21137;
 }
 
 #topnav, .bg-darkgrey{
@@ -277,3 +281,6 @@ color: #fff;
   border-color: #dc3545;
   border-radius: 0;
 }
+
+
+

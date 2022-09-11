@@ -41,6 +41,11 @@ def bag_contents(request):
         free_delivery_delta = 0
 
     grand_total = delivery + total
+    if request.user.is_anonymous:
+        wish_count = None
+    else:
+        wish_count = request.user.wishlist.count()
+
     context = {
         'bag_items': bag_items,
         'total': total,
@@ -49,7 +54,7 @@ def bag_contents(request):
         'free_delivery_delta': free_delivery_delta,
         'free_delivery_threshold': settings.FREE_DELIVERY_THRESHOLD,
         'grand_total': grand_total,
-
+        'wish_count': wish_count,
     }
 
     return context

@@ -11,6 +11,7 @@ from .models import Clothes, Category
 
 # Create your views here.
 
+# View all clothes
 def all_clothes(request):
     """ View to return all clothes, including sorting and search queries"""
     query = None
@@ -65,6 +66,7 @@ def all_clothes(request):
     }
     return render(request, 'clothes/clothes.html', context)
 
+# View item details
 def item_details(request, item_id):
     """ View to return detail on an item of clothes"""
 
@@ -74,6 +76,7 @@ def item_details(request, item_id):
     }
     return render(request, 'clothes/item_details.html', context)
 
+# Add item
 @login_required
 def add_item(request):
     """ Add an item to the store """
@@ -98,6 +101,7 @@ def add_item(request):
 
     return render(request, template, context)
 
+# Edit item
 @login_required
 def edit_item(request, item_id):
     """ Edit an item in the store """
@@ -125,6 +129,7 @@ def edit_item(request, item_id):
 
     return render(request, template, context)
 
+# Delete Item
 @login_required
 def delete_item(request, item_id):
     """ Delete an item from the store """
@@ -135,3 +140,20 @@ def delete_item(request, item_id):
     item.delete()
     messages.success(request, 'Items deleted!')
     return redirect(reverse('clothes'))
+
+# Toggle item wishlist
+@login_required
+def toggle_wishlist(request, item_id):
+
+    item = get_object_or_404(Clothes, id=item_id)
+    
+    if item.wishlists.filter(id=request.user.id).exists():
+        item.wishlists.remove(request.user)
+        messages.info(request, f'{item.name} removed from wishlist')
+    else:
+        item.wishlists.add(request.user)
+        messages.success(request, f'Added {item.name} to wishlist')
+    
+    return redirect(reverse('clothes'))
+
+# 

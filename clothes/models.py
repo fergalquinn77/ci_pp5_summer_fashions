@@ -26,17 +26,9 @@ class Clothes(models.Model):
     stock = models.PositiveIntegerField()
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
+    wishlists = models.ManyToManyField(User, related_name='wishlist', blank=True)
 
     def __str__(self):
         return self.name
     class Meta:
         verbose_name_plural = 'Clothes'
-
-class Wishlist(models.Model): 
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
-    item = models.ForeignKey(Clothes, on_delete=models.CASCADE)
-    date_created = models.DateTimeField(auto_now_add=True)
-    last_updated = models.DateTimeField(auto_now=True)
-
-    def __str__(self):
-        return self.item
