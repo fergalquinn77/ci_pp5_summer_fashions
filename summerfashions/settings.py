@@ -10,6 +10,7 @@ For the full list of settings and their values, see
 https://docs.djangoproject.com/en/3.2/ref/settings/
 """
 import os
+import dj_database_url
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-^o7epb1tw*xs(*qm=tym%f@j9f3n6@@o8bd#!9m-ggtg+%2$^o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost', 'ci-pp5-hot.herokuapp.com']
 
 
 # Application definition
@@ -126,6 +127,10 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# DATABASES = {
+#         'default': dj_database_url.parse('postgres://xqgaqiyqsqmlyj:8f50645bb2827f2ff30bf06aa7054c74393592de197e20b58bcfbb4dd21d5e20@ec2-54-228-218-84.eu-west-1.compute.amazonaws.com:5432/deep8ba1lsaujh')
+#         }
 
 
 # Password validation
