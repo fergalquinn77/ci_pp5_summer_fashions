@@ -1,1 +1,1 @@
-web: gunicorn hot.wsgi.application
+web: gunicorn summerfashions.wsgi.application
