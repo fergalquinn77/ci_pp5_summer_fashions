@@ -1,0 +1,86 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'profiles/css/profiles.css' %}">
+{% endblock %}
+
+{% block page_header %}
+<div class="container header-container">
+    <div class="row">
+        <div class="col"></div>
+    </div>
+</div>
+{% endblock %}
+
+{% block content %}
+
+<div class="overlay"></div>
+<div class="container">
+    <div class="header-margin">
+        <div class="row">
+            <div class="col-12">
+                <hr>
+                <h2 class="text-center"><i class="fas fa-question-circle mb-0"></i></h2>
+            </div>
+            <div class="col-12">
+                <h2 class="mb-4 text-center">Ticket details</h2>
+            </div>
+            <hr>
+        </div>
+
+
+        {% load crispy_forms_tags %}
+        {% load tz %}
+
+        <div>
+
+            <div class="w-100 bg-light p-3">
+                <h3 class="border-bottom border-dark text-center bg-lightgray">Question</h3>
+
+                <div>{{ ticket.query }}</div>
+            </div>
+            <div class="w-100 bg-light mt-3 mb-2 p-3">
+                <h4 class="border-bottom border-dark text-center">Responses</h4>
+
+                {% for ticket_message in ticket_messages %}
+
+                <div>
+                    <p class="text-muted">By {{ticket_message.user}} on {{ticket_message.created_on}}</p>
+                    {{ticket_message.message}}
+
+                    <hr>
+                </div>
+                {% empty %}
+                <p>No responses posted yet</p>
+                {% endfor %}
+            </div>
+            <form method="POST">
+                {% csrf_token %}
+                <fieldset class="form-group">
+                    {{ form|crispy }}
+                </fieldset>
+                <div class="text-center">
+                    <button class="btn btn-success btn-message-page mt-1" type="submit">
+                        Add Message
+                    </button>
+                    <button class="btn btn-danger btn-message-page mt-1" type="button"
+                        onclick="location.href='{% url 'open-support-tickets' %}'">Cancel</button>
+                </div>
+                <div class="text-center">
+                    <a class="btn btn-warning mt-1 mb-1 btn-message-page" href="{% url 'toggle-ticket-status' ticket.id %}">Mark
+                        Resolved
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block postloadjs %}
+{{ block.super }}
+<script type="text/javascript" src="{% static 'profiles/js/countryfield.js' %}"></script>
+{% endblock %}

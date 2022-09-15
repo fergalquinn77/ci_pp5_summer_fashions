@@ -21,6 +21,10 @@ body {
   color: #555555;
 }
 
+.bg-custom-grey{
+  background-color: #555555;
+}
+
 .bg-black {
     background: #000 !important;
 }
