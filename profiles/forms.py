@@ -1,5 +1,5 @@
 from django import forms
-from .models import UserProfile
+from .models import UserProfile, Support_Tickets, Tickets_Messages
 
 
 class UserProfileForm(forms.ModelForm):
@@ -32,3 +32,16 @@ class UserProfileForm(forms.ModelForm):
                 self.fields[field].widget.attrs['placeholder'] = placeholder
             self.fields[field].widget.attrs['class'] = 'border-black rounded-0 profile-form-input'
             self.fields[field].label = False
+
+# Form for Support Tickets
+class SupportTicketForm(forms.ModelForm):
+    class Meta:
+        model = Support_Tickets
+        fields = ['title', 'query']
+
+
+# Form for Support Messages
+class SupportMessageForm(forms.ModelForm):
+    class Meta:
+        model = Tickets_Messages
+        fields = ['message']
