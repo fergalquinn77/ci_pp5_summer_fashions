@@ -103,6 +103,11 @@ input[name='q']::placeholder {
   border-top:0;
 }
 
+/* Footer */
+
+footer h6 {
+font-weight: bold;
+}
 /* Bag Icon in Navbar */
 .bag-icon{
     position: relative;
