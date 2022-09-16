@@ -30,11 +30,21 @@ class Clothes(models.Model):
     image_url = models.URLField(max_length=1024, null=True, blank=True)
     image = models.ImageField(null=True, blank=True)
     wishlists = models.ManyToManyField(User, related_name='wishlist', blank=True)
+    on_sale = models.BooleanField(default=False, null=True, blank=True)
 
     def __str__(self):
         return self.name
     class Meta:
         verbose_name_plural = 'Clothes'
+
+class Sale(models.Model):
+    """
+    A model to allow users to leave a review for an item
+    """
+    clothes = models.ForeignKey('CLothes', null=True, blank=True, on_delete=models.SET_NULL)
+    percent_off = models.DecimalField(max_digits=2, decimal_places=0)
+    start_date = models.DateField(null=True, blank=True)
+    end_date = models.DateField(null=True, blank=True)
 
 class ItemReview(models.Model):
     """
