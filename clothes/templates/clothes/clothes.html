@@ -96,9 +96,14 @@
             </div>
                 {% endif %}
             {% endif %}
+            {% load mathfilters %}
             <div class="card-body p-0">
                 <p class="card-text text-wrap mt-1">{{ item.name }}</p>
+                {% if item.sale %} 
+                <p class="card-text font-weight-bold mb-2"><del>${{ item.price }}</del> <span class="bg-warning"> ON SALE {{ item.sale.percent_off|floatformat:0 }}% OFF</span>  ${{ item.sale.sale_price }}</p>
+                {% else %}
                 <p class="card-text font-weight-bold mb-2">${{ item.price }}</p>
+                {% endif %}
             </div>
             {% if request.user.is_superuser %}
             <small class="mb-3 p-0">

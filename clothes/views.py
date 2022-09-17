@@ -6,7 +6,7 @@ from django.db.models.functions import Lower
 from django.core.paginator import Paginator
 
 from .forms import ProductForm
-from .models import Clothes, Category, ItemReview
+from .models import Clothes, Category, ItemReview, Sale
 
 
 # Create your views here.
@@ -20,6 +20,11 @@ def all_clothes(request):
     direction = None
     
     clothes = Clothes.objects.all()
+    sales = Sale.objects.all()
+    
+    for sale in sales:
+        sale.sale_price = sale.clothes.price*(1-sale.percent_off/100)
+        sale.save()
     
     if request.GET:
 
@@ -42,9 +47,11 @@ def all_clothes(request):
             clothes = clothes.filter(category__name__in=categories)
             categories = Category.objects.filter(name__in=categories)
 
+        if 'sale' in request.GET:
+            clothes = clothes.filter(on_sale=True)
+
         if 'q' in request.GET:
             query = request.GET['q']
-            print(query)
             if not query:
                 messages.error(request, "You didn't enter any search criteria!")
                 return redirect(reverse('clothes'))
@@ -60,6 +67,7 @@ def all_clothes(request):
     
     context = {
         'clothes': clothes,
+        'sales':sales,
         'search_term': query,
         'current_sorting':current_sorting,
         'page_obj':page_obj,

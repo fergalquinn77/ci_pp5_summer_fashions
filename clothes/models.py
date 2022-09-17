@@ -41,10 +41,15 @@ class Sale(models.Model):
     """
     A model to allow users to leave a review for an item
     """
-    clothes = models.ForeignKey('CLothes', null=True, blank=True, on_delete=models.SET_NULL)
-    percent_off = models.DecimalField(max_digits=2, decimal_places=0)
+    clothes = models.OneToOneField('Clothes', null=True, blank=True, on_delete=models.CASCADE)
+    percent_off = models.DecimalField(max_digits=6, decimal_places=2)
     start_date = models.DateField(null=True, blank=True)
     end_date = models.DateField(null=True, blank=True)
+    sale_price = models.DecimalField(max_digits=6, decimal_places=2, default=0)
+
+    def discounted_price(self):
+        if percent_off >0:
+            discounted_price = self.price - self.price*(1-percent_off/100)
 
 class ItemReview(models.Model):
     """
