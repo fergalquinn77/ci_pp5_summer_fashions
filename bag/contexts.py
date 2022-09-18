@@ -1,7 +1,7 @@
 from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
-from clothes.models import Clothes
+from clothes.models import Clothes, Sale
 
 def bag_contents(request):
 
@@ -23,8 +23,10 @@ def bag_contents(request):
 
         else:
             product = get_object_or_404(Clothes, pk=item_id)
+            sale = Sale.objects.all()
+            
             for size, quantity in item_data['items_by_size'].items():
-                total += quantity * product.price
+                total += quantity * product.price * (1-product.sale.percent_off/100)
                 item_count += quantity
                 bag_items.append({
                     'item_id': item_id,

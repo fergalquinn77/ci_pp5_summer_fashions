@@ -77,7 +77,7 @@
             <a href="{% url 'item_details' item.id %}">
                 <img src="{{ item.image.url }}" class="card-img-top position-relative" alt="{{ item.name }}">
             </a>
-            
+
             {% else %}
             <a href="{% url 'item_details' item.id %}">
                 <img src="{{ MEDIA_URL }}noimage.png" class="card-img-top position-relative" alt="{{ item.name }}">
@@ -86,21 +86,24 @@
             {% endif %}
 
             {% if user.is_authenticated %}
-                {% if item in request.user.wishlist.all %}
+            {% if item in request.user.wishlist.all %}
             <div id="wishlist-{{ item.id }}" class="position-absolute rounded-circle bg-white p-1 mt-1 ml-1">
-                <a href="{% url 'toggle_wishlist' item.id %}"><i class="fa-fire fas fa-heart fa-2x" title="Remove from wishlist"></i></a>
+                <a href="{% url 'toggle_wishlist' item.id %}"><i class="fa-fire fas fa-heart fa-2x"
+                        title="Remove from wishlist"></i></a>
             </div>
-                {% else %}
+            {% else %}
             <div id="wishlist-{{ item.id }}" class="position-absolute rounded-circle bg-white p-1 mt-1 ml-1">
-                <a class="text-dark" href="{% url 'toggle_wishlist' item.id %}"><i class="far fa-heart fa-2x align-items-center" title="Add to wishlist"></i></a>
+                <a class="text-dark" href="{% url 'toggle_wishlist' item.id %}"><i
+                        class="far fa-heart fa-2x align-items-center" title="Add to wishlist"></i></a>
             </div>
-                {% endif %}
+            {% endif %}
             {% endif %}
             {% load mathfilters %}
             <div class="card-body p-0">
                 <p class="card-text text-wrap mt-1">{{ item.name }}</p>
-                {% if item.sale %} 
-                <p class="card-text font-weight-bold mb-2"><del>${{ item.price }}</del> <span class="bg-warning"> ON SALE {{ item.sale.percent_off|floatformat:0 }}% OFF</span>  ${{ item.sale.sale_price }}</p>
+                {% if item.sale %}
+                <p class="card-text font-weight-bold mb-2"><del>${{ item.price }}</del> <span class="bg-warning"> ON
+                        SALE {{ item.sale.percent_off|floatformat:0 }}% OFF</span> ${{ item.sale.sale_price }}</p>
                 {% else %}
                 <p class="card-text font-weight-bold mb-2">${{ item.price }}</p>
                 {% endif %}

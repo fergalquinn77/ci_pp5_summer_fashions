@@ -207,3 +207,4 @@ def item_like(request, id):
     redirect_url = request.POST.get('redirect_url',
                                     '/clothes/clothes.html')
     return redirect((redirect_url))
+

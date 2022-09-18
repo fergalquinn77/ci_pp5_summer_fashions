@@ -32,7 +32,11 @@
         </div>
         <div class="col-12 col-md-6 col-lg-2 mt-5">
             <p class="mb-0 text">{{ item.name }}</p>
+            {% if item.on_sale %}
+            <del>${{ item.price }}</del> <span class="bg-warning"> ON SALE {{ item.sale.percent_off|floatformat:0 }}% OFF</span>  ${{ item.sale.sale_price }}</p>
+            {% else %}
             <p class="mb-0 font-weight-bold mb-1">${{ item.price }}</p>
+            {% endif %}
             <p class="text-muted small">{{ item.description }}</p>
 
 
