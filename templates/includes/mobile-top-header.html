@@ -1,10 +1,11 @@
-<div id="mobile-logo" class="d-block d-lg-none mx-2 align-items-left">
+<div id="mobile-logo" class="d-block d-lg-none mx-2">
     <a href="{% url 'home' %}" class="main-logo-link">
         <h2 class="text-black my-0 text-uppercase"><strong>H<i class="fas fa-fire"></i>t! </strong></h2>
     </a>
 </div>
 
-<div class="">
+<div id="mobile-icons" class="">
+    <ul>
     <li class="list-inline-item">
         <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
@@ -27,7 +28,7 @@
             </form>
         </div>
     </li>
-    <li class="list-inline-item dropdown">
+    <li class="list-inline-item dropdown dropleft">
         <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <div><i class="fas fa-user fa-lg"></i></div>
@@ -37,7 +38,8 @@
             {% if request.user.is_superuser %}
             <a href="{% url 'add_item' %}" class="dropdown-item">Product Management</a>
             {% endif %}
-            <a href="" class="dropdown-item">My Profile</a>
+            <a href="{% url 'profile' %}" class="dropdown-item">My Profile</a>
+            <a href="{% url 'view_wishlist' %}" class="dropdown-item">Wishlist</a>
             <a href="{% url 'account_logout' %}" class="dropdown-item">Logout</a>
             {% else %}
             <a href="{% url 'account_signup' %}" class="dropdown-item">Register</a>
@@ -46,11 +48,20 @@
         </div>
     </li>
     <li class="list-inline-item">
-        <a class="{% if grand_total %}text-primary font-weight-bold{% else %}text-black{% endif %} nav-link d-block d-lg-none"
+        <div class="container bag-icon">
+          <a class="{% if grand_total %}text-info font-weight-bold{% else %}text-black{% endif %} nav-link"
             href="{% url 'view_bag' %}">
+            <i class="text-white fas fa-shopping-bag fa-lg layer2" title="View Bag"></i>
             <div class="text-center">
-                <div><i class="fas fa-shopping-bag fa-lg"></i></div>
+              <span class="bag-count text-black layer1">
+                {% if item_count > 0 %}
+                {{ item_count }}
+                {% endif %}
+              </span>
             </div>
-        </a>
-    </li>
+          </a>
+        </div>
+      </li>
+    
+    </ul>
 </div>

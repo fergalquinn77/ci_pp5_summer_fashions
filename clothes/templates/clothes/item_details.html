@@ -14,7 +14,7 @@
 <div class="overlay"></div>
 <div class="container-fluid header-margin">
     <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-3">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
             <div class="image-container my-5">
 
                 {% if item.image %}
@@ -30,7 +30,7 @@
             </div>
 
         </div>
-        <div class="col-12 col-md-6 col-lg-2 mt-5">
+        <div class="col-12 col-md-6 col-lg-3 mt-sm-0 mt-md-5">
             <p class="mb-0 text">{{ item.name }}</p>
             {% if item.on_sale %}
             <del>${{ item.price }}</del> <span class="bg-warning"> ON SALE {{ item.sale.percent_off|floatformat:0 }}% OFF</span>  ${{ item.sale.sale_price }}</p>
@@ -63,7 +63,7 @@
                 <div class="form-row">
                     {% with item.has_sizes as s %}
                     {% if s %}
-                    <div class="col-12 mt-1">
+                    <div class="col-6 col-lg-12 mt-1">
                         <p class="small mb-1">SIZE:</p>
                         <select class="custom-select rounded-0" name="item_size" id='id_item_size'>
                             <option selected disabled>Select Size</option>

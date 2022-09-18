@@ -48,7 +48,7 @@
 
   <header class="container-fluid fixed-top">
     <div id="topnav" class="row pt-lg-2 d-none d-lg-flex text-white">
-      <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-lg-left">
+      <div class="col-12 col-lg-4 my-auto py-1 py-lg-0 text-center text-sm-center text-lg-left">
         <a href="{% url 'home' %}" class="nav-link main-logo-link">
           <h1 class="text-white my-0 text-uppercase"><strong>H<i class="fas fa-fire"></i>t!
             </strong></h1>
@@ -174,7 +174,7 @@
 
     <div class="container-fluid w-100 bg-darkgrey white-text p-0">
       <div class="row">
-        <div class="pl-5 col-md-3">
+        <div class="pl-5 col-md-3 mobile-hide">
           <h6 class="fs-5">Hot</h6>
           <p>
             JFK Parade<br>
@@ -183,7 +183,7 @@
             F91 PK4K
           </p>
         </div>
-        <div class="col-md-2">
+        <div class="col-md-2 mobile-hide">
           <h6 class="fs-5">Shop</h6>
           <p>
             <a class="text-reset text-decoration-none" href="{% url 'clothes' %}">Clothes</a><br>
@@ -192,7 +192,7 @@
           </p>
         </div>
         
-        <div class="col-md-2">
+        <div class="col-md-2 mobile-hide">
           <h6 class="fs-5">Account</h6>
           <p>
             {% if user.is_authenticated %}
@@ -204,7 +204,7 @@
             {% endif %}
           </p>
         </div>
-        <div class="col-md-2">
+        <div id="social-links" class="col-md-2">
           <h6 class="fs-5">Socials</h6>
           <p>
             <a class="text-reset text-decoration-none fs-3 mr-3" href="https://www.instagram.com"
@@ -217,7 +217,7 @@
               target="_blank"><i class="fab fa-twitter fa-lg"></i><span class="sr-only">Twitter</span></a>
           </p>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mobile-hide">
           <h6 class="fs-5">Newsletter</h6>
           <!-- Mailchimp Signup -->
           <div class="container-fluid w-100 p-0">

@@ -17,58 +17,52 @@
     <div class="row">
         <div class="col">
             <hr>
-            <h2 class="mb-4 d-flex justify-content-center text-black"><i
-                    class="mt-2 fas fa-shopping-bag fa-lg"></i></h2>
+            <h2 class="mb-4 d-flex justify-content-center text-black"><i class="mt-2 fas fa-shopping-bag fa-lg"></i>
+            </h2>
         </div>
     </div>
 
     <div class="row">
-        <div class="col-12 col-lg-12">
-            {% if bag_items %}
 
+        {% if bag_items %}
+
+        <div class="col-12 col-md-7 offset-md-2 bag-items">
+            {% for bag_item in bag_items %}
             <div class="row">
-
-                <div class="offset-md-2 col-7 bag-items">
-                    {% for bag_item in bag_items %}
-
-
-                    <div class="row m-1">
-                        <div class="col-5 mt-2">
-                            {% include "bag/item-image.html" %}
-                        </div>
-                        <div class="col-6 mt-2">
-                            {% include "bag/item-info.html" %}
-                            {% include "bag/quantity-form.html" %}
-                        </div>
-                        <div class="col-1 mt-2">
-                            <i id="remove_{{ bag_item.item_id }}" class="remove-item far fa-trash-alt"
-                                data-item_size="{{ bag_item.size }}"></i>
-                        </div>
-                    </div>
-                    <hr>
-
-                    {% endfor %}
+                <div class="col-5 mt-2">
+                    {% include "bag/item-image.html" %}
                 </div>
-                <div class="col-3">
-                    {% include "bag/bag-total.html" %}
+                <div class="col-6 p-s-0 mt-2 ">
+                    {% include "bag/item-info.html" %}
+                    {% include "bag/quantity-form.html" %}
+                </div>
+                <div class="col-1 mt-2 d-flex justify-content-center">
+                    <i id="remove_{{ bag_item.item_id }}" class="remove-item far fa-trash-alt"
+                        data-item_size="{{ bag_item.size }}"></i>
                 </div>
             </div>
-
-
+            <hr>
+            {% endfor %}
+        </div>
+        <div class="col-12 col-md-3 mt-1 mt-md-0">
+            {% include "bag/bag-total.html" %}
         </div>
 
         {% else %}
-        <p class="lead mb-5 d-flex justify-content-center text-black">Your bag is empty.</p>
-        <a href="{% url 'clothes' %}" class="btn btn-outline-black rounded-0 btn-lg d-flex justify-content-center">
+        
+    </div>
+    <div class="text-center">
+        <p class="mb-5 text-black text-uppercase text-center">Your bag is empty.</p>
+        <a href="{% url 'clothes' %}" class="btn btn-outline-black rounded-0 btn-lg">
             <span class="icon">
                 <i class="fas fa-chevron-left"></i>
             </span>
             <span class="text-uppercase text-center">Keep Shopping</span>
         </a>
-        {% endif %}
     </div>
+    {% endif %}
 </div>
-</div>
+
 
 {% endblock %}
 

@@ -22,7 +22,7 @@
         <div class="clothes-container col-10 offset-1">
             <div class="row mt-1 mb-2">
                 <div class="col-12 col-md-6 my-auto order-md-last d-flex justify-content-center justify-content-md-end">
-                    <div class="sort-select-wrapper w-50">
+                    <div class="sort-select-wrapper ws-75 wm-50">
                         <select id="sort-selector"
                             class="custom-select custom-select-sm rounded-0 border border-{% if current_sorting != 'None_None' %}info{% else %}black{% endif %}">
                             <option value="reset" {% if current_sorting == 'None_None' %}selected{% endif %}>Sort by...
@@ -98,7 +98,7 @@
             </div>
             {% endif %}
             {% endif %}
-            {% load mathfilters %}
+            
             <div class="card-body p-0">
                 <p class="card-text text-wrap mt-1">{{ item.name }}</p>
                 {% if item.sale %}

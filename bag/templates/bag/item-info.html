@@ -1,8 +1,9 @@
 <p><strong>{{ bag_item.product.name }}</strong></p>
 {% if bag_item.product.on_sale %}
-<p>${{ bag_item.product.price }}</del> <span class="bg-warning"> ON
-        SALE {{ bag_item.sale.percent_off|floatformat:0 }}% OFF</span> ${{ bag_item.product.sale.sale_price }}</p>
-{% else %}}
+<p>Price <del>${{ bag_item.product.price }}</del> <span class="bg-warning"> ON
+                SALE {{ bag_item.product.sale.percent_off|floatformat:0 }}% OFF</span> ${{ bag_item.product.sale.sale_price }}
+</p>
+{% else %}
 <p>Price ${{ bag_item.product.price }}</p>
 {% endif %}
 <p>Size: {% if bag_item.product.has_sizes %}{{ bag_item.size|upper }}{% else %}N/A{% endif %}</p>
