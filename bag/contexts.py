@@ -26,7 +26,10 @@ def bag_contents(request):
             sale = Sale.objects.all()
             
             for size, quantity in item_data['items_by_size'].items():
-                total += quantity * product.price * (1-product.sale.percent_off/100)
+                if product.on_sale:
+                    total += quantity * product.price * (1-product.sale.percent_off/100)
+                else:
+                    total += quantity * product.price
                 item_count += quantity
                 bag_items.append({
                     'item_id': item_id,
