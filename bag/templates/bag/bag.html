@@ -26,7 +26,7 @@
 
         {% if bag_items %}
 
-        <div class="col-12 col-md-7 offset-md-2 bag-items">
+        <div class="col-12 col-md-7 offset-md-1 bag-items">
             {% for bag_item in bag_items %}
             <div class="row">
                 <div class="col-5 mt-2">
@@ -44,12 +44,12 @@
             <hr>
             {% endfor %}
         </div>
-        <div class="col-12 col-md-3 mt-1 mt-md-0">
+        <div class="col-12 col-md-4 mt-1 mt-md-0">
             {% include "bag/bag-total.html" %}
         </div>
 
         {% else %}
-        
+
     </div>
     <div class="text-center">
         <p class="mb-5 text-black text-uppercase text-center">Your bag is empty.</p>

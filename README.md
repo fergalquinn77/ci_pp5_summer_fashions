@@ -1,7 +1,7 @@
 # Hot
 (Developer: Fergal Quinn)
 
-![Mockup of Scubasport International](readme/mockup.jpg)
+![Mockup of Hot](readme/mockup.jpg)
 
 [View live site](https://ci-pp5-hot.herokuapp.com/)
 
@@ -70,16 +70,55 @@ For the expiry date, cvc and postal code any series number(s) can be used(once t
 
 ### Site Owner Goals
 
+The primary goal of the website from the site owners perspective is as follows:
+- To enable customers to purchase products listed on the site
+- To allow a user to navigate the website and view product details
+- To allow a user to create an account & log in to an existing account
+- To allow a user to view their order history and account details
+- To allow users to keep updated with a newsletter signup
+- To be able to edit, add and remove products from the site
 
 ### User Goals
+The primary goal of the website from a site users perspective is as follows:
+- To view products and product details
+- To easily search for products
+- To filter products 
+- To register for an account
+- To log into/out of an existing account
+- To be able to view and edit their account profile
+- To add a product to bag and purchase order
+- To be able to view order history
+- To contact the site owner
+- To sign up to a newsletter
 
 ### Target Audience
+- Ladies
+- Fashion concious
+- Primary age is 18-40 but there would be some market for 13-18 and 40+
+
 ## User Requirements and Expectations
+- An easy navigation system with instant learning.
+- Able to navigate the site quickly and easily.
+- No broken links.
+- Responsive and visually appealing on all devices.
+- Ability to view products and complete purchases
+- Ability to contact the business
 
 ## Business Model
 
+The primary goal for this project is to sell womens summer fashions direct to the consumer, thus it's a B2C business model. Given the target audience, I've branded the website with a short catchy name, in keeping with the product line. The hero image is a youthful, fun image that encourages user to view the clothing range. 
+
+The site has an easy navigation and has some nice features like wishlist and sales which are quite popular in this business. The model is based on fulfillment done in-house but the model would work with outsourcing fulfilment.
+
 ## SEO
 
+Long tag and short tag keyword were searched for in regards to SEO using Google tools and other online resources.  These tags have been used in the main HTML head and throughout the project to name images and within main body text.
+
+![SEO keywords HTML](readme/misc/meta-tags.jpg)
+
+For this project, I did not give consideration to the naming of pictures given the amount of them. If I were to use this site in real life, I would name every picture according more in keeping with the product name.
+
+Future development in the site includes a Blog that can help keep fresh content on the site.
 
 ## Marketing
 
@@ -87,41 +126,148 @@ For the expiry date, cvc and postal code any series number(s) can be used(once t
 
 
 ### Newsletter Signup
-
+The site includes a signup form to a newsletter so the business can keep in touch with it's vistors.
+![Sign-up](readme/misc/mailchimp-signup.jpg)
 ## Structure
 ### Code Structure
+The project is organised into a variety of applications, as is constructed using the Django Framework.
+
+App details as follows:
+
+- Home - this app contains information about HOT Summer Fashions home page. It's got easy links to the product page, contact-us and with quick links to category pages, items on sale, wishlist and the shoppers bag.
+
+It contains a footer with links to external sites and a mailchimp signup form.
+
+- Clothes - this app contains the the clothes listings and detail views, users can add items to a shopping cart, filter for items in categories and hosts the results of the product search.  Clicking individual items opens a sub  page where users can see detailed product information.  The clothes app has a wishlist button that allows user to mark items they may wish to purchase in the future.
+
+- Courses - Users can view course listings and details and be redirected to the contact form to get in touch and enquire.
+- Contact - this app is for users to be able to submit a message to the site owners and recieve acknowledgment. For users with a profile, when logged in, the form prepopulates profile data to remove friction to the user.
+- Profile - Users can choose to have a profile either when checking out or when authenticated.  Edit functionality exists and users can view thier purchase history. There is also functionality for submitted support tickets for registered users.
+- Bag - User can view, add and remove products that they have added to the bag
+- Checkout - Users can use the checkout app to purchase selected items.  They can see items in the cart and have the option to save profile data during the checkout process.
+
+To complement the apps there are
+- project: Project level files - settings.py for project level settings and urls.py to route the website URLS
+- templates: Containing the base.html, allauth(django authentication)
+- templates (app level): each app has it's own templates directory for HTML to consider portability and re-use.
+- urls (app level): each app has it's own url.py file to consider portability and re-use.
+- static: Base css and Javascript files
+- manage.py: This file is used to start the site and perform funcions during development
+- README.md: Readme documentation
+- Procfile: To run the application on Heroku
+- Requirements.txt: Containing the project dependencies
+Note: Environment variable values are not exposed in the source code, they are stored locally in env.py that is not checked in(and listed in .gitignore, and on Heroku in app settings
 ### Database
 #### Physical database model
 
+This model contains all fields stored in the database collections with their data type and mimics the structure of what is actually stored in the Postgres database 
+<br>![Database model](readme/misc/database_schema.png)
 
 #### Models
 
+
 ##### User Model
+- The User model contains information about the user. It is part of the Django allauth library
+- The model contains the following fields: username, password, first_name, last_name, email, is_staff, is_active, is_superuser, last_login, date_joined
 
 ##### UserProfile Model
+- The UserProfile model contains information about the users address.  This can be created at anytime through the nav link or automatically added post checkout.  The UserProfile Model contains the following fields: userdefault_phone_number,default_street_address1,default_street_address2,default_town_or_city,default_county,default_postcode,default_country.
 
-##### Product Model
+##### Clothes Model
 
-##### Category Model
+- The Clothes model contains information about products available within each of the categories
+- It contains Category as a foreign-key.
+- It contains wishlist as a Many-toMany relationship.
+- The model contains the following fields:  name, description, has_sizes, price, rating, stock, image_url, wishlists, on_sale.
 
-##### Brand Model
+##### Order Model
 
-##### Size Model
+- The category model contains information relating to an individual order. It has a foreign key of user profile.
+- The model contains the a number of user location fields like country, postcode etc.. It also includes the following fields - delivery_cost, order_total, grand_total, origional_bag, stripe_pid
 
-##### Color Model
+##### OrderLineItem
 
-##### Inventory Model
-
-##### Course Model
+- This model has a foriegn key of order. It contains the items in an order.
+- The model contains the following fields - order, item, item_size, quantity, lineitem_total
 
 ##### Contact Model
 
-##### Faq Model
+- This model is used to deal with contact enquiries from the website.
+- The models contains the following fields - name, email, phone, message
+
+
+##### Support Tickets Model
+
+- This model is to deal with support tickets from registered users of the site.
+- The model contains the following fields - user (FK), title, query, status, created_on, updated_on
+
+##### Ticket Messages Model
+
+- This model is to deal with messages relating to a support ticket. It has foreign keys of tickets and user. Other fields in the model are create_on and message
 
 
 ## Scope
 ### User stories:
 
+| EPIC 1  | Account authentication, to allow users to create an account                                                                                                                                |
+|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1     | As a shopper I can register as a site user so that I can login in future and my personal data is saved for future checkouts                                                                |
+| 1.2     | As a shopper I can see my current logged in status so that I know whether I need to login                                                                                                  |
+| 1.3     | As a shopper I can see saved information about me so that I can verify if it's correct or if it needs updating                                                                             |
+| 1.4     | As a shopper I can see my previous orders so that I can see what I have ordered in the past                                                                                                |
+| 1.5     | As a shopper I can update my personal information so that I can keep it up to date                                                                                                         |
+| 1.6     | As a shopper I can delete my account so that I can permanently erase all information relating to me                                                                                        |
+| EPIC 2  | List/view products, to display all products availabe for sale                                                                                                                              |
+| 2.1     | As a shopper I can view products for sale so that I can consider purchasing them                                                                                                           |
+| 2.2     | As a shopper I can view more detail about a product so that I can find out more if I am interested in purchasing                                                                           |
+| 2.3     | As a shopper I can view all products in categories so that I can quickly find what I am looking for                                                                                        |
+| 2.4     | As a shopper I can search all products by title and by description so that I can quickly find what I am looking for                                                                        |
+| 2.5     | As a shopper I can filter products so that I can quickly find out what I am looking for                                                                                                    |
+| 2.6     | As a shopper I can sort products by important attributes so that I can easily navigate the product range                                                                                   |
+| 2.7     | As a shopper I can see if a product is out of stock so that I can see if it's available for purchase                                                                                       |
+| EPIC 3  | Add products to shopping bag, to allow users to create a record of items they wish to purchase                                                                                             |
+| 3.1     | As a shopper I can add items to my basket so that I can purchase them at checkout stage                                                                                                    |
+| 3.2     | As a shopper I can add and delete items from my baskets so that I can adjust my purchase                                                                                                   |
+| 3.3     | As a shopper I can see the total cost of the shopping bag so that I am aware of the running cost                                                                                           |
+| 3.4     | As a shopper I can adjust quantities in my basket so that I can adjust my basket                                                                                                           |
+| 3.5     | As a shopper I can easily see the products in my shopping bag so that I know what I have in it                                                                                             |
+| EPIC 4  | Checkout bag, to allow users to buy products                                                                                                                                               |
+| 4.1     | As a shopper I can select checkout from my shopping bag so that I can start the checkout process                                                                                           |
+| 4.2     | As a shopper I can verify the shopping bag before I commit to the purchase so that I can ensure everything is OK                                                                           |
+| 4.3     | As a site user I can choose to save my checkout details for next time so that I can use the details for future purchases                                                                   |
+| 4.4     | As a shopper I can receive an email confirmation detailing my order so that I know my order was processed                                                                                  |
+| 4.5     | As a shopper I can have my order processed even if I exit out of the page before I recieve final confirmation or the connection breaks so that I have security that my order was processed |
+| 4.6     | As a shopper I can input my credit card details so that I can purchase the items in my basket                                                                                              |
+| 4.7     | As a shopper I can have my credit card transaction processed so that I can pay for my basket of items                                                                                      |
+| EPIC 5  | Ratings and reviews, to allow users to have their opinion about products                                                                                                                   |
+| 5.1     | As a shopper I can rate products that I have purchased so that I can provide feedback to others considering the products                                                                   |
+| 5.2     | As a shopper I can leave a comment on products I have purchased so that I can provide further detail on what I think                                                                       |
+| 5.3     | As a shopper I can see reviews on products so that see what others have to say about products                                                                                              |
+| EPIC 6  | Admin accessibility, to allow admin users to modify the database of products                                                                                                               |
+| 6.1     | As a shop owner I can add products to the shop so that the shop can have more variety available                                                                                            |
+| 6.2     | As a shop owner I can edit / update product so that the description and price is up to date                                                                                                |
+| 6.3     | As a shop owner I can delete product so that I remove products no longer available                                                                                                         |
+| 6.4     | As a shop owner I can review/edit or delete customer orders so that I can make any necessary adjustments                                                                                   |
+| 6.5     | As a non-site admin I can not access the admin pages so that I am unable to take actions with admin privilages                                                                             |
+| 6.6     | As a site admin I can update the stock levels of a product so that the levels are kept up to date                                                                                          |
+| EPIC 7  | Like button/Wishlist - allow users to like a products / add to wishlist                                                                                                                    |
+| 7.1     | As a shopper I can like a product so that I can filter liked products later                                                                                                                |
+| 7.2     | Once I buy a product that is on my wishlist, it is taken off the wishlist                                                                                                                  |
+| 7.3     | I can edit products on my wishlist                                                                                                                                                         |
+| EPIC 8  | Sale items - Mark items on sale and apply a cretain discount to the items                                                                                                                  |
+| 8.1     | As a shop owner I can mark certain items/catgories as for sale so that I can entice people to buy them                                                                                     |
+| 8.2     | As a shopper I can easily see items on sale so that I might consider purchasing them                                                                                                       |
+| EPIC 9  | Newsletter                                                                                                                                                                                 |
+| 9.1     | As a shopper I can sign up to a newsletter so that I can keep informed of offers                                                                                                           |
+| 9.2     | As a shopper I can remove myself from the newsletter list so that I can stop receiving emails                                                                                              |
+| 9.3     | As an admin I can view all members on the newsletter list so that I can use the information for mail shots etc.                                                                            |
+| EPIC 10 | Contacts us (user registration not required)                                                                                                                                               |
+| 10.1    | As a shopper I can make contact with the store via a form on the site so that I can receive feedback on any questions I have                                                               |
+| 10.2    | As a shop owner I can view customer enquiries so that I can respond to them as required                                                                                                    |
+| 10.3    | As a shopper I can receive confirmation that I have submitted an enquiry so that I know it has been received                                                                               |
+| EPIC 11 | User support messages (user registration required)                                                                                                                                         |
+| 11.1    | As a user I can submit a support ticket so that I can get responses to queries I have                                                                                                      |
+| 11.2    | As a shop owner I can view support queries and repsond to them as required so that I can keep my customers happy                                                                           |
 
 #### Error Flow
 

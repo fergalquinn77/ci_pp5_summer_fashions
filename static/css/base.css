@@ -302,7 +302,7 @@ color: #fff;
     display:none;
   }
 
-  #social-links {
+  .mobile-links {
     text-align: center;
   }
   #card-mobile{
@@ -320,7 +320,7 @@ color: #fff;
   }
 
   .header-margin{
-    margin-top: 4rem;
+    margin-top: 5rem;
 }
 
 }

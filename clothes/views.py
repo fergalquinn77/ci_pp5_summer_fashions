@@ -6,7 +6,7 @@ from django.db.models.functions import Lower
 from django.core.paginator import Paginator
 
 from .forms import ProductForm
-from .models import Clothes, Category, ItemReview, Sale
+from .models import Clothes, Category, Sale
 
 
 # Create your views here.

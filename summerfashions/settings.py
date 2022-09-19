@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'profiles',
     'contact',
     'mathfilters',
+    'django_extensions',
 
     #other app
     'crispy_forms',
@@ -222,3 +223,8 @@ STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'info@hot.com'
 
 # django_heroku.settings(locals())
+
+GRAPH_MODELS = {
+    'all_applications': True,
+    'group_models': True,
+}
