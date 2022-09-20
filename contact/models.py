@@ -6,7 +6,6 @@ class Contact(models.Model):
     """
     A class for the contact model
     """
-
     name = models.CharField(max_length=50, blank=False)
     email = models.EmailField(max_length=70, blank=False)
     phone = models.CharField(max_length=13, blank=True)

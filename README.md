@@ -180,6 +180,10 @@ This model contains all fields stored in the database collections with their dat
 - It contains wishlist as a Many-toMany relationship.
 - The model contains the following fields:  name, description, has_sizes, price, rating, stock, image_url, wishlists, on_sale.
 
+##### Sale Model
+
+- This model deals with items on sale and contains information on clothes, percent discount, start date, end date and sale price. The clothes field has a one to one relationship with the clothes model.
+
 ##### Order Model
 
 - The category model contains information relating to an individual order. It has a foreign key of user profile.
@@ -209,65 +213,65 @@ This model contains all fields stored in the database collections with their dat
 ## Scope
 ### User stories:
 
-| EPIC 1  | Account authentication, to allow users to create an account                                                                                                                                |
-|---------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 1.1     | As a shopper I can register as a site user so that I can login in future and my personal data is saved for future checkouts                                                                |
-| 1.2     | As a shopper I can see my current logged in status so that I know whether I need to login                                                                                                  |
-| 1.3     | As a shopper I can see saved information about me so that I can verify if it's correct or if it needs updating                                                                             |
-| 1.4     | As a shopper I can see my previous orders so that I can see what I have ordered in the past                                                                                                |
-| 1.5     | As a shopper I can update my personal information so that I can keep it up to date                                                                                                         |
-| 1.6     | As a shopper I can delete my account so that I can permanently erase all information relating to me                                                                                        |
-| EPIC 2  | List/view products, to display all products availabe for sale                                                                                                                              |
-| 2.1     | As a shopper I can view products for sale so that I can consider purchasing them                                                                                                           |
-| 2.2     | As a shopper I can view more detail about a product so that I can find out more if I am interested in purchasing                                                                           |
-| 2.3     | As a shopper I can view all products in categories so that I can quickly find what I am looking for                                                                                        |
-| 2.4     | As a shopper I can search all products by title and by description so that I can quickly find what I am looking for                                                                        |
-| 2.5     | As a shopper I can filter products so that I can quickly find out what I am looking for                                                                                                    |
-| 2.6     | As a shopper I can sort products by important attributes so that I can easily navigate the product range                                                                                   |
-| 2.7     | As a shopper I can see if a product is out of stock so that I can see if it's available for purchase                                                                                       |
-| EPIC 3  | Add products to shopping bag, to allow users to create a record of items they wish to purchase                                                                                             |
-| 3.1     | As a shopper I can add items to my basket so that I can purchase them at checkout stage                                                                                                    |
-| 3.2     | As a shopper I can add and delete items from my baskets so that I can adjust my purchase                                                                                                   |
-| 3.3     | As a shopper I can see the total cost of the shopping bag so that I am aware of the running cost                                                                                           |
-| 3.4     | As a shopper I can adjust quantities in my basket so that I can adjust my basket                                                                                                           |
-| 3.5     | As a shopper I can easily see the products in my shopping bag so that I know what I have in it                                                                                             |
-| EPIC 4  | Checkout bag, to allow users to buy products                                                                                                                                               |
-| 4.1     | As a shopper I can select checkout from my shopping bag so that I can start the checkout process                                                                                           |
-| 4.2     | As a shopper I can verify the shopping bag before I commit to the purchase so that I can ensure everything is OK                                                                           |
-| 4.3     | As a site user I can choose to save my checkout details for next time so that I can use the details for future purchases                                                                   |
-| 4.4     | As a shopper I can receive an email confirmation detailing my order so that I know my order was processed                                                                                  |
-| 4.5     | As a shopper I can have my order processed even if I exit out of the page before I recieve final confirmation or the connection breaks so that I have security that my order was processed |
-| 4.6     | As a shopper I can input my credit card details so that I can purchase the items in my basket                                                                                              |
-| 4.7     | As a shopper I can have my credit card transaction processed so that I can pay for my basket of items                                                                                      |
-| EPIC 5  | Ratings and reviews, to allow users to have their opinion about products                                                                                                                   |
-| 5.1     | As a shopper I can rate products that I have purchased so that I can provide feedback to others considering the products                                                                   |
-| 5.2     | As a shopper I can leave a comment on products I have purchased so that I can provide further detail on what I think                                                                       |
-| 5.3     | As a shopper I can see reviews on products so that see what others have to say about products                                                                                              |
-| EPIC 6  | Admin accessibility, to allow admin users to modify the database of products                                                                                                               |
-| 6.1     | As a shop owner I can add products to the shop so that the shop can have more variety available                                                                                            |
-| 6.2     | As a shop owner I can edit / update product so that the description and price is up to date                                                                                                |
-| 6.3     | As a shop owner I can delete product so that I remove products no longer available                                                                                                         |
-| 6.4     | As a shop owner I can review/edit or delete customer orders so that I can make any necessary adjustments                                                                                   |
-| 6.5     | As a non-site admin I can not access the admin pages so that I am unable to take actions with admin privilages                                                                             |
-| 6.6     | As a site admin I can update the stock levels of a product so that the levels are kept up to date                                                                                          |
-| EPIC 7  | Like button/Wishlist - allow users to like a products / add to wishlist                                                                                                                    |
-| 7.1     | As a shopper I can like a product so that I can filter liked products later                                                                                                                |
-| 7.2     | Once I buy a product that is on my wishlist, it is taken off the wishlist                                                                                                                  |
-| 7.3     | I can edit products on my wishlist                                                                                                                                                         |
-| EPIC 8  | Sale items - Mark items on sale and apply a cretain discount to the items                                                                                                                  |
-| 8.1     | As a shop owner I can mark certain items/catgories as for sale so that I can entice people to buy them                                                                                     |
-| 8.2     | As a shopper I can easily see items on sale so that I might consider purchasing them                                                                                                       |
-| EPIC 9  | Newsletter                                                                                                                                                                                 |
-| 9.1     | As a shopper I can sign up to a newsletter so that I can keep informed of offers                                                                                                           |
-| 9.2     | As a shopper I can remove myself from the newsletter list so that I can stop receiving emails                                                                                              |
-| 9.3     | As an admin I can view all members on the newsletter list so that I can use the information for mail shots etc.                                                                            |
-| EPIC 10 | Contacts us (user registration not required)                                                                                                                                               |
-| 10.1    | As a shopper I can make contact with the store via a form on the site so that I can receive feedback on any questions I have                                                               |
-| 10.2    | As a shop owner I can view customer enquiries so that I can respond to them as required                                                                                                    |
-| 10.3    | As a shopper I can receive confirmation that I have submitted an enquiry so that I know it has been received                                                                               |
-| EPIC 11 | User support messages (user registration required)                                                                                                                                         |
-| 11.1    | As a user I can submit a support ticket so that I can get responses to queries I have                                                                                                      |
-| 11.2    | As a shop owner I can view support queries and repsond to them as required so that I can keep my customers happy                                                                           |
+| **EPIC 1**  | **Account authentication, to allow users to create an account**                                                                                                                            |
+|-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.1         | As a shopper I can register as a site user so that I can login in future and my personal data is saved for future checkouts                                                                |
+| 1.2         | As a shopper I can see my current logged in status so that I know whether I need to login                                                                                                  |
+| 1.3         | As a shopper I can see saved information about me so that I can verify if it's correct or if it needs updating                                                                             |
+| 1.4         | As a shopper I can see my previous orders so that I can see what I have ordered in the past                                                                                                |
+| 1.5         | As a shopper I can update my personal information so that I can keep it up to date                                                                                                         |
+| 1.6         | As a shopper I can delete my account so that I can permanently erase all information relating to me                                                                                        |
+| **EPIC 2**  | **List/view products, to display all products availabe for sale**                                                                                                                          |
+| 2.1         | As a shopper I can view products for sale so that I can consider purchasing them                                                                                                           |
+| 2.2         | As a shopper I can view more detail about a product so that I can find out more if I am interested in purchasing                                                                           |
+| 2.3         | As a shopper I can view all products in categories so that I can quickly find what I am looking for                                                                                        |
+| 2.4         | As a shopper I can search all products by title and by description so that I can quickly find what I am looking for                                                                        |
+| 2.5         | As a shopper I can filter products so that I can quickly find out what I am looking for                                                                                                    |
+| 2.6         | As a shopper I can sort products by important attributes so that I can easily navigate the product range                                                                                   |
+| 2.7         | As a shopper I can see if a product is out of stock so that I can see if it's available for purchase                                                                                       |
+| **EPIC 3**  | **Add products to shopping bag, to allow users to create a record of items they wish to purchase**                                                                                         |
+| 3.1         | As a shopper I can add items to my basket so that I can purchase them at checkout stage                                                                                                    |
+| 3.2         | As a shopper I can add and delete items from my baskets so that I can adjust my purchase                                                                                                   |
+| 3.3         | As a shopper I can see the total cost of the shopping bag so that I am aware of the running cost                                                                                           |
+| 3.4         | As a shopper I can adjust quantities in my basket so that I can adjust my basket                                                                                                           |
+| 3.5         | As a shopper I can easily see the products in my shopping bag so that I know what I have in it                                                                                             |
+| **EPIC 4**  | **Checkout bag, to allow users to buy products**                                                                                                                                           |
+| 4.1         | As a shopper I can select checkout from my shopping bag so that I can start the checkout process                                                                                           |
+| 4.2         | As a shopper I can verify the shopping bag before I commit to the purchase so that I can ensure everything is OK                                                                           |
+| 4.3         | As a site user I can choose to save my checkout details for next time so that I can use the details for future purchases                                                                   |
+| 4.4         | As a shopper I can receive an email confirmation detailing my order so that I know my order was processed                                                                                  |
+| 4.5         | As a shopper I can have my order processed even if I exit out of the page before I recieve final confirmation or the connection breaks so that I have security that my order was processed |
+| 4.6         | As a shopper I can input my credit card details so that I can purchase the items in my basket                                                                                              |
+| 4.7         | As a shopper I can have my credit card transaction processed so that I can pay for my basket of items                                                                                      |
+| **EPIC 5**  | **Ratings and reviews, to allow users to have their opinion about products**                                                                                                               |
+| 5.1         | As a shopper I can rate products that I have purchased so that I can provide feedback to others considering the products                                                                   |
+| 5.2         | As a shopper I can leave a comment on products I have purchased so that I can provide further detail on what I think                                                                       |
+| 5.3         | As a shopper I can see reviews on products so that see what others have to say about products                                                                                              |
+| **EPIC 6**  | **Admin accessibility, to allow admin users to modify the database of products**                                                                                                           |
+| 6.1         | As a shop owner I can add products to the shop so that the shop can have more variety available                                                                                            |
+| 6.2         | As a shop owner I can edit / update product so that the description and price is up to date                                                                                                |
+| 6.3         | As a shop owner I can delete product so that I remove products no longer available                                                                                                         |
+| 6.4         | As a shop owner I can review/edit or delete customer orders so that I can make any necessary adjustments                                                                                   |
+| 6.5         | As a non-site admin I can not access the admin pages so that I am unable to take actions with admin privilages                                                                             |
+| 6.6         | As a site admin I can update the stock levels of a product so that the levels are kept up to date                                                                                          |
+| **EPIC 7**  | **Like button/Wishlist - allow users to like a products / add to wishlist**                                                                                                                |
+| 7.1         | As a shopper I can like a product so that I can filter liked products later                                                                                                                |
+| 7.2         | Once I buy a product that is on my wishlist, it is taken off the wishlist                                                                                                                  |
+| 7.3         | I can edit products on my wishlist                                                                                                                                                         |
+| **EPIC 8**  | **Sale items - Mark items on sale and apply a cretain discount to the items**                                                                                                              |
+| 8.1         | As a shop owner I can mark certain items/catgories as for sale so that I can entice people to buy them                                                                                     |
+| 8.2         | As a shopper I can easily see items on sale so that I might consider purchasing them                                                                                                       |
+| **EPIC 9**  | **Newsletter**                                                                                                                                                                             |
+| 9.1         | As a shopper I can sign up to a newsletter so that I can keep informed of offers                                                                                                           |
+| 9.2         | As a shopper I can remove myself from the newsletter list so that I can stop receiving emails                                                                                              |
+| 9.3         | As an admin I can view all members on the newsletter list so that I can use the information for mail shots etc.                                                                            |
+| **EPIC 10** | **Contacts us (user registration not required)**                                                                                                                                           |
+| 10.1        | As a shopper I can make contact with the store via a form on the site so that I can receive feedback on any questions I have                                                               |
+| 10.2        | As a shop owner I can view customer enquiries so that I can respond to them as required                                                                                                    |
+| 10.3        | As a shopper I can receive confirmation that I have submitted an enquiry so that I know it has been received                                                                               |
+| **EPIC 11** | **User support messages (user registration required)**                                                                                                                                     |
+| 11.1        | As a user I can submit a support ticket so that I can get responses to queries I have                                                                                                      |
+| 11.2        | As a shop owner I can view support queries and repsond to them as required so that I can keep my customers happy                                                                           |                                                                        |
 
 #### Error Flow
 

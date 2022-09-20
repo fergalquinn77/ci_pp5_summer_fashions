@@ -8,7 +8,7 @@ from django_countries.fields import CountryField
 from django_countries import Countries
 
 from profiles.models import UserProfile
-from clothes.models import Clothes
+from clothes.models import Clothes, Sale
 
 class European(Countries):
     only = ['IE', 'GB']
@@ -76,7 +76,8 @@ class OrderLineItem(models.Model):
         Override the original save method to set the lineitem total
         and update the order total.
         """
-        if self.item.sale:
+        sale_items = Sale.objects.all()
+        if self.item in sale_items:
             self.lineitem_total = self.item.price * self.quantity * (1- self.item.sale.percent_off/100)
         else:
             self.lineitem_total = self.item.price * self.quantity

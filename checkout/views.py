@@ -150,6 +150,13 @@ def checkout_success(request, order_number):
         order.user_profile = profile
         order.save()
 
+        # Check if in wishlist and remove
+        line_items = OrderLineItem.objects.filter(order=order)
+        for line in line_items:
+            users = line.item.wishlists.all()
+            if request.user in users:
+                line.item.wishlists.remove(request.user)
+
         # Save the user's info
         if save_info:
             profile_data = {
@@ -167,6 +174,7 @@ def checkout_success(request, order_number):
     messages.success(request, f'Order successfully processed! \
         Your order number is {order_number}. A confirmation \
         email will be sent to {order.email}.')
+    
 
     if 'bag' in request.session:
         del request.session['bag']
@@ -177,3 +185,4 @@ def checkout_success(request, order_number):
     }
 
     return render(request, template, context)
+

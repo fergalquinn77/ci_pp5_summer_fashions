@@ -42,7 +42,7 @@ class Sale(models.Model):
     A model to allow users to leave a review for an item
     """
     clothes = models.OneToOneField('Clothes', null=True, blank=True, on_delete=models.CASCADE)
-    percent_off = models.DecimalField(max_digits=6, decimal_places=2)
+    percent_off = models.DecimalField(max_digits=6, decimal_places=2, default=0)
     start_date = models.DateField(null=True, blank=True)
     end_date = models.DateField(null=True, blank=True)
     sale_price = models.DecimalField(max_digits=6, decimal_places=2, default=0)
