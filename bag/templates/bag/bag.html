@@ -47,22 +47,23 @@
         <div class="col-12 col-md-4 mt-1 mt-md-0">
             {% include "bag/bag-total.html" %}
         </div>
-    </div>
-    {% else %}
+
+        {% else %}
 
 
-    <div class="text-center">
-        <p class="mb-5 text-black text-uppercase text-center">Your bag is empty.</p>
-        <a href="{% url 'clothes' %}" class="btn btn-outline-black rounded-0 btn-lg">
-            <span class="icon">
-                <i class="fas fa-chevron-left"></i>
-            </span>
-            <span class="text-uppercase text-center">Keep Shopping</span>
-        </a>
+        <div class="col-12 text-center">
+            <p class="mb-5 text-black text-uppercase text-center">Your bag is empty.</p>
+            <a href="{% url 'clothes' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                <span class="icon">
+                    <i class="fas fa-chevron-left"></i>
+                </span>
+                <span class="text-uppercase text-center">Keep Shopping</span>
+            </a>
+        </div>
     </div>
-    {% endif %}
+
 </div>
-
+{% endif %}
 
 {% endblock %}
 
