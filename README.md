@@ -222,6 +222,7 @@ This model contains all fields stored in the database collections with their dat
 | 1.5         | As a shopper I can update my personal information so that I can keep it up to date                                                                                                         |
 | 1.6         | As a shopper I can delete my account so that I can permanently erase all information relating to me                                                                                        |
 | 1.7         | As a shopper I can login to my account so that I can start using it                                                                                        |
+| 1.8         | As a registered user I can view and edit my profile information so that I can keep it up to date                                                                                        |
 | **EPIC 2**  | **List/view products, to display all products availabe for sale**                                                                                                                          |
 | 2.1         | As a shopper I can view products for sale so that I can consider purchasing them                                                                                                           |
 | 2.2         | As a shopper I can view more detail about a product so that I can find out more if I am interested in purchasing                                                                           |
@@ -494,21 +495,78 @@ The password reset feature allows a user to reset their password if they have fo
 <br>![Logout](readme/features/signout.jpg)
 While this is technically a feature of the navbar, this allows a user to logout of their account
 
-### Page 6 – Register
+### Page 6 – Profile 
+The profile page consists of the following features:
+#### Feature 1 – Profile information 
+<br>![profile page](readme/features/profile.jpg)
 
-### Page 7 – Profile 
+When the user is logged in or registered, they are able to view their profile. This features their personal details which they are able to update and change.
 
-### Page 8 – Shopping Bag
+This feature covers the following user stories:
 
-### Page 9 – Wishlist
+*1.8 As a registered user I can view and edit my profile information so that I can keep it up to date
+*1.1 As a shopper I can register as a site user so that I can login in future and my personal data is saved for future checkouts
 
-### Page 10 – Checkout
+#### Feature 2 – View Previous Orders
+<br>![Order History](readme/features/order-history.jpg)
 
-### Page 11 – Contact us
+A registered user can view a list of their previous orders.
 
-### Page 12 – Support
+This feature covers the following user stories:
 
-### Page 13 – Admin
+*1.4 As a shopper I can see my previous orders so that I can see what I have ordered in the past
+
+### Page 7 – Shopping Bag
+<br>![shopping bag page](readme/features/shopping-bag.jpg)
+The shopping bag page consists of the following features:
+
+#### Feature 1 – Update Quantities
+<br>![Update Quantities](readme/features/update-quantities.jpg)
+
+A user can update the quantities of an item in their baseket using the dropdown menu and then clicking the update button
+
+This feature covers the following user stories:
+
+*3.4 As a shopper I can adjust quantities in my basket so that I can adjust my basket
+
+#### Feature 2 – Delete items from bag
+<br>![Delete Items](readme/features/delete-item.jpg)
+
+A user can delete an item from their shopping bag.
+
+This feature covers the following user stories:
+
+*3.2 As a shopper I can add and delete items from my baskets so that I can adjust my purchase
+
+#### Feature 3 – Checkout
+<br>![Checkout Button](readme/features/checkout-button.jpg)
+
+A user can choose to proceed to checkout from their bag in order to complete their purchase
+
+This feature covers the following user stories:
+
+*4.1 As a shopper I can select checkout from my shopping bag so that I can start the checkout process
+
+### Page 8 – Wishlist
+<br>![wishlist page](readme/features/wishlist.jpg)
+The wishlist page consists of the following features:
+
+#### Feature 1 – View/Edit Wishlist
+<br>![remove wishlist](readme/features/remove-wishlist.jpg)
+
+If user would like to remove an item from their wishlist that had been previously added, they can just click on the heart icon.
+
+This feature covers the following user stories:
+
+*7.3 As a shopper I can select checkout from my shopping bag so that I can start the checkout process
+
+### Page 9 – Checkout
+
+### Page 10 – Contact us
+
+### Page 11 – Support
+
+### Page 12 – Admin
 
 
 ## Technologies Used
