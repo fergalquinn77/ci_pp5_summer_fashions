@@ -44,7 +44,7 @@
             <hr>
             {% endfor %}
         </div>
-        <div class="col-12 col-md-4 mt-1 mt-md-0">
+        <div class="col-12 col-md-4 mt-1 mt-md-0 p-0 pl-md-2">
             {% include "bag/bag-total.html" %}
         </div>
 
@@ -60,10 +60,11 @@
                 <span class="text-uppercase text-center">Keep Shopping</span>
             </a>
         </div>
+        {% endif %}
     </div>
-
+    
 </div>
-{% endif %}
+
 
 {% endblock %}
 

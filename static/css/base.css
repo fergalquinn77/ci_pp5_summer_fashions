@@ -169,7 +169,7 @@ font-weight: bold;
 
 .bag-total{
   background-color:  white;
-  max-width:400px;
+  /* max-width:400px; */
 }
 
 .bag-items{
@@ -297,7 +297,10 @@ color: #fff;
 }
 
 @media (max-width: 800px) {
- 
+
+  #mobile-icons {
+    margin:auto; 
+   }
   .mobile-hide {
     display:none;
   }
@@ -308,19 +311,21 @@ color: #fff;
   #card-mobile{
     margin-top: 0;
   }
+
+  .bag-total{
+    margin:0;
+  }
 }
 
 @media (max-width: 400px) {
-  #mobile-icons {
-   margin:auto; 
-  }
+  
 
   h4{
     font-size: 1rem!important;
   }
 
   .header-margin{
-    margin-top: 5rem;
+    margin-top: 6rem;
 }
 
 }
