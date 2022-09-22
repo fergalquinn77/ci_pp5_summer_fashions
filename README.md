@@ -256,8 +256,8 @@ This model contains all fields stored in the database collections with their dat
 | 6.6         | As a site admin I can update the stock levels of a product so that the levels are kept up to date                                                                                          |
 | **EPIC 7**  | **Like button/Wishlist - allow users to like a products / add to wishlist**                                                                                                                |
 | 7.1         | As a shopper I can like a product so that I can filter liked products later                                                                                                                |
-| 7.2         | Once I buy a product that is on my wishlist, it is taken off the wishlist                                                                                                                  |
-| 7.3         | I can edit products on my wishlist                                                                                                                                                         |
+| 7.2         | As a shopper I can purchase and product and it will be taken off my wishlist so that my wishlist is up to date                                                                                                                  |
+| 7.3         | As a shopper I can view/edit products on my wishlist so that I can keep it up to date                                                                                                                                                |
 | **EPIC 8**  | **Sale items - Mark items on sale and apply a cretain discount to the items**                                                                                                              |
 | 8.1         | As a shop owner I can mark certain items/catgories as for sale so that I can entice people to buy them                                                                                     |
 | 8.2         | As a shopper I can easily see items on sale so that I might consider purchasing them                                                                                                       |
@@ -279,6 +279,37 @@ This model contains all fields stored in the database collections with their dat
 
 ### Wireframes
 
+<details><summary>Home</summary>
+<img src="readme/misc/wireframes/homepage.png">
+</details>
+
+<details><summary>Category Page/View All</summary>
+<img src="readme/misc/wireframes/category_page.png">
+</details>
+
+<details><summary>Product Details</summary>
+<img src="readme/misc/wireframes/product_details.png">
+</details>
+
+<details><summary>Shopping Bag</summary>
+<img src="readme/misc/wireframes/shopping_bag.png">
+</details>
+
+<details><summary>Checkout</summary>
+<img src="readme/misc/wireframes/checkout.png">
+</details>
+
+<details><summary>Login Page</summary>
+<img src="readme/misc/wireframes/login_page.png">
+</details>
+
+<details><summary>Support Page</summary>
+<img src="readme/misc/wireframes/support.png">
+</details>
+
+<details><summary>Profile Page</summary>
+<img src="readme/misc/wireframes/profile.png">
+</details>
 
 ## Surface
 
@@ -290,8 +321,83 @@ This model contains all fields stored in the database collections with their dat
 
 ## Features
 
+The site consists of 14 pages, with the features detailed under each page.
 
 ### Page 1 – Home page
+
+<br>![Home page](readme/features/navbar.jpg)
+The home page consists of the following features:
+#### Feature 1 – Header and navigation bar
+The header contains the logo, products link, categories link, search bar, user account and shopping bag. It also shows the wishlist for users that are logged in. The header is visible across all pages.
+
+This feature covers the following user stories:
+
+*1.2 As a shopper I can see my current logged in status so that I know whether I need to login
+
+*2.1 As a shopper I can view products for sale so that I can consider purchasing them
+
+*2.3 As a shopper I can view all products in categories so that I can quickly find what I am looking for
+
+*2.4 As a shopper I can search all products by title and by description so that I can quickly find what I am looking for
+
+*7.3 As a shopper I can view/edit products on my wishlist so that I can keep it up to date
+
+#### Feature 2 – Search bar
+<br>![Home page](readme/features/search-bar.jpg)
+
+The search bar is part of the header and features across all pages. This allows the user to easily search products by brand, product type, colour. 
+
+This feature covers the following user stories:
+
+*2.4 As a shopper I can search all products by title and by description so that I can quickly find what I am looking for
+
+#### Feature 3 – Hero Image
+<br>![Home page](readme/features/hero-image.jpg)
+
+The hero image gives the user an immediate idea of what the site is about with the heading 'summer fashions' and button to 'shop now'. 
+
+This feature covers the following user stories:
+
+*2.1 As a shopper I can view products for sale so that I can consider purchasing them (SHOP NOW Button)
+
+#### Feature 4 – Footer
+<br>![Home page](readme/features/footer.jpg)
+
+The footer appears across all pages, and contains links to direct the user to all main pages – shop, information, account. It includes a sign-up to newsletter/mailing list and links to the social media accounts.
+
+This feature covers the following user stories:
+
+*1.1 As a shopper I can register as a site user so that I can login in future and my personal data is saved for future checkouts
+
+*2.1 As a shopper I can view products for sale so that I can consider purchasing them
+
+*9.1 As a shopper I can sign up to a newsletter so that I can keep informed of offers
+
+### Page 2 – Shop (All Items)
+
+### Page 3 – Shop (By category)
+
+### Page 4 – Sale
+
+### Page 5 – Log In
+
+### Page 6 – Log Out
+
+### Page 7 – Register
+
+### Page 8 – Profile 
+
+### Page 9 – Shopping Bag
+
+### Page 10 – Wishlist
+
+### Page 11 – Checkout
+
+### Page 12 – Contact us
+
+### Page 13 – Support
+
+### Page 14 – Admin
 
 
 ## Technologies Used

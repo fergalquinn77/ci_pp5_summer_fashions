@@ -40,7 +40,7 @@
                             {% csrf_token %}
                             {{ contact_form | crispy }}
                             <br>
-                            <button class="btn btn-primary me-3" type="submit">Send message</button><a class ="btn btn-secondary" href="{{request.META.HTTP_REFERER|escape}}">Cancel</a>
+                            <button class="btn btn-success rounded-0 me-3" type="submit">Send message</button><a class ="rounded-0 ml-1 btn btn-warning" href="{{request.META.HTTP_REFERER|escape}}">Cancel</a>
                         </form>
                     {% endif %}
                 </div>

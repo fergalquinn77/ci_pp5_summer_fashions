@@ -16,17 +16,17 @@
 {% block content %}
 
 <div class="overlay"></div>
-<div class="shopping-bag container">
+<div class="header-margin container">
     <div class="row">
-        <div class="col">
+        <div class="col-12">
             <hr>
-            <h2 class="mb-4 d-flex justify-content-center text-black"><i
-                    class="mt-2 fas fa-thumbs-up fa-lg"></i></h2>
+            <h2 class="mb-2 d-flex justify-content-center text-black"><i class="mt-2 fas fa-thumbs-up fa-lg"></i></h2>
+            <h5 class="text-center">SUCCESS</h5>
             <p>Your order information is below. A confirmation email will be sent to <strong>{{ order.email }}</strong>.
             </p>
         </div>
     </div>
-    
+
     <div class="row">
         <div class="col-12 col-lg-7">
             <div class="order-confirmation-wrapper p-2 border">
@@ -69,7 +69,7 @@
                         </p>
                     </div>
                     <div class="col-12 col-md-8 text-md-right">
-                        {% if product.item.sale %} 
+                        {% if product.item.sale %}
                         <p class="small mb-0">{{ product.quantity }} @ ${{ product.item.sale.sale_price }} each</p>
                         {% else %}
                         <p class="small mb-0">{{ product.quantity }} @ ${{ product.item.price }} each</p>
@@ -200,17 +200,17 @@
     <div class="row">
         <div class="col-12 col-lg-7 text-right">
             {% if from_profile %}
-                <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
-                    <span class="icon mr-2">
-                        <i class="fas fa-angle-left"></i>
-                    </span>
-                    <span class="text-uppercase">Back to Profile</span>
-                </a>
+            <a href="{% url 'profile' %}" class="btn btn-black rounded-0 my-2">
+                <span class="icon mr-2">
+                    <i class="fas fa-angle-left"></i>
+                </span>
+                <span class="text-uppercase">Back to Profile</span>
+            </a>
             {% else %}
-                <a href="{% url 'clothes' %}" class="btn btn-black rounded-0 my-2">
-                    
-                    <span class="text-uppercase btn btn-success">Back To Shop</span>
-                </a>
+            <a href="{% url 'clothes' %}" class="btn btn-black rounded-0 my-2">
+
+                <span class="text-uppercase btn btn-success">Back To Shop</span>
+            </a>
             {% endif %}
         </div>
     </div>

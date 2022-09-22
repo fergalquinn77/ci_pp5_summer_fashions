@@ -75,7 +75,8 @@ def add_support_ticket(request):
             new_form.save()
             return redirect('open-support-tickets')
     context = {
-        'form': form
+        'form': form,
+        'from_profile': True,
         }
     return render(request, 'profiles/add_ticket.html', context)
 
@@ -124,6 +125,7 @@ def ticket_details(request, ticket_id):
         context = {
             'ticket': ticket,
             'ticket_messages': ticket_messages,
+            'from_profile': True,
             'form': form
             }
         return render(request, 'profiles/ticket_detail.html', context)

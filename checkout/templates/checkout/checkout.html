@@ -19,22 +19,23 @@
 <div class="overlay"></div>
 <div class="header-margin container">
     <div class="row">
-        <div class="col">
+        <div class="col-12">
             <hr>
-            <h2 class="mb-4 d-flex justify-content-center text-black"><i
+            <h2 class="mb-2 d-flex justify-content-center text-black"><i
                     class="mt-2 fas fa-cash-register fa-lg"></i></h2>
+                    <h5 class="text-center">CHECKOUT</h5>
         </div>
     </div>
 
     <div class="row">
         <div class="col-12 col-lg-5 offset-lg-1 order-lg-last mb-5 order-summary bg-white">
-            <p class="text-muted">Order Summary ({{ item_count }} items)</p>
+            <p class="font-weight-bold">Order Summary ({{ item_count }} items)</p>
             <div class="row">
                 <div class="col-7 offset-2">
-                    <p class="mb-1 mt-0 small text-muted">Item</p>
+                    <p class="mb-1 mt-0">Item</p>
                 </div>
                 <div class="col-3 text-right">
-                    <p class="mb-1 mt-0 small text-muted">Subtotal</p>
+                    <p class="mb-1 mt-0">Subtotal</p>
                 </div>
             </div>
             {% for item in bag_items %}
@@ -56,9 +57,9 @@
                 </div>
                 <div class="col-3 text-right">
                     {% if item.product.on_sale %}
-                    <p class="my-0 small text-muted">${{ item.product.sale.sale_price | calc_subtotal:item.quantity }}</p>
+                    <p class="my-0">${{ item.product.sale.sale_price | calc_subtotal:item.quantity }}</p>
                     {% else %}
-                    <p class="my-0 small text-muted">${{ item.product.price | calc_subtotal:item.quantity }}</p>
+                    <p class="my-0">${{ item.product.price | calc_subtotal:item.quantity }}</p>
                     {% endif %}
                 </div>
             </div>
