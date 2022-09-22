@@ -492,7 +492,7 @@ The password reset feature allows a user to reset their password if they have fo
 The password reset feature allows a user to reset their password if they have forgotton it.
 
 #### Feature 5 – Logout
-<br>![Logout](readme/features/signout.jpg)
+<br>![Logout](readme/features/sign-out.jpg)
 While this is technically a feature of the navbar, this allows a user to logout of their account
 
 ### Page 6 – Profile 
@@ -561,6 +561,48 @@ This feature covers the following user stories:
 *7.3 As a shopper I can select checkout from my shopping bag so that I can start the checkout process
 
 ### Page 9 – Checkout
+<br>![Checkout page](readme/features/checkout.jpg)
+The checkout page consists of the following features:
+
+#### Feature 1 – Complete Delivery Details
+
+On checkout, the user must enter their delivery details. If they are a registered user, their saved details are pre-populated.
+
+This feature covers the following user stories:
+
+*4.1 As a site user I can choose to save my checkout details for next time so that I can use the details for future purchases
+
+#### Feature 2 – Order Summary
+<br>![Order summary](readme/features/order-summary.jpg)
+
+Before completing the checkout procress, the user can see an order summary which summarises what the user is purchasing.
+
+This feature covers the following user stories:
+
+*4.2 As a shopper I can verify the shopping bag before I commit to the purchase so that I can ensure everything is OK
+
+#### Feature 3 – Save to profile
+<br>![Save to profile](readme/features/save-to-profile.jpg)
+
+On checkout a registered user has the option of saving their delivery details to their profile so that they can be used when they checkout next time.
+
+This feature covers the following user stories:
+
+*1.1 As a shopper I can register as a site user so that I can login in future and my personal data is saved for future checkouts
+*4.3 As a site user I can choose to save my checkout details for next time so that I can use the details for future purchases
+
+#### Feature 4 - Fill out credit card details and proceed to payment
+<br>![Credit card payment](readme/features/credit-card-stripe.jpg)
+
+After validating their order and filling in their delivery details, a user can proceed to complete the purchase by entering their credit card details
+
+There is validation messages that display messages from stripe.
+<br>![Invalid Card](readme/features/invalid-card.jpg)
+
+This feature covers the following user stories:
+
+*4.6 As a shopper I can input my credit card details so that I can purchase the items in my basket
+*4.7 As a shopper I can have my credit card transaction processed so that I can pay for my basket of items
 
 ### Page 10 – Contact us
 
