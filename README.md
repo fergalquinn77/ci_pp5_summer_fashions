@@ -221,6 +221,7 @@ This model contains all fields stored in the database collections with their dat
 | 1.4         | As a shopper I can see my previous orders so that I can see what I have ordered in the past                                                                                                |
 | 1.5         | As a shopper I can update my personal information so that I can keep it up to date                                                                                                         |
 | 1.6         | As a shopper I can delete my account so that I can permanently erase all information relating to me                                                                                        |
+| 1.7         | As a shopper I can login to my account so that I can start using it                                                                                        |
 | **EPIC 2**  | **List/view products, to display all products availabe for sale**                                                                                                                          |
 | 2.1         | As a shopper I can view products for sale so that I can consider purchasing them                                                                                                           |
 | 2.2         | As a shopper I can view more detail about a product so that I can find out more if I am interested in purchasing                                                                           |
@@ -325,7 +326,7 @@ The site consists of 14 pages, with the features detailed under each page.
 
 ### Page 1 – Home page
 
-<br>![Home page](readme/features/navbar.jpg)
+<br>![Nav Bar](readme/features/navbar.jpg)
 The home page consists of the following features:
 #### Feature 1 – Header and navigation bar
 The header contains the logo, products link, categories link, search bar, user account and shopping bag. It also shows the wishlist for users that are logged in. The header is visible across all pages.
@@ -343,7 +344,7 @@ This feature covers the following user stories:
 *7.3 As a shopper I can view/edit products on my wishlist so that I can keep it up to date
 
 #### Feature 2 – Search bar
-<br>![Home page](readme/features/search-bar.jpg)
+<br>![Search Bar](readme/features/search-bar.jpg)
 
 The search bar is part of the header and features across all pages. This allows the user to easily search products by brand, product type, colour. 
 
@@ -352,7 +353,7 @@ This feature covers the following user stories:
 *2.4 As a shopper I can search all products by title and by description so that I can quickly find what I am looking for
 
 #### Feature 3 – Hero Image
-<br>![Home page](readme/features/hero-image.jpg)
+<br>![Hero Image](readme/features/hero-image.jpg)
 
 The hero image gives the user an immediate idea of what the site is about with the heading 'summer fashions' and button to 'shop now'. 
 
@@ -361,7 +362,7 @@ This feature covers the following user stories:
 *2.1 As a shopper I can view products for sale so that I can consider purchasing them (SHOP NOW Button)
 
 #### Feature 4 – Footer
-<br>![Home page](readme/features/footer.jpg)
+<br>![Footer](readme/features/footer.jpg)
 
 The footer appears across all pages, and contains links to direct the user to all main pages – shop, information, account. It includes a sign-up to newsletter/mailing list and links to the social media accounts.
 
@@ -373,31 +374,141 @@ This feature covers the following user stories:
 
 *9.1 As a shopper I can sign up to a newsletter so that I can keep informed of offers
 
-### Page 2 – Shop (All Items)
+#### Feature 5 - Logged in Status
+For users who have not logged in yet, when they click the user icon to top right of screen, they are displayed the following drop-down
+<br>![logged-out](readme/features/logged-out.jpg)
 
-### Page 3 – Shop (By category)
+For user who have logged in, they are displayed with a different menu. Note - Product Management only displays for admin and supervisors.
 
-### Page 4 – Sale
+<br>![logged-in](readme/features/logged-in.jpg)
 
-### Page 5 – Log In
+This feature covers the following user stories:
 
-### Page 6 – Log Out
+*1.2 As a shopper I can see my current logged in status so that I know whether I need to login
 
-### Page 7 – Register
+#### Feature 6 - Wishlist
+For registered users who have logged in - the wishlist will display in the navbar.
+<br>![logged-out](readme/features/logged-in.jpg)
 
-### Page 8 – Profile 
+This feature covers the following user stories:
 
-### Page 9 – Shopping Bag
+*7.3 As a shopper I can view/edit products on my wishlist so that I can keep it up to date
 
-### Page 10 – Wishlist
 
-### Page 11 – Checkout
+### Page 2 – Shop
+<br>![Shop](readme/features/shop-all-products.jpg)
+The shop page consists of the following features:
 
-### Page 12 – Contact us
+#### Feature 1 – Product Sort
+<br>![Sort By](readme/features/sort-by.jpg)
 
-### Page 13 – Support
+The product sort feature allows a user to sort the products displayed on the page by price, rating, category or name.
 
-### Page 14 – Admin
+This feature covers the following user stories:
+
+*2.6 As a shopper I can sort products by important attributes so that I can easily navigate the product range
+
+#### Feature 2 – Product Details
+
+If a user clicks on any of the product images, they are brought to the product detail page which contains further information about the product.
+
+This feature covers the following user stories:
+
+*2.2 As a shopper I can view more detail about a product so that I can find out more if I am interested in purchasing
+
+#### Feature 3 – Managing product details
+<br>![Product Management](readme/features/product-edit-delete.jpg)
+If the shop owner/admin would like to update or delete the products available for sale, then can do so on this page by clicking the relevant links. These links only display for supervisors.
+
+This feature covers the following user stories:
+
+*6.2 As a shop owner I can edit / update product so that the description and price is up to date
+
+*6.3 As a shop owner I can delete product so that I remove products no longer available
+
+#### Feature 4 – Site Pagination
+<br>![Site Pagination](readme/features/site-pagination.jpg)
+Given the site can have alot of products to display, the number of products displayed on any one page is limited to 16 and the rest are paginated.
+
+This feature covers the following user stories:
+
+*2.1 As a shopper I can view products for sale so that I can consider purchasing them
+
+#### Feature 5 – Product Count
+<br>![Product Count](readme/features/product-count.jpg)
+There can be alot of products to display on a page or the used might have selected a certain category of products. It is useful to know how many products fit the criteria the shopper is filtering for.
+
+This feature covers the following user stories:
+
+*2.5 As a shopper I can filter products so that I can quickly find out what I am looking for
+
+### Page 3 – Product Detail
+<br>![Product Details](readme/features/product-detail.jpg)
+The product detail page consists of the following features:
+
+#### Feature 1 – Select Size
+<br>![Select Size](readme/features/select-size.jpg)
+For items that have a size (most of the items on this site), shoppers can select size on the product page before adding it to the cart.
+
+This feature covers the following user stories:
+
+*3.1 As a shopper I can add items to my basket so that I can purchase them at checkout stage
+
+#### Feature 2 – Add to cart
+<br>![Select Size](readme/features/add-to-bag.jpg)
+If a shopper is interested in purchasing an item, them can click the 'add to bag' button and add it to their bag.
+
+This feature covers the following user stories:
+
+*3.1 As a shopper I can add items to my basket so that I can purchase them at checkout stage
+
+### Page 4 – Log In/Log-out
+<br>![Login](readme/features/sign-in.jpg)
+The login page consists of the following features:
+
+#### Feature 1 – Log-in
+<br>![Login](readme/features/sign-in.jpg)
+The sign in page allows registered users to sign into their account using their username and password.
+
+This feature covers the following user stories:
+
+*1.7 As a shopper I can login to my account so that I can start using it
+
+#### Feature 2 – Join
+<br>![Login](readme/features/sign-up.jpg)
+The join page allows unregistered users to sign up for an account.
+
+This feature covers the following user stories:
+
+*1.1 As a shopper I can register as a site user so that I can login in future and my personal data is saved for future checkouts
+
+#### Feature 3 – Password Reset
+<br>![Login](readme/features/password-reset.jpg)
+The password reset feature allows a user to reset their password if they have forgotton it.
+
+#### Feature 4 – Password Reset
+<br>![Login](readme/features/password-reset.jpg)
+The password reset feature allows a user to reset their password if they have forgotton it.
+
+#### Feature 5 – Logout
+<br>![Logout](readme/features/signout.jpg)
+While this is technically a feature of the navbar, this allows a user to logout of their account
+
+### Page 6 – Register
+
+### Page 7 – Profile 
+
+### Page 8 – Shopping Bag
+
+### Page 9 – Wishlist
+
+### Page 10 – Checkout
+
+### Page 11 – Contact us
+
+### Page 12 – Support
+
+### Page 13 – Admin
 
 
 ## Technologies Used
