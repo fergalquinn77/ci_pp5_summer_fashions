@@ -757,6 +757,23 @@ Users can mark support tickets as resolved so that it no longer shows in their o
 </details>
 
 ### CSS Validation
+
+The [W3C CSS Validation Service](http://jigsaw.w3.org/css-validator/validator) was used to validate the CSS of the website. 
+
+The custom CSS file for the site passed with 0 errors.
+
+<details><summary>base.css</summary>
+<img src="readme/validation/css-validation/base.jpg">
+</details>
+
+<details><summary>checkout.css</summary>
+<img src="readme/validation/css-validation/checkout.jpg">
+</details>
+
+<details><summary>profile.css</summary>
+<img src="readme/validation/css-validation/profile.jpg">
+</details>
+
 ### JS Validation
 
 ### Py Validation
