@@ -29,11 +29,11 @@
         </div>
     </li>
     <li class="list-inline-item dropdown">
-        <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options" data-toggle="dropdown"
+        <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <div><i class="fas fa-user fa-lg"></i></div>
         </a>
-        <div class="dropdown-menu dropdown-menu-right border-0" aria-labelledby="user-options">
+        <div class="dropdown-menu dropdown-menu-right border-0" aria-labelledby="user-options2">
             {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
             <a href="{% url 'add_item' %}" class="dropdown-item">Product Management</a>
