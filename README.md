@@ -605,8 +605,45 @@ This feature covers the following user stories:
 *4.7 As a shopper I can have my credit card transaction processed so that I can pay for my basket of items
 
 ### Page 10 – Contact us
+<br>![Contact us page](readme/features/contact-us.jpg)
+The contact us consists of the following features:
+
+#### Feature 1 - Send message
+<br>![Send Message](readme/features/send-message.jpg)   
+
+A user or an unregistered user can send a message to the shop.
+
+This feature covers the following user stories:
+
+*10.1 As a shopper I can make contact with the store via a form on the site so that I can receive feedback on any questions I have
+
+#### Feature 2 - Send message (TBC)
+
+This feature covers the following user stories:
+
+*10.3 As a shopper I can receive confirmation that I have submitted an enquiry so that I know it has been received
 
 ### Page 11 – Support
+<br>![Support Centre](readme/features/support-centre.jpg)
+The support centre consists of the following features:
+
+#### Feature 1 - View Support Tickets
+Registered users can view their open support tickets
+
+#### Feature 2 - Submit a support ticket
+<br>![Submit Ticket](readme/features/add-support-ticket.jpg)
+
+Features 1 & 2 cover the following user stories:
+
+*11.1 As a user I can submit a support ticket so that I can get responses to queries I have
+
+#### Feature 3 - Submit a message relating to a support ticket
+<br>![Message Support Ticket](readme/features/message-support-ticket.jpg)
+Users can submit further support messages relating to a support ticket. This can allow them provide further detail and allow dialogue with the support team.
+
+#### Feature 4 - Users can mark a support query as resolved
+
+Users can mark support tickets as resolved so that it no longer shows in their open support queries.
 
 ### Page 12 – Admin
 
@@ -615,10 +652,65 @@ This feature covers the following user stories:
 
 ### Languages
 
+- [HTML5](https://en.wikipedia.org/wiki/HTML5)
+- [CSS3](https://en.wikipedia.org/wiki/CSS)
+- [JS ES6](https://en.wikipedia.org/wiki/JavaScript)
+- [Django](https://www.djangoproject.com/)
+- [Python3](https://en.wikipedia.org/wiki/Python_(programming_language))
+
 #### Python Libraries
 
+- asgiref==3.5.2
+- backports.zoneinfo==0.2.1
+- boto3==1.24.72
+- botocore==1.27.72
+- dj-database-url==1.0.0
+- Django==3.2.15
+- django-allauth==0.51.0
+- django-countries==7.2.1
+- django-crispy-forms==1.14.0
+- django-extensions==3.2.1
+- django-heroku==0.3.1
+- django-mathfilters==1.0.0
+- django-storages==1.13.1
+- graphviz==0.20.1
+- gunicorn==20.1.0
+- jmespath==1.0.1
+- oauthlib==3.2.0
+- Pillow==9.2.0
+- psycopg2==2.9.3
+- psycopg2-binary==2.9.3
+- pydot==1.4.2
+- PyJWT==2.4.0
+- python3-openid==3.2.0
+- pytz==2022.2.1
+- requests-oauthlib==1.3.1
+- s3transfer==0.6.0
+- sqlparse==0.4.2
+- stripe==4.1.0
+- whitenoise==6.2.0
 
 ### Frameworks & Tools
+
+- [Bootstrap 4.6](https://getbootstrap.com/docs/4.6/getting-started/introduction/) - for general site layout, grid, flex.
+- [Font Awesome v 5](https://fontawesome.com/v5/docs/) - for various icons in the site
+- [Postgres](https://www.postgresql.org/) - the site is deployed on Heroku using a Postgress database.
+- [SQLLite](https://www.sqlite.org/index.html) - this database was used in local development.
+- [Gitpod](https://gitpod.io/) - my IDE of choice for this project.
+- [Github](https://github.com/) - used as the code repository.
+- [Google Fonts](https://fonts.google.com/) - used for the main body font and some headings.
+- [Balsamiq](https://balsamiq.com/) -  used to create the website wireframes.
+- [JQuery](https://jquery.com) - JQuery was used in some javascript files for DOM manipulation
+- [CSS Validation Service](https://jigsaw.w3.org/css-validator/) - for validation of the css in the project.
+- [HTML Markup Validation Service](https://validator.w3.org/) - for validation the HTML in the project.
+- [Chrome dev tools](https://developer.chrome.com/docs/devtools/) - troubleshooting and debugging of the project code.
+- [Chrome Lighthouse](https://developers.google.com/web/tools/lighthouse) - for performance, accessibility, progressive web apps, SEO analysis of the project code.
+- [Responsive Design](http://ami.responsivedesign.is/) - for website mockup.
+- [JSHint](https://jshint.com/) - for javascript validation.
+- [PEP8](https://www.python.org/dev/peps/pep-0008/) - for python validation.
+- [Facebook](https://www.facebook.com) - for social media marketing
+- [Stripe](https://stripe.com/gb) - For payments
+- [Amazon Web Services](https://aws.amazon.com/) - For static file hosting
 
 ## Validation
 

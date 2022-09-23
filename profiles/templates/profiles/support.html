@@ -33,11 +33,11 @@
 
 
 
-        <div class="container border mb-2 py-3 rounded wrapper">
+        <div class="container border mb-2 py-3 wrapper">
 
             {% for ticket in tickets_open %}
-            <div class="row">
-                <div class="col-6">
+            <div class="row d-flex justify-content-center">
+                <div class="col-8 col-md-5">
                     <div class="font-weight-bold overflow-hidden">
                         {{ ticket.title }}
                     </div>
@@ -45,24 +45,31 @@
                         {{ ticket.query|truncatechars:75 }}
                     </div>
                 </div>
-                <div class="col-6">
-                    <div class="row h-100">
-                        <div class="my-auto mx-auto">
-                            <a class="btn btn-success btn-block rounded-0 font-weight-bold"
-                                href="{% url 'ticket-details' ticket.id %}">View Ticket</a>
-                        </div>
+                <div class="col-4 col-md-2">
+
+                    <div class="my-auto mx-auto">
+                        <a class="btn btn-info btn-block rounded-0" href="{% url 'ticket-details' ticket.id %}">View
+                            Ticket</a>
                     </div>
                 </div>
             </div>
+            <hr>
             {% empty %}
             <div class="jumbotron text-center">
                 You don't have any open support tickets. <a href="{% url 'add-support-ticket' %}">Click here</a>
                 to add a query.
             </div>
+            {% endfor %}
+    
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <p class="text-center"><a class="btn btn-success rounded-0 mt-3"
+                        href="{% url 'add-support-ticket' %}">New Ticket</a></p>
+            </div>
         </div>
 
-        {% endfor %}
-
+        
     </div>
 </div>
 
