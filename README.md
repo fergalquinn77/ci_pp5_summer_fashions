@@ -716,11 +716,19 @@ Users can mark support tickets as resolved so that it no longer shows in their o
 
 ### HTML Validation
 
-<details><summary>Home</summary>
+<details><summary>Page 1 - Home</summary>
 <img src="readme/validation/html-validation/homepage.jpg">
 </details>
 
-<details><summary>Shop</summary>
+<details><summary>Page 2 - Shop</summary>
+<img src="readme/validation/html-validation/homepage.jpg">
+</details>
+
+<details><summary>Page 3 - Product Detail</summary>
+<img src="readme/validation/html-validation/homepage.jpg">
+</details>
+
+<details><summary>Page 4 - Login/Logout</summary>
 <img src="readme/validation/html-validation/homepage.jpg">
 </details>
 
