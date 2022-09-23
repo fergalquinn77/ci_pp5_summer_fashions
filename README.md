@@ -547,7 +547,7 @@ This feature covers the following user stories:
 
 *4.1 As a shopper I can select checkout from my shopping bag so that I can start the checkout process
 
-### Page 8 – Wishlist
+### Page 7 – Wishlist
 <br>![wishlist page](readme/features/wishlist.jpg)
 The wishlist page consists of the following features:
 
@@ -560,7 +560,7 @@ This feature covers the following user stories:
 
 *7.3 As a shopper I can select checkout from my shopping bag so that I can start the checkout process
 
-### Page 9 – Checkout
+### Page 8 – Checkout
 <br>![Checkout page](readme/features/checkout.jpg)
 The checkout page consists of the following features:
 
@@ -604,7 +604,7 @@ This feature covers the following user stories:
 *4.6 As a shopper I can input my credit card details so that I can purchase the items in my basket
 *4.7 As a shopper I can have my credit card transaction processed so that I can pay for my basket of items
 
-### Page 10 – Contact us
+### Page 11 – Contact us
 <br>![Contact us page](readme/features/contact-us.jpg)
 The contact us consists of the following features:
 
@@ -733,6 +733,22 @@ Users can mark support tickets as resolved so that it no longer shows in their o
 </details>
 
 <details><summary>Page 5 - Login/Logout</summary>
+<img src="readme/validation/html-validation/homepage.jpg">
+</details>
+
+<details><summary>Page 6 - Profile</summary>
+<img src="readme/validation/html-validation/homepage.jpg">
+</details>
+
+<details><summary>Page 7 - Wishlist</summary>
+<img src="readme/validation/html-validation/homepage.jpg">
+</details>
+
+<details><summary>Page 8 - Checkout</summary>
+<img src="readme/validation/html-validation/homepage.jpg">
+</details>
+
+<details><summary>Page 9 - Contact us</summary>
 <img src="readme/validation/html-validation/homepage.jpg">
 </details>
 
