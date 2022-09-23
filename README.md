@@ -323,7 +323,7 @@ This model contains all fields stored in the database collections with their dat
 
 ## Features
 
-The site consists of 14 pages, with the features detailed under each page.
+The site consists of 11 pages, with the features detailed under each page.
 
 ### Page 1 – Home page
 
@@ -604,7 +604,7 @@ This feature covers the following user stories:
 *4.6 As a shopper I can input my credit card details so that I can purchase the items in my basket
 *4.7 As a shopper I can have my credit card transaction processed so that I can pay for my basket of items
 
-### Page 11 – Contact us
+### Page 9 – Contact us
 <br>![Contact us page](readme/features/contact-us.jpg)
 The contact us consists of the following features:
 
@@ -623,7 +623,7 @@ This feature covers the following user stories:
 
 *10.3 As a shopper I can receive confirmation that I have submitted an enquiry so that I know it has been received
 
-### Page 11 – Support
+### Page 10 – Support
 <br>![Support Centre](readme/features/support-centre.jpg)
 The support centre consists of the following features:
 
@@ -645,7 +645,7 @@ Users can submit further support messages relating to a support ticket. This can
 
 Users can mark support tickets as resolved so that it no longer shows in their open support queries.
 
-### Page 12 – Admin
+### Page 11 – Admin
 
 
 ## Technologies Used
@@ -721,35 +721,39 @@ Users can mark support tickets as resolved so that it no longer shows in their o
 </details>
 
 <details><summary>Page 2 - Shop</summary>
-<img src="readme/validation/html-validation/homepage.jpg">
+<img src="readme/validation/html-validation/clothes.jpg">
 </details>
 
 <details><summary>Page 3 - Product Detail</summary>
-<img src="readme/validation/html-validation/homepage.jpg">
+<img src="readme/validation/html-validation/product-detail.jpg">
 </details>
 
 <details><summary>Page 4 - Login/Logout</summary>
-<img src="readme/validation/html-validation/homepage.jpg">
+<img src="readme/validation/html-validation/login-page.jpg">
 </details>
 
-<details><summary>Page 5 - Login/Logout</summary>
-<img src="readme/validation/html-validation/homepage.jpg">
+<details><summary>Page 5 - Profile</summary>
+<img src="readme/validation/html-validation/profile.jpg">
 </details>
 
-<details><summary>Page 6 - Profile</summary>
-<img src="readme/validation/html-validation/homepage.jpg">
+<details><summary>Page 6 - Shopping Bag</summary>
+<img src="readme/validation/html-validation/shopping-bag.jpg">
 </details>
 
 <details><summary>Page 7 - Wishlist</summary>
-<img src="readme/validation/html-validation/homepage.jpg">
+<img src="readme/validation/html-validation/wishlist.jpg">
 </details>
 
 <details><summary>Page 8 - Checkout</summary>
-<img src="readme/validation/html-validation/homepage.jpg">
+<img src="readme/validation/html-validation/checkout.jpg">
 </details>
 
 <details><summary>Page 9 - Contact us</summary>
-<img src="readme/validation/html-validation/homepage.jpg">
+<img src="readme/validation/html-validation/contact-us.jpg">
+</details>
+
+<details><summary>Page 10 - Support</summary>
+<img src="readme/validation/html-validation/support.jpg">
 </details>
 
 ### CSS Validation
