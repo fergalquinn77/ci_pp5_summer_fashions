@@ -495,7 +495,7 @@ The password reset feature allows a user to reset their password if they have fo
 <br>![Logout](readme/features/sign-out.jpg)
 While this is technically a feature of the navbar, this allows a user to logout of their account
 
-### Page 6 – Profile 
+### Page 5 – Profile 
 The profile page consists of the following features:
 #### Feature 1 – Profile information 
 <br>![profile page](readme/features/profile.jpg)
@@ -516,7 +516,7 @@ This feature covers the following user stories:
 
 *1.4 As a shopper I can see my previous orders so that I can see what I have ordered in the past
 
-### Page 7 – Shopping Bag
+### Page 6 – Shopping Bag
 <br>![shopping bag page](readme/features/shopping-bag.jpg)
 The shopping bag page consists of the following features:
 
@@ -729,6 +729,10 @@ Users can mark support tickets as resolved so that it no longer shows in their o
 </details>
 
 <details><summary>Page 4 - Login/Logout</summary>
+<img src="readme/validation/html-validation/homepage.jpg">
+</details>
+
+<details><summary>Page 5 - Login/Logout</summary>
 <img src="readme/validation/html-validation/homepage.jpg">
 </details>
 

@@ -21,6 +21,10 @@ body {
   color: #555555;
 }
 
+.page-icon{
+  font-size: 2rem;
+}
+
 .bg-custom-grey{
   background-color: #555555;
 }
