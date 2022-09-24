@@ -776,6 +776,22 @@ The custom CSS file for the site passed with 0 errors.
 
 ### JS Validation
 
+The Javascript of the each page of the site was validated using [JSHint validation tool](https://jshint.com/).  All pages returned a pass with 0 errors and 0 warnings.
+
+<details><summary>Checkout App</summary>
+<img src="readme/validation/js-validation/checkout.jpg">
+</details>
+
+<details><summary>Clothes App</summary>
+<img src="readme/validation/js-validation/clothes.jpg">
+</details>
+
+<details><summary>Profile App</summary>
+<img src="readme/validation/js-validation/profile.jpg">
+</details>
+
+
+
 ### Py Validation
 
 #### Admin py-validation
