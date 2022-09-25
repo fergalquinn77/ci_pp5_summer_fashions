@@ -27,5 +27,5 @@ class ContactAdmin(admin.ModelAdmin):
         'email'
         )
     search_fields = (
-        'name','email',
+        'name', 'email',
         )

@@ -3,7 +3,6 @@ from .forms import ContactForm
 # Create your views here.
 
 
-
 def contact_us(request):
     """
     To get contact details from user

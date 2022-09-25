@@ -18,14 +18,14 @@ def all_clothes(request):
     category = None
     sort = None
     direction = None
-    
+
     clothes = Clothes.objects.all()
     sales = Sale.objects.all()
-    
+
     for sale in sales:
         sale.sale_price = sale.clothes.price*(1-sale.percent_off/100)
         sale.save()
-    
+
     if request.GET:
 
         if 'sort' in request.GET:
@@ -33,7 +33,7 @@ def all_clothes(request):
             sort = sortkey
             if sortkey == 'name':
                 sortkey = 'lower_name'
-                clothes = clothes.annotate(lower_name = Lower('name'))
+                clothes = clothes.annotate(lower_name=Lower('name'))
             if sortkey == 'category':
                 sortkey = 'category__name'
             if 'direction' in request.GET:
@@ -53,26 +53,29 @@ def all_clothes(request):
         if 'q' in request.GET:
             query = request.GET['q']
             if not query:
-                messages.error(request, "You didn't enter any search criteria!")
+                messages.error(request,
+                               "You didn't enter any search criteria!")
                 return redirect(reverse('clothes'))
-            
-            queries = Q(name__icontains=query) | Q(description__icontains=query)
+
+            queries =
+            Q(name__icontains=query) | Q(description__icontains=query)
             clothes = clothes.filter(queries)
-    
+
     current_sorting = f'{sort}_{direction}'
 
     paginator = Paginator(clothes, 16)
     page_number = request.GET.get('page')
     page_obj = paginator.get_page(page_number)
-    
+
     context = {
         'clothes': clothes,
-        'sales':sales,
+        'sales': sales,
         'search_term': query,
-        'current_sorting':current_sorting,
-        'page_obj':page_obj,
+        'current_sorting': current_sorting,
+        'page_obj': page_obj,
     }
     return render(request, 'clothes/clothes.html', context)
+
 
 # View item details
 def item_details(request, item_id):
@@ -83,6 +86,7 @@ def item_details(request, item_id):
         'item': item,
     }
     return render(request, 'clothes/item_details.html', context)
+
 
 # Add item
 @login_required
@@ -98,16 +102,19 @@ def add_item(request):
             messages.success(request, 'Successfully added item!')
             return redirect(reverse('add_item'))
         else:
-            messages.error(request, 'Failed to add item. Please ensure the form is valid.')
+            messages.error(
+                request, 'Failed to add item.
+                Please ensure the form is valid.')
     else:
         form = ProductForm()
-        
+
     template = 'clothes/add_item.html'
     context = {
         'form': form,
     }
 
     return render(request, template, context)
+
 
 # Edit item
 @login_required
@@ -124,7 +131,8 @@ def edit_item(request, item_id):
             messages.success(request, 'Successfully updated item!')
             return redirect(reverse('item_details', args=[item.id]))
         else:
-            messages.error(request, 'Failed to update item. Please ensure the form is valid.')
+            messages.error(request,
+                           'Failed to update item. Please validate.')
     else:
         form = ProductForm(instance=item)
         messages.info(request, f'You are editing {item.name}')
@@ -136,6 +144,7 @@ def edit_item(request, item_id):
     }
 
     return render(request, template, context)
+
 
 # Delete Item
 @login_required
@@ -149,33 +158,38 @@ def delete_item(request, item_id):
     messages.success(request, 'Items deleted!')
     return redirect(reverse('clothes'))
 
+
 # Toggle item wishlist
 @login_required
 def toggle_wishlist(request, item_id):
 
     item = get_object_or_404(Clothes, id=item_id)
-    
+
     if item.wishlists.filter(id=request.user.id).exists():
         item.wishlists.remove(request.user)
         messages.info(request, f'{item.name} removed from wishlist')
     else:
         item.wishlists.add(request.user)
         messages.success(request, f'Added {item.name} to wishlist')
-    
+
     return redirect(request.META['HTTP_REFERER'])
 
+
+# view wishlist
 def view_wishlist(request):
     """ View to a users wishlist"""
     clothes = Clothes.objects.all()
-    wishlist=[]
+    wishlist = []
     for item in clothes:
         if item.wishlists.filter(id=request.user.id).exists():
-            wishlist.append(item) 
+            wishlist.append(item)
     context = {
         'wishlist': wishlist,
     }
     return render(request, 'clothes/wishlist.html', context)
 
+
+# Add to wishlist
 def item_like(request, id):
     """
     Allows users to like or unlike items
@@ -185,10 +199,10 @@ def item_like(request, id):
         item = Clothes.objects.get(pk=id)
         if request.method == 'POST':
             if ItemReview.objects.filter(item=item,
-                                            user=request.user).exists():
+                                         user=request.user).exists():
                 item_review = ItemReview.objects.get(
-                                                        item=item,
-                                                        user=request.user)
+                                                    item=item,
+                                                    user=request.user)
                 if item_review.liked:
                     item_review.liked = False
                     item_review.save()
@@ -197,14 +211,13 @@ def item_like(request, id):
                     item_review.save()
             else:
                 item_review = ItemReview(item=item,
-                                               user=request.user,
-                                               liked=True)
+                                         user=request.user,
+                                         liked=True)
                 item_review.save()
-    
+
     except Clothes.DoesNotExist:
         return render(request, 'home/404.html')
 
     redirect_url = request.POST.get('redirect_url',
                                     '/clothes/clothes.html')
     return redirect((redirect_url))
-

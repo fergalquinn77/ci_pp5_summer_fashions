@@ -3,6 +3,7 @@ from django.conf import settings
 from django.shortcuts import get_object_or_404
 from clothes.models import Clothes, Sale
 
+
 def bag_contents(request):
 
     bag_items = []
@@ -24,10 +25,12 @@ def bag_contents(request):
         else:
             product = get_object_or_404(Clothes, pk=item_id)
             sale = Sale.objects.all()
-            
+
             for size, quantity in item_data['items_by_size'].items():
                 if product.on_sale:
-                    total += quantity * product.price * (1-product.sale.percent_off/100)
+                    mult = (1 - product.sale.percent_off/100)
+                    total += quantity * product.price * mult
+
                 else:
                     total += quantity * product.price
                 item_count += quantity
