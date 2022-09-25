@@ -791,28 +791,124 @@ The Javascript of the each page of the site was validated using [JSHint validati
 </details>
 
 
-
 ### Py Validation
+
+The Python of the each page of the site was validated using [Python validation tool](http://pep8online.com/).  All pages returned a pass with 0 errors and 0 warnings.
 
 #### Admin py-validation
 
+<details><summary>checkout/admin.py</summary>
+<img src="readme/validation/py-validation/admin/checkout.jpg">
+</details>
+
+<details><summary>clothes/admin.py</summary>
+<img src="readme/validation/py-validation/admin/clothes.jpg">
+</details>
+
+<details><summary>contact/admin.py</summary>
+<img src="readme/validation/py-validation/admin/contact.jpg">
+</details>
+
+<details><summary>profile/admin.py</summary>
+<img src="readme/validation/py-validation/admin/profile.jpg">
+</details>
 
 #### Forms py validation
 
+<details><summary>checkout/forms.py</summary>
+<img src="readme/validation/py-validation/forms/checkout.jpg">
+</details>
+
+<details><summary>clothes/forms.py</summary>
+<img src="readme/validation/py-validation/forms/clothes.jpg">
+</details>
+
+<details><summary>contact/forms.py</summary>
+<img src="readme/validation/py-validation/forms/contact.jpg">
+</details>
+
+<details><summary>profiles/forms.py</summary>
+<img src="readme/validation/py-validation/forms/profiles.jpg">
+</details>
 
 #### Models py validation
 
+<details><summary>checkout/models.py</summary>
+<img src="readme/validation/py-validation/models/checkout.jpg">
+</details>
+
+<details><summary>clothes/models.py</summary>
+<img src="readme/validation/py-validation/models/clothes.jpg">
+</details>
+
+<details><summary>profiles/models.py</summary>
+<img src="readme/validation/py-validation/models/profiles.jpg">
+</details>
 
 #### Urls py validation
 
+<details><summary>bag/urls.py</summary>
+<img src="readme/validation/py-validation/urls/bag.jpg">
+</details>
+
+<details><summary>checkout/urls.py</summary>
+<img src="readme/validation/py-validation/urls/checkout.jpg">
+</details>
+
+<details><summary>clothes/urls.py</summary>
+<img src="readme/validation/py-validation/urls/clothes.jpg">
+</details>
+
+<details><summary>contact/urls.py</summary>
+<img src="readme/validation/py-validation/urls/contact-us.jpg">
+</details>
+
+<details><summary>home/urls.py</summary>
+<img src="readme/validation/py-validation/urls/home.jpg">
+</details>
+
+<details><summary>profiles/urls.py</summary>
+<img src="readme/validation/py-validation/urls/profiles.jpg">
+</details>
+
+<details><summary>project/urls.py</summary>
+<img src="readme/validation/py-validation/urls/summerfashions.jpg">
+</details>
 
 #### Context py validation
 
+<details><summary>bag/contexts.py</summary>
+<img src="readme/validation/py-validation/contexts.py/bag.jpg">
+</details>
 
 #### Views py validation
 
+<details><summary>bag/views.py</summary>
+<img src="readme/validation/py-validation/views/bag.jpg">
+</details>
+
+<details><summary>checkout/views.py</summary>
+<img src="readme/validation/py-validation/views/checkout.jpg">
+</details>
+
+<details><summary>clothes/views.py</summary>
+<img src="readme/validation/py-validation/views/clothes.jpg">
+</details>
+
+<details><summary>contact/views.py</summary>
+<img src="readme/validation/py-validation/views/contact.jpg">
+</details>
+
+<details><summary>home/views.py</summary>
+<img src="readme/validation/py-validation/views/home.jpg">
+</details>
+
+<details><summary>profile/views.py</summary>
+<img src="readme/validation/py-validation/views/profile.jpg">
+</details>
 
 ### Accessibility
+
 ### Performance 
 
 ## Testing
