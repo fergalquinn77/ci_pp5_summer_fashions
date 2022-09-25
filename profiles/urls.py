@@ -3,8 +3,9 @@ from . import views
 
 urlpatterns = [
     path('', views.profile, name='profile'),
-    path('order_history/<order_number>', views.order_history, name='order_history'),
-    #Support model related
+    path('order_history/<order_number>',
+         views.order_history, name='order_history'),
+    # Support model related
     path('support/', views.display_tickets,
          name='open-support-tickets'),
     path('add-ticket/', views.add_support_ticket,

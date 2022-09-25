@@ -13,6 +13,7 @@ class ClothesAdmin(admin.ModelAdmin):
     list_filter = ('on_sale',)
     ordering = ('name',)
 
+
 class CategoryAdmin(admin.ModelAdmin):
     list_display = (
         'friendly_name',
