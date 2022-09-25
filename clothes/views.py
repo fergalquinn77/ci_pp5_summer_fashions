@@ -57,8 +57,7 @@ def all_clothes(request):
                                "You didn't enter any search criteria!")
                 return redirect(reverse('clothes'))
 
-            queries =
-            Q(name__icontains=query) | Q(description__icontains=query)
+            queries = Q(name__icontains=query) | Q(description__icontains=query)
             clothes = clothes.filter(queries)
 
     current_sorting = f'{sort}_{direction}'
@@ -103,8 +102,7 @@ def add_item(request):
             return redirect(reverse('add_item'))
         else:
             messages.error(
-                request, 'Failed to add item.
-                Please ensure the form is valid.')
+                request, 'Failed to add item. Please ensure the form is valid.')
     else:
         form = ProductForm()
 
