@@ -190,6 +190,10 @@ font-weight: bold;
     cursor: pointer;
 }
 
+.header-link :hover{
+  cursor: pointer;
+}
+
 /* Bootstrap Toasts */
 .message-container {
   position: fixed;

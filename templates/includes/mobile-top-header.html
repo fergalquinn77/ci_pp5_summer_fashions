@@ -7,7 +7,7 @@
 <div id="mobile-icons" class="">
     <ul>
     <li class="list-inline-item">
-        <a class="text-black nav-link d-block d-lg-none" href="#" id="mobile-search" data-toggle="dropdown"
+        <a class="text-black nav-link d-block d-lg-none" id="mobile-search" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
             <div><i class="fas fa-search fa-lg"></i></div>
         </a>
@@ -18,7 +18,7 @@
                         placeholder="Search our site">
                     <div class="input-group-append">
                         <button class="form-control form-control btn btn-black border border-black rounded-0"
-                            type="submit">
+                            type="submit" value="search">
                             <span class="icon">
                                 <i class="fas fa-search"></i>
                             </span>
@@ -29,11 +29,11 @@
         </div>
     </li>
     <li class="list-inline-item dropdown">
-        <a class="text-black nav-link d-block d-lg-none" href="#" id="user-options2" data-toggle="dropdown"
+        <a class="text-black nav-link d-block d-lg-none" id="user-options-mobile" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false">
-            <div><i class="fas fa-user fa-lg"></i></div>
+            <div><i class="fas fa-user fa-lg" aria-label="User Options"></i></div>
         </a>
-        <div class="dropdown-menu dropdown-menu-right border-0" aria-labelledby="user-options2">
+        <div class="dropdown-menu dropdown-menu-right border-0" aria-labelledby="user-options-mobile">
             {% if request.user.is_authenticated %}
             {% if request.user.is_superuser %}
             <a href="{% url 'add_item' %}" class="dropdown-item">Product Management</a>
