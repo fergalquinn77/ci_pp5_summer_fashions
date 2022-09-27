@@ -10,4 +10,6 @@ urlpatterns = [
     path('togglewish/<int:item_id>/',
          views.toggle_wishlist, name='toggle_wishlist'),
     path('wishlist/', views.view_wishlist, name='view_wishlist'),
+    path('sale/<int:item_id>/', views.toggle_sale_status, name='toggle_sale'),
+    path('update/<int:item_id>/', views.update_sale_rate, name='update_sale'),
 ]

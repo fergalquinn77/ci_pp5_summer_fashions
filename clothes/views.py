@@ -1,9 +1,10 @@
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.contrib import messages
-from django.contrib.auth.decorators import login_required
+from django.contrib import messages 
+from django.contrib.auth.decorators import login_required, user_passes_test
 from django.db.models import Q
 from django.db.models.functions import Lower
 from django.core.paginator import Paginator
+from decimal import Decimal
 
 from .forms import ProductForm
 from .models import Clothes, Category, Sale
@@ -221,3 +222,34 @@ def item_like(request, id):
     redirect_url = request.POST.get('redirect_url',
                                     '/clothes/clothes.html')
     return redirect((redirect_url))
+
+
+# Toggle Sale Staus
+
+def toggle_sale_status(request, item_id):
+    item = get_object_or_404(Clothes, id=item_id)
+    if item.on_sale is True:
+        item.on_sale = False
+        item.save()
+    else:
+        item.on_sale = True
+        item.save()
+
+    return redirect(request.META['HTTP_REFERER'])
+
+
+# Update Sale percentage
+
+def update_sale_rate(request, item_id):
+    item = get_object_or_404(Clothes, id=item_id)
+    sale = Sale.objects.filter(clothes=item)
+    discount = None
+    if 'discount' in request.POST:
+        discount = float(request.POST['discount'])
+    if sale.count() == 0:
+        Sale.objects.create(clothes=item, percent_off=0, sale_price=item.price)
+    print(sale.count())
+    item.sale.percent_off = discount
+    item.sale.sale_price = item.price * Decimal(1 - discount/100)
+    item.sale.save()
+    return redirect(request.META['HTTP_REFERER'])

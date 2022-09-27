@@ -56,5 +56,9 @@ class Sale(models.Model):
     sale_price = models.DecimalField(max_digits=6, decimal_places=2, default=0)
 
     def discounted_price(self):
-        if percent_off > 0:
-            discounted_price = self.price - self.price*(1-percent_off/100)
+        """
+        Update discounted price each time
+        new discount applied
+        """
+        self.sale_price = self.price * (1 - self.percent_off/100)
+        self.save()

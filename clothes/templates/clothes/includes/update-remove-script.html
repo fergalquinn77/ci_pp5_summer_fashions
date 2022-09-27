@@ -9,7 +9,6 @@
 
     $('.remove-item').click(function (e) {
         let csrfToken = "{{ csrf_token }}";
-        console.log(csrfToken)
         var itemId = $(this).attr('id').split('remove_')[1];
         var size = $(this).data('item_size');
         var url = `/bag/remove/${itemId}/`;

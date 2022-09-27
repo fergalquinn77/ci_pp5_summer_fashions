@@ -194,6 +194,10 @@ font-weight: bold;
   cursor: pointer;
 }
 
+header a:hover, i:hover{
+  color:#f21137!important;
+}
+
 /* Bootstrap Toasts */
 .message-container {
   position: fixed;
