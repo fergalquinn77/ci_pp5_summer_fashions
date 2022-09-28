@@ -177,6 +177,7 @@ def toggle_wishlist(request, item_id):
 
 
 # view wishlist
+@login_required
 def view_wishlist(request):
     """ View to a users wishlist"""
     clothes = Clothes.objects.all()
@@ -190,38 +191,39 @@ def view_wishlist(request):
     return render(request, 'clothes/wishlist.html', context)
 
 
-# Add to wishlist
-def item_like(request, id):
-    """
-    Allows users to like or unlike items
-    """
+# # Add to wishlist
+# @login_required
+# def item_like(request, id):
+#     """
+#     Allows users to like or unlike items
+#     """
 
-    try:
-        item = Clothes.objects.get(pk=id)
-        if request.method == 'POST':
-            if ItemReview.objects.filter(item=item,
-                                         user=request.user).exists():
-                item_review = ItemReview.objects.get(
-                                                    item=item,
-                                                    user=request.user)
-                if item_review.liked:
-                    item_review.liked = False
-                    item_review.save()
-                else:
-                    item_review.liked = True
-                    item_review.save()
-            else:
-                item_review = ItemReview(item=item,
-                                         user=request.user,
-                                         liked=True)
-                item_review.save()
+#     try:
+#         item = Clothes.objects.get(pk=id)
+#         if request.method == 'POST':
+#             if ItemReview.objects.filter(item=item,
+#                                          user=request.user).exists():
+#                 item_review = ItemReview.objects.get(
+#                                                     item=item,
+#                                                     user=request.user)
+#                 if item_review.liked:
+#                     item_review.liked = False
+#                     item_review.save()
+#                 else:
+#                     item_review.liked = True
+#                     item_review.save()
+#             else:
+#                 item_review = ItemReview(item=item,
+#                                          user=request.user,
+#                                          liked=True)
+#                 item_review.save()
 
-    except Clothes.DoesNotExist:
-        return render(request, 'home/404.html')
+    # except Clothes.DoesNotExist:
+    #     return render(request, 'home/404.html')
 
-    redirect_url = request.POST.get('redirect_url',
-                                    '/clothes/clothes.html')
-    return redirect((redirect_url))
+    # redirect_url = request.POST.get('redirect_url',
+    #                                 '/clothes/clothes.html')
+    # return redirect((redirect_url))
 
 
 # Toggle Sale Staus
@@ -230,16 +232,18 @@ def toggle_sale_status(request, item_id):
     item = get_object_or_404(Clothes, id=item_id)
     if item.on_sale is True:
         item.on_sale = False
+        messages.success(request, f'Changed {item.name} to general sale')
         item.save()
     else:
         item.on_sale = True
+        messages.success(request, f'Changed {item.name} to on-sale')
         item.save()
 
     return redirect(request.META['HTTP_REFERER'])
 
 
 # Update Sale percentage
-
+@user_passes_test(lambda u: u.is_superuser)
 def update_sale_rate(request, item_id):
     item = get_object_or_404(Clothes, id=item_id)
     sale = Sale.objects.filter(clothes=item)
@@ -248,7 +252,6 @@ def update_sale_rate(request, item_id):
         discount = float(request.POST['discount'])
     if sale.count() == 0:
         Sale.objects.create(clothes=item, percent_off=0, sale_price=item.price)
-    print(sale.count())
     item.sale.percent_off = discount
     item.sale.sale_price = item.price * Decimal(1 - discount/100)
     item.sale.save()

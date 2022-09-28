@@ -198,6 +198,10 @@ header a:hover, i:hover{
   color:#f21137!important;
 }
 
+footer a:hover, i:hover{
+  color:#f21137!important;
+}
+
 /* Bootstrap Toasts */
 .message-container {
   position: fixed;

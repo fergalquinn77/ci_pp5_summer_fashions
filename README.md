@@ -954,21 +954,19 @@ There are a number of applications that need to be configured to run this applic
 
 ## Amazon WebServices
 1. Create an account at aws.amazon.com
-2. Open the S3 application and create an S3 bucket named "hot"
+2. Open the S3 application and create an S3 bucket named "ci-pp5-hot"
+<br>![AWS Static](readme/misc/create_bucket.jpg)
 3. Uncheck the "Block All Public access setting"
 4. In the Properties section, navigate to the "Static Website Hosting" section and click edit
 5. Enable the setting, and set the index.html and the error.html values
-<br>![AWS Static](readme/misc/aws_static.png)
 6. In the Permissions section, click edit on the CORS configuration and set the below configuration
-<br>![AWS CORS](readme/misc/aws_cors.png)
 7. In the permissions section, click edit on the bucket policy and generate and set the below configuration(or similar to your settings)
-<br>![AWS Bucket Policy](readme/misc/aws_bucket_policy.png)
+<br>![AWS Bucket Policy](readme/misc/bucket_policy.jpg)
 8. In the permissions section, click edit on the Access control list(ACL)
 9. Set Read access for the Bucket ACL for Everyone(Public Access)
 10. The bucket is created, the next step is to open the IAM application to set up access
 11. Create a new user group named "manage-hot"
 12. Add the "AmazonS3FullAccess" policy permission for the user group
-<br>![AWS Bucket Policy](readme/misc/aws_user_group.png)
 13. Go to "Policies" and click "Create New Policy"
 14. Click "Import Managed Policy" and select "AmazonS3FullAccess" > Click 'Import'.
 15. In the JSON editor, update the policy "Resource" to the following
@@ -978,15 +976,15 @@ There are a number of applications that need to be configured to run this applic
 <br><code>]</code>
 16. Give the policy a name and click "Create Policy"
 17. Add the newly created policy to the user group
-<br>![AWS Bucket Policy](readme/misc/aws_policy.png)
+<br>![AWS Bucket Policy](readme/misc/iam_policy.jpg)
 18. Go to Users and create a new user
 19. Add the user to the user group manage-hot
 20. Select "Programmatic access" for the access type
 21. Note the AWS_SECRET_ACCESS_KEY and AWS_ACCESS_KEY_ID variables, they are used in other parts of this README for local deployment and Heroku setup
 22. The user is now created with the correct user group and policy
-<br>![AWS Bucket Policy](readme/misc/aws_user.png)
+<br>![AWS Bucket Policy](readme/misc/user.jpg)
 23. Note the AWS code in settings.py. Note an environment variable called USE_AWS must be set to use these settings, otherwise it will use local storage
-<br>![AWS Settings](readme/misc/aws_settings.PNG)
+<br>![AWS Settings](readme/misc/aws_settings.jpg)
 24. These settings set up a cache policy, set the bucket name, and the environment variables AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY that you set in your aws account
 25. The configuration also requires the media/static folders that must be setup in the AWS S3 bucket to store the media and static files 
 
@@ -1030,9 +1028,6 @@ To deploy this application to Heroku, run the following steps.
 1. Create an account at heroku.com
 2. Create an app, give it a name for example scuabasport, and select a region
 3. Under resources search for postgres, and add a Postgres database to the app
-
-![Heroku Postgres](readme/misc/heroku_postgres.png)
-    
 4. Note the DATABASE_URL, this can be set as an environment variable in Heroku and your local deployment(env.py)
 5. Install the plugins dj-database-url and psycopg2-binary.
 6. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
@@ -1049,9 +1044,9 @@ To deploy this application to Heroku, run the following steps.
 18. Disable collectstatic in Heroku before any code is pushed using the command heroku config:set DISABLE_COLLECTSTATIC=1 -a hot
 19. Push the code to Heroku using the command git push heroku master
 20. Ensure the following environment variables are set in Heroku
-<br>![Heroku Env variables](readme/misc/heroku_env_variables.png)
+<br>![Heroku Env variables](readme/misc/heroku_variables.jpg)
 21. Connect the app to GitHub, and enable automatic deploys from main
-<br>![Heroku Postgres](readme/misc/heroku_deployment.png)
+<br>![Heroku Postgres](readme/misc/deployment.jpg)
 22. Click deploy to deploy your application to Heroku for the first time
 23. Click on the link provided to access the application
 24. If you encounter any issues accessing the build logs is a good way to troubleshoot the issue
