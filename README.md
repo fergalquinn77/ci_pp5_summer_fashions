@@ -116,7 +116,7 @@ Long tag and short tag keyword were searched for in regards to SEO using Google 
 
 ![SEO keywords HTML](readme/misc/meta-tags.jpg)
 
-For this project, I did not give consideration to the naming of pictures given the amount of them. If I were to use this site in real life, I would name every picture according more in keeping with the product name.
+For this project, I did not give consideration to the naming of pictures given the amount of them. If I were to use this site in real life, I would name every picture according more in keeping with the product name. For example - the product [Bathing Suit](https://ci-pp5-hot.herokuapp.com/clothes/26/) has an image that is named 'white_bathing_suit.jpg'. Due to time constraints, I could not rename all pictures from the dataset used for the project.
 
 Future development in the site includes a Blog that can help keep fresh content on the site.
 
@@ -947,8 +947,26 @@ I have demonstrated some proficiency in using these tests however due to the tig
 
 ## Bugs
 
+Bugs encountered throughout the project were recorded as an issue and labelled 'bug'. 
+
 ## Stripe
 
+1. Register for an account at stripe.com
+2. Click on the Developers section of your account once logged in
+3. Under Developers, click on the API keys section
+<br>![API keys](readme/misc/stripe.jpg)
+4. Note the values for the publishable and secret keys
+5. In your local environment(env.py) and heroku, create environment variables STRIPE_PUBLIC_KEY and STRIPE_SECRET_KEY with the publishable and secret key values
+<br><code>os.environ.setdefault('STRIPE_PUBLIC_KEY', 'YOUR_VALUE_GOES_HERE')</code>
+<br><code>os.environ.setdefault('STRIPE_SECRET_KEY', 'YOUR_VALUE_GOES_HERE')</code>
+6. Back in the Developers section of your stripe account click on Webhooks
+7. Create a webhook with the url of your website <url>/checkout/wh/, for example: https://ci-pp5-hot.herokuapp.com/checkout/wh/
+8. Select 'all events' as events to send
+<br>![Webhook](readme/misc/webhook_config.jpg)
+9. Note the key created for this webhook
+10. In your local environment(env.py) and heroku, create environment variable STRIPE_WH_SECRET with the secret values
+<code>os.environ.setdefault('STRIPE_WH_SECRET', 'YOUR_VALUE_GOES_HERE')</code>
+11. Feel free to test out the webhook and note the success/fail attempts for troubleshooting
 # Deployment
 There are a number of applications that need to be configured to run this application locally or on a cloud based service, for example Heroku
 
