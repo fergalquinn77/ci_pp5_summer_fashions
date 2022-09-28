@@ -914,7 +914,32 @@ The Python of the each page of the site was validated using [Python validation t
 ## Testing
 
 ### Manual Testing
+
+
 ### Testing user stories
+
+1.1 As a shopper I can register as a site user so that I can login in future and my personal data is saved for future checkouts 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Sign-Up   | Can sign-up as a registered user           |     Easy to sign-up | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/1.1.jpg">
+<img src="readme/validation/us-testing/1.1-confirmemail.jpg">
+</details>
+
+1.2 As a shopper I can see my current logged in status so that I know whether I need to login 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Sign-In   | Sign in as user           |     Get toast message and options change | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/1.2-toast-message.jpg">
+</details>
 
 ## Automated Testing
 
