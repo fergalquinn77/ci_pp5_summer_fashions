@@ -1037,7 +1037,7 @@ To run this project locally, you will need to clone the repository
 12. Run "python3 manage.py showmigrations" to check the status of the migrations
 13. Run "python3 manage.py migrate" to migrate the database
 14. Run "python3 manage.py createsuperuser" to create a super/admin user
-15. Run manage.py loaddata db.json to load the product data into the database
+15. Run manage.py loaddata categories.json to load categories first and then run manage.py loaddata clothes.json to load products into the database
 18. Start the application by running <code>python3 manage.py runserver</code>
 19. Open the application in a web browser, for example: http://127.0.0.1:8000/
 
