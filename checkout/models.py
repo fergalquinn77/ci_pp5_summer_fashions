@@ -96,10 +96,8 @@ class OrderLineItem(models.Model):
         if self.item.on_sale:
             self.lineitem_total = (self.item.price * self.quantity *
                                    (1 - self.item.sale.percent_off / 100))
-            print('Adjusting')
         else:
             self.lineitem_total = self.item.price * self.quantity
-            print('Not adjusting')
         super().save(*args, **kwargs)
 
     def __str__(self):

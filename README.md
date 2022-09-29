@@ -953,6 +953,47 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/us-testing/saved-to-profile.jpg">
 </details>
 
+1.4 As a shopper I can see my previous orders so that I can see what I have ordered in the past 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Order History   | Make order           |     Can see in order history | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/previous_orders.jpg">
+</details>
+
+1.5 As a shopper I can see my previous orders so that I can see what I have ordered in the past 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Profile Data   | Update Profile           |     Update Saved | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/changed_profile.jpg">
+</details> 
+
+1.7 As a shopper I can login to my account so that I can start using it 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Login   | Log into account           |     Can see profile and place orders | Works as expected |
+
+1.8 As a registered user I can view and edit my profile information so that I can keep it up to date 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   View Profile Data   | View Profile           |     Can see profile data (e.g. address and order history) | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/changed_profile.jpg">
+</details>  
+
+
 ## Automated Testing
 
 ### Unit testing
