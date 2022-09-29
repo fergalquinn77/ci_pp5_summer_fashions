@@ -1219,6 +1219,88 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/us-testing/order-success.jpg">
 </details>
 
+6.1 As a shop owner I can add products to the shop so that the shop can have more variety available
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Add Item   | Add a product           |     Item shows in shop | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/product-management.jpg">
+<img src="readme/validation/us-testing/add-test-item.jpg">
+</details>
+
+6.2 As a shop owner I can edit / update product so that the description and price is up to date
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Update Item   | Update Item Details           |     Item reflects changes | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/before-update.jpg">
+<img src="readme/validation/us-testing/after-edit-item.jpg">
+</details>
+
+6.3 As a shop owner I can delete product so that I remove products no longer available
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Delete Item   | Delete an item           |     No longer listed on site | Works as expected |
+
+6.4 As a shop owner I can review/edit or delete customer orders so that I can make any necessary adjustments
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Update Item   | Add item to order          |     Order reflects changes | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/order-admin.jpg">
+<img src="readme/validation/us-testing/order-details-before.jpg">
+<img src="readme/validation/us-testing/order-details-after.jpg">
+</details>
+
+6.5 As a non-site admin I can not access the admin pages so that I am unable to take actions with admin privilages
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Admin access   | Try to access admin pages like edit, delete item        |     Access not permitted | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/only-store-owners.jpg">
+</details>
+
+7.1 As a shopper I can like a product so that I can filter liked products later
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Wishlist   | Add item to wishlist        |     Show in wishlist view | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/add-to-wishlist.jpg">
+<img src="readme/validation/us-testing/wishlist-view.jpg">
+</details>
+
+7.2 As a shopper I can purchase and product and it will be taken off my wishlist so that my wishlist is up to date
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Wishlist   | Purchase item        |     Should be taken off wishlist | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/order-item.jpg">
+</details>
+
+7.3 As a shopper I can view/edit products on my wishlist so that I can keep it up to date
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Wishlist   | Add/Remove Wishlist        |     Wishlist should adjust accordingly | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/remove-wishlist.jpg">
+</details>
+
 ## Automated Testing
 
 ### Unit testing
