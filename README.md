@@ -1145,7 +1145,78 @@ The Python of the each page of the site was validated using [Python validation t
 |   Start Checkout   | Select Checkout from bag           |     Start checkout process | Works as expected |
 
 <details><summary>Images</summary>
-<img src="readme/validation/us-testing/update_quantity.jpg">
+<img src="readme/validation/us-testing/start_checkout.jpg">
+<img src="readme/validation/us-testing/checkout_page.jpg">
+</details>
+
+4.2 As a shopper I can verify the shopping bag before I commit to the purchase so that I can ensure everything is OK 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Verify Bag   | View bag summary           |     Contains summary of order | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/checkout_page.jpg">
+</details>
+
+4.3 As a site user I can choose to save my checkout details for next time so that I can use the details for future purchases
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Save Details   | Click on Save Details           |     Details added to profile | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/checkout-info.jpg">
+<img src="readme/validation/us-testing/saved-to-profile.jpg">
+</details>
+
+4.4 As a shopper I can receive an email confirmation detailing my order so that I know my order was processed
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Email of order   | Email send on successful checkout           |     Receive email | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/email_confirmation.jpg">
+</details>
+
+4.5 As a shopper I can have my order processed even if I exit out of the page before I recieve final confirmation or the connection breaks so that I have security that my order was processed
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Webhook   | Comment out form submit in stripe JS           |     Order still goes through | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/stripe-js-comment-out.jpg">
+<img src="readme/validation/us-testing/order-using-webhook.jpg">
+</details>
+
+4.6 As a shopper I can input my credit card details so that I can purchase the items in my basket
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Stripe   | Test Stripe Transaction           |     Order goes through for test details | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/enter-creditcard.jpg">
+<img src="readme/validation/us-testing/order-success.jpg">
+</details>
+
+4.7 As a shopper I can have my credit card transaction processed so that I can pay for my basket of items
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Stripe   | Test Stripe Transaction           |     Order goes through for test details | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/enter-creditcard.jpg">
+<img src="readme/validation/us-testing/order-success.jpg">
 </details>
 
 ## Automated Testing
