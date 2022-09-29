@@ -651,6 +651,14 @@ Users can submit further support messages relating to a support ticket. This can
 Users can mark support tickets as resolved so that it no longer shows in their open support queries.
 
 ### Page 11 – Admin
+<br>![Message Support Ticket](readme/features/admin-panel.jpg)
+
+The Django admin panel is a built in tool that enables the admin users to create batch actions and manipulate all the data tables in one place.
+
+This page covers the following user stories: 
+
+10.2 As a shop owner I can view customer enquiries so that I can respond to them as required
+11.2 As a shop owner I can view support queries and repsond to them as required so that I can keep my customers happy
 
 
 ## Technologies Used
