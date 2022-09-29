@@ -322,9 +322,19 @@ This model contains all fields stored in the database collections with their dat
 
 ### Design choices
 
+The aim of the design of the website was to create a fresh and modern feeling website. The imagery used for the hero image and product images are bright, vibrant and in keeping with the target age bracket of:
+- Ladies
+- Fashion concious
+- Primary age is 18-40
+The fonts are clear and modern and heading are kept clear to allow easy navigation. 
+
 ### Colours
 
+The colour scheme is primarily white background to products with a dark header/footer. Text in the header/footer is white with a dark background and in the main body area, it is black with a white background. Colors pass accessability tests using Chrome Lighthouse.
+
 ### Typography
+
+Arimo is the font uses for the logo which is a Google Fonts and throughout the website. It's a modern looking font that is in keeping with the theme of the website.
 
 ## Features
 
