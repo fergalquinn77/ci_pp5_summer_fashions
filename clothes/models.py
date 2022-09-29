@@ -1,12 +1,21 @@
+"""
+A module for models in the checkout app
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django.db import models
 from django.contrib.auth.models import User
 from django.dispatch import receiver
 from django.db.models.signals import post_save, post_delete
 from datetime import datetime, timezone
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 class Category(models.Model):
-
+    """
+    A model for the categories of clothing
+    """
     class Meta:
         verbose_name_plural = 'Categories'
 
@@ -21,6 +30,9 @@ class Category(models.Model):
 
 
 class Clothes(models.Model):
+    """
+    A model for clothing items
+    """
     category = models.ForeignKey('Category', null=True,
                                  blank=True, on_delete=models.SET_NULL)
     name = models.CharField(max_length=254)

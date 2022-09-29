@@ -1,14 +1,20 @@
+"""
+A module for the checkout webhook handler
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django.http import HttpResponse
 from django.core.mail import send_mail
 from django.template.loader import render_to_string
 from django.conf import settings
-
+import json
+import time
+# Internal
 from .models import Order, OrderLineItem
 from clothes.models import Clothes
 from profiles.models import UserProfile
-
-import json
-import time
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 class StripeWH_Handler:

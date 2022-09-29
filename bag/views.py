@@ -1,8 +1,15 @@
-from django.shortcuts import render
+"""
+A module for bag views
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django.shortcuts import redirect, reverse, HttpResponse, get_object_or_404
 from django.contrib import messages
-
+from django.shortcuts import render
+# Internal:
 from clothes.models import Clothes
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 def view_bag(request):

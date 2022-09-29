@@ -1,9 +1,15 @@
+"""
+A module for models in the profile app
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django.db import models
 from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
-
 from django_countries.fields import CountryField
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 class UserProfile(models.Model):
@@ -39,12 +45,12 @@ def create_or_update_user_profile(sender, instance, created, **kwargs):
     # Existing users: just save the profile
     instance.userprofile.save()
 
-# Model for dealing with support tickets borrowed from my PP4
 
 STATUS = ((0, "Open"), (1, "Closed"))
 
 
 class Support_Tickets(models.Model):
+    """  Model for dealing with support tickets borrowed from my PP4 """
     user = models.ForeignKey(User, on_delete=models.CASCADE,
                              related_name="SupportTickets")
     title = models.CharField(max_length=200, blank=False)

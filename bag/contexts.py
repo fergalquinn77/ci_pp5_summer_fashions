@@ -1,10 +1,19 @@
+"""
+A module for the bag context manager
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from decimal import Decimal
 from django.conf import settings
 from django.shortcuts import get_object_or_404
+# Internal
 from clothes.models import Clothes, Sale
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 def bag_contents(request):
+    """ A context that contains bag items """
 
     bag_items = []
     total = 0
@@ -27,7 +36,7 @@ def bag_contents(request):
             sale = Sale.objects.all()
 
             for size, quantity in item_data['items_by_size'].items():
-                if product.on_sale:
+                if product.on_sale:  # Adjust for sale items
                     mult = (1 - product.sale.percent_off/100)
                     total += quantity * product.price * mult
 

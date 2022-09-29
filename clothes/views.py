@@ -1,18 +1,22 @@
+"""
+A module for clothes views
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django.shortcuts import render, redirect, reverse, get_object_or_404
-from django.contrib import messages 
+from django.contrib import messages
 from django.contrib.auth.decorators import login_required, user_passes_test
 from django.db.models import Q
 from django.db.models.functions import Lower
 from django.core.paginator import Paginator
 from decimal import Decimal
-
+# Internal
 from .forms import ProductForm
 from .models import Clothes, Category, Sale
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-# Create your views here.
-
-# View all clothes
 def all_clothes(request):
     """ View to return all clothes, including sorting and search queries"""
     query = None

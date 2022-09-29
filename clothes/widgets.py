@@ -1,5 +1,12 @@
+"""
+A module for widgets relating to clothing app
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django.forms.widgets import ClearableFileInput
 from django.utils.translation import gettext_lazy as _
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 class CustomClearableFileInput(ClearableFileInput):

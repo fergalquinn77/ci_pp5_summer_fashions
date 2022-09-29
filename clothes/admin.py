@@ -1,5 +1,13 @@
+"""
+A module for admin in the clothes app
+"""
+# Imports
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+# 3rd party:
 from django.contrib import admin
+# Internal
 from .models import Clothes, Category, Sale
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
 class ClothesAdmin(admin.ModelAdmin):
@@ -19,6 +27,7 @@ class CategoryAdmin(admin.ModelAdmin):
         'friendly_name',
         'name',
     )
+
 
 admin.site.register(Clothes, ClothesAdmin)
 admin.site.register(Category, CategoryAdmin)
