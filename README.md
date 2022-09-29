@@ -1301,6 +1301,28 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/us-testing/remove-wishlist.jpg">
 </details>
 
+8.1 As a shop owner I can mark certain items/catgories as for sale so that I can entice people to buy them
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Sale   | Mark an item as for sale        |     Item should display as for sale | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/change-to-onsale.jpg">
+<img src="readme/validation/us-testing/`changed-onsale`.jpg">
+<img src="readme/validation/us-testing/display-onsale.jpg">
+</details>
+
+8.2 As a shopper I can easily see items on sale so that I might consider purchasing them
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Sale   | Click on sale items navbar        |     Show all products for sale | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/show-items-for-sale.jpg">
+</details>
+
 ## Automated Testing
 
 ### Unit testing
