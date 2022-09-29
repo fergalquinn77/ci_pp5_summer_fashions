@@ -941,6 +941,18 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/us-testing/1.2-toast-message.jpg">
 </details>
 
+1.3 As a shopper I can see saved information about me so that I can verify if it's correct or if it needs updating 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Saved Profile   | Checkout and Save Info           |     Info Saved to profile | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/checkout-info.jpg">
+<img src="readme/validation/us-testing/saved-to-profile.jpg">
+</details>
+
 ## Automated Testing
 
 ### Unit testing

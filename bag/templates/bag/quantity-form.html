@@ -1,12 +1,10 @@
 <form class="form update-form" method="POST" action="{% url 'adjust_bag' bag_item.item_id %}">
     {% csrf_token %}
-
     <div class="form-group">
-
         <div class="input-group mb-3">
             <div class="input-group-prepend">
                 <label class="input-group-text" for="inputGroupSelect01">Qty: </label>
-            </div> 
+            </div>
             <select id="id_qty_{{ bag_item.item_id }}" class="qty-input" data-item_id="{{ bag_item.item_id }}"
                 type="dropdown" name="quantity">
 
@@ -21,7 +19,6 @@
             {% endif %}
         </div>
     </div>
-    
 </form>
 
 {% block postloadjs %}
