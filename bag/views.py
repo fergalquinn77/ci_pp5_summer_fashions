@@ -66,7 +66,7 @@ def adjust_bag(request, item_id):
     if size:
         if quantity > 0:
             bag[item_id]['items_by_size'][size] = quantity
-            bag_item = {bag[item_id]["items_by_size"][size]}
+            bag_item = bag[item_id]["items_by_size"][size]
             messages.success(request, (f'Updated size {size.upper()} '
                                        f'{product.name} quantity to '
                                        f'{bag_item}'))

@@ -993,6 +993,160 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/us-testing/changed_profile.jpg">
 </details>  
 
+2.1 As a shopper I can view products for sale so that I can consider purchasing them 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   View Items for sale   | Browse Items           |     Can see items for sale and click into them | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/all_items.jpg">
+<img src="readme/validation/us-testing/item_details.jpg">
+</details>
+
+2.1 As a shopper I can view products for sale so that I can consider purchasing them 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   View Items for sale   | Browse Items           |     Can see items for sale and click into them | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/all_items.jpg">
+<img src="readme/validation/us-testing/item_details.jpg">
+</details>
+
+2.2 As a shopper I can view more detail about a product so that I can find out more if I am interested in purchasing 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   View Item Details   | Click on item           |     Can view item details | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/item_details.jpg">
+</details>
+
+2.3 As a shopper I can view all products in categories so that I can quickly find what I am looking for 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   View By Category   | Click on Cetgories           |     Can view items by category | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/items_by_category.jpg">
+<img src="readme/validation/us-testing/view_category_jeans.jpg">
+</details>
+
+2.4 As a shopper I can search all products by title and by description so that I can quickly find what I am looking for 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Search   | Search for item           |     Search results to show | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/search_flower.jpg">
+</details>
+
+2.5 As a shopper I can filter products so that I can quickly find out what I am looking for 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Category/Search   | Filter items           |     Easy and quick filtering | Works as expected |
+
+2.6 As a shopper I can sort products by important attributes so that I can easily navigate the product range 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Sort   | Sort items           |     Display items in correct order | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/sorting.jpg">
+</details>
+
+2.7 As a shopper I can sort products by important attributes so that I can easily navigate the product range 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Sort   | Sort items           |     Display items in correct order | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/sorting.jpg">
+</details>
+
+3.1 As a shopper I can add items to my basket so that I can purchase them at checkout stage 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Add to bag   | Add an item to bag           |     Success message displays and displays in bag | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/add_to_bag.jpg">
+<img src="readme/validation/us-testing/view_bag.jpg">
+</details>
+
+3.2 As a shopper I can add and delete items from my baskets so that I can adjust my purchase 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Delete Items   | Delete an item from bag           |     Taken out of bag and success message | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/delete_item.jpg">
+<img src="readme/validation/us-testing/item_removed.jpg">
+</details>
+
+3.3 As a shopper I can see the total cost of the shopping bag so that I am aware of the running cost 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Total Cost   | Add items to bag           |     See total cost | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/view_total_cost.jpg">
+</details>
+
+3.4 As a shopper I can adjust quantities in my basket so that I can adjust my basket 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Update Quantities/Delete Items   | Update Quantities (delete done already)           |     Bag adjusts acccordingly | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/update_quantity.jpg">
+</details>
+
+3.5 As a shopper I can adjust quantities in my basket so that I can adjust my basket 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Update Quantities/Delete Items   | Update Quantities (delete done already)           |     Bag adjusts acccordingly | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/update_quantity.jpg">
+</details>
+
+4.1 As a shopper I can select checkout from my shopping bag so that I can start the checkout process 
+
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Start Checkout   | Select Checkout from bag           |     Start checkout process | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/update_quantity.jpg">
+</details>
 
 ## Automated Testing
 
@@ -1026,6 +1180,25 @@ I have demonstrated some proficiency in using these tests however due to the tig
 ## Bugs
 
 Bugs encountered throughout the project were recorded as an issue and labelled 'bug'. 
+
+## Google emails
+To set up the project to send emails and to use a Google account as an SMTP server, the following steps are required
+1. Create an email account at google.com, login, navigate to Settings in your gmail account and then click on Other Google Account Settings
+2. Turn on 2-step verification and follow the steps to enable
+3. Click on app passwords, select Other as the app and give the password a name, for example Django
+<br>![App password](readme/misc/generate_app.jpg)
+4. Click create and a 16 digit password will be generated, note the password down
+5. In the env.py file, create an environment variable called EMAIL_HOST_PASS with the 16 digit password
+6. In the env.py file, create an environment variable called EMAIL_HOST_USER with the email address of the gmail account
+7. Set and confirm the following values in the settings.py file to successfully send emails
+<br><code>EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'</code>
+<br><code>EMAIL_USE_TLS = True</code>
+<br><code>EMAIL_PORT = 587</code>
+<br><code>EMAIL_HOST = 'smtp.gmail.com'</code>
+<br><code>EMAIL_HOST_USER = os.environ.get('EMAIL_HOST_USER')</code>
+<br><code>EMAIL_HOST_PASSWORD = os.environ.get('EMAIL_HOST_PASS')</code>
+<br><code>DEFAULT_FROM_EMAIL = os.environ.get('EMAIL_HOST_USER')</code>
+8. You will also need to set the variables EMAIL_HOST_PASS and EMAIL_HOST_USER in your production instance, for example Heroku
 
 ## Stripe
 
