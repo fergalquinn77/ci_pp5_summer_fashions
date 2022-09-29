@@ -1354,6 +1354,52 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/us-testing/subscribed-members.jpg">
 </details>
 
+10.1 As a shopper I can make contact with the store via a form on the site so that I can receive feedback on any questions I have
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Contact-us   | Submit an enquiry        |     Enquiry should show in admin | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/admin-contacts.jpg">
+</details>
+
+10.2 As a shop owner I can view customer enquiries so that I can respond to them as required
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Contact-us   | Submit an enquiry        |     Enquiry should show in admin | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/admin-contacts.jpg">
+</details>
+
+11.1 As a user I can submit a support ticket so that I can get responses to queries I have
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Support Messages   | Submit a message        |     Message should show in admin | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/support-centre.jpg">
+<img src="readme/validation/us-testing/admin-support-ticket.jpg">
+</details>
+
+11.2 As a shop owner I can view support queries and repsond to them as required so that I can keep my customers happy
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Support Messages   | Respond to message        |     Message should show on users ticket | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/admin-ticket-response.jpg">
+<img src="readme/validation/us-testing/response-in-user-view.jpg">
+</details>
+
+
+
+
+
 ## Automated Testing
 
 ### Unit testing
