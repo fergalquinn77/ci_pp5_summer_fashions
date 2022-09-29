@@ -1323,6 +1323,37 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/us-testing/show-items-for-sale.jpg">
 </details>
 
+9.1 As a shopper I can sign up to a newsletter so that I can keep informed of offers
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Newsletter   | Sign-up to newsletter        |     Email should be added to mailchimp audience | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/subscribe-newsletter.jpg">
+<img src="readme/validation/us-testing/email-subscribed.jpg">
+</details>
+
+9.2 As a shopper I can remove myself from the newsletter list so that I can stop receiving emails 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Newsletter   | Send test email        |     Should have unsubscribe button that works | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/unsubscribe.jpg">
+</details>
+
+9.3 As an admin I can view all members on the newsletter list so that I can use the information for mail shots etc. 
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+|   Newsletter   | View all members        |     Can see all members signed up to newsletter | Works as expected |
+
+<details><summary>Images</summary>
+<img src="readme/validation/us-testing/subscribed-members.jpg">
+</details>
+
 ## Automated Testing
 
 ### Unit testing
