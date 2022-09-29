@@ -124,6 +124,11 @@ Future development in the site includes a Blog that can help keep fresh content 
 
 ### Facebook Business Page
 
+To assist with marketing the website, it has a link to its own social media page in the footer and that has a recipricol link to the site.
+
+Facebook site can be viewed [here](https://www.facebook.com/profile.php?id=100086294113794). 
+
+![Facebook Screenshot](readme/misc/hot-summer-fashions-facebook.jpg)
 
 ### Newsletter Signup
 The site includes a signup form to a newsletter so the business can keep in touch with it's vistors.
