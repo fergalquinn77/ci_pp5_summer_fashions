@@ -1,5 +1,5 @@
 """
-A module for models in the profile views
+A module for tests in the profile views
 """
 # Imports
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20,7 +20,6 @@ class TestViews(TestCase):
         self.email = 'testuser@email.com'
         self.password = 'ferg@567'
 
-    
     # Test User Registration Page
     def test_signup_page_url(self):
         response = self.client.get(reverse('account_signup'))
@@ -63,8 +62,8 @@ class TestViews(TestCase):
         self.assertTemplateUsed(response,
                                 template_name='profiles/add_ticket.html')
         response2 = self.client.post(reverse('add-support-ticket'),
-                                      {'title': 'Test New Query',
-                                       'query': 'Test message'})
+                                     {'title': 'Test New Query',
+                                     'query': 'Test message'})
         self.assertEqual(response2.status_code, 302)
         tickets = Support_Tickets.objects.all()
         self.assertEqual(tickets.count(), 1)
@@ -73,7 +72,8 @@ class TestViews(TestCase):
     def test_ticket_details(self):
         user = User.objects.create_user('foo', 'myemail@test.com', 'bar')
         self.client.login(username='foo', password='bar')
-        self.client.post(reverse('add-support-ticket'), {'title': 'Test New Query',
+        self.client.post(reverse('add-support-ticket'),
+                         {'title': 'Test New Query',
                          'query': 'Test message'})
         ticket = Support_Tickets.objects.get(title='Test New Query')
         response = self.client.get(f'/profile/ticket-details/{ticket.id}/')
@@ -85,11 +85,13 @@ class TestViews(TestCase):
     def test_toggle_ticket(self):
         user = User.objects.create_user('foo', 'myemail@test.com', 'bar')
         self.client.login(username='foo', password='bar')
-        self.client.post(reverse('add-support-ticket'), {'title': 'Test New Query',
+        self.client.post(reverse('add-support-ticket'),
+                         {'title': 'Test New Query',
                          'query': 'Test message'})
         ticket = Support_Tickets.objects.get(title='Test New Query')
         self.assertEqual(ticket.status, 0)
-        response = self.client.get(f'/profile/toggle-ticket-status/{ticket.id}/')
+        response = self.client.get((f'/profile/toggle-ticket-status'
+                                   f'/{ticket.id}/'))
         updated_ticket = Support_Tickets.objects.get(title='Test New Query')
         self.assertEqual(updated_ticket.status, 1)
 

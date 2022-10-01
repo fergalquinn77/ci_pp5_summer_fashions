@@ -195,43 +195,8 @@ def view_wishlist(request):
     return render(request, 'clothes/wishlist.html', context)
 
 
-# # Add to wishlist
-# @login_required
-# def item_like(request, id):
-#     """
-#     Allows users to like or unlike items
-#     """
-
-#     try:
-#         item = Clothes.objects.get(pk=id)
-#         if request.method == 'POST':
-#             if ItemReview.objects.filter(item=item,
-#                                          user=request.user).exists():
-#                 item_review = ItemReview.objects.get(
-#                                                     item=item,
-#                                                     user=request.user)
-#                 if item_review.liked:
-#                     item_review.liked = False
-#                     item_review.save()
-#                 else:
-#                     item_review.liked = True
-#                     item_review.save()
-#             else:
-#                 item_review = ItemReview(item=item,
-#                                          user=request.user,
-#                                          liked=True)
-#                 item_review.save()
-
-    # except Clothes.DoesNotExist:
-    #     return render(request, 'home/404.html')
-
-    # redirect_url = request.POST.get('redirect_url',
-    #                                 '/clothes/clothes.html')
-    # return redirect((redirect_url))
-
-
 # Toggle Sale Staus
-
+@user_passes_test(lambda u: u.is_superuser)
 def toggle_sale_status(request, item_id):
     item = get_object_or_404(Clothes, id=item_id)
     if item.on_sale is True:
