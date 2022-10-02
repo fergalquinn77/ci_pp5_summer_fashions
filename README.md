@@ -1447,11 +1447,23 @@ I tested the following:
 
 #### Profiles App
 
+I tested the following:
+- Account sign-up page
+- User sign-up
+- User cannot display support tickets without login
+- User can add support tickets when logged in
+- User can view ticket details page
+- User can toggle ticket from open to closed
+- User can post a message on an existing ticket
+
 <details><summary>Coverage Report</summary>
 <img src="readme/validation/automated/profiles.jpg">
 </details>
 
 #### Contact App
+
+I tested the following:
+- Can submit a contact enquiry
 
 <details><summary>Coverage Report</summary>
 <img src="readme/validation/automated/contact.jpg">
@@ -1459,12 +1471,32 @@ I tested the following:
 
 #### Home App
 
+I tested the following:
+- Can view homepage
+
 <details><summary>Coverage Report</summary>
 <img src="readme/validation/automated/home.jpg">
 </details>
 
 #### Clothes App
 
+I tested the following:
+- Can view all clothes
+- Can view item details page
+- Cannot access add item page without login
+- Cannot access add item page for normal user
+- Can access add item page with superuser login
+- Cannot access edit item page without login
+- Cannot access edit item page for normal user
+- Can access edit item page with superuser login
+- Cannot access delete item page without login
+- Cannot access delete item page for normal user
+- Can access delete item page with superuser login
+- Can add item to wishlist when logged in
+- Can view wishlist when logged in
+- Superuser can toggle sale status
+- Superuser can update sales discount rate 
+ 
 <details><summary>Coverage Report</summary>
 <img src="readme/validation/automated/clothes.jpg">
 </details>
