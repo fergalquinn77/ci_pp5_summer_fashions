@@ -1431,26 +1431,49 @@ As part of the project I have used a number of automated tests using the built i
 
 I have demonstrated some proficiency in using these tests however due to the tight time constraints on this project, the code does not have full coverage.  For future releases and project I could endeavor to increase the number of unit tests and coverage of the code.
 
-#### About
+#### Bag App
 
+I tested the following:
+- View Shopping Bag
+- Add item to bag without size (for an item that should have size)
+- Add same item x 2 times to bag
+- Remove item from bag
+- Adjust quanitity of item in bag to 10
+- Adjust quantity of item in bag to 0
 
-#### Bag
+<details><summary>Coverage Report</summary>
+<img src="readme/validation/automated/bag.jpg">
+</details>
 
+#### Profiles App
 
-#### Checkout
+<details><summary>Coverage Report</summary>
+<img src="readme/validation/automated/profiles.jpg">
+</details>
 
+#### Contact App
 
-#### Contact
+<details><summary>Coverage Report</summary>
+<img src="readme/validation/automated/contact.jpg">
+</details>
 
+#### Home App
 
+<details><summary>Coverage Report</summary>
+<img src="readme/validation/automated/home.jpg">
+</details>
 
-#### Home
+#### Clothes App
 
+<details><summary>Coverage Report</summary>
+<img src="readme/validation/automated/clothes.jpg">
+</details>
 
-#### Clothes
+#### Checkout App
 
-### Coverage
-
+<details><summary>Coverage Report</summary>
+<img src="readme/validation/automated/checkout.jpg">
+</details>
 
 ## Bugs
 

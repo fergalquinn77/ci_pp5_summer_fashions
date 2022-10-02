@@ -39,14 +39,15 @@ class TestViews(TestCase):
 
     # Test Add to bag
     def test_add_to_bag(self):
+        # self.item should have a size - add item to bag without it
         session = self.client.session
         redirect_link = f'/clothes/{self.item.id}/'
         response = self.client.post(f'/bag/add/{self.item.id}/',
                                     {'redirect_url': redirect_link
                                      })
         messages = list(get_messages(response.wsgi_request))
-        self.assertEqual(str(messages[0]), 'Please select item size')                             
-
+        self.assertEqual(str(messages[0]), 'Please select item size')
+        # Add item to bag with size
         response = self.client.post(f'/bag/add/{self.item.id}/',
                                     {'redirect_url': redirect_link,
                                      'item_size': 'M'})
@@ -54,25 +55,38 @@ class TestViews(TestCase):
         self.assertNotEqual(len(bag), 0)
         messages = list(get_messages(response.wsgi_request))
         self.assertEqual(str(messages[1]), 'Added size M Test to your bag')
+        # Add the same item to bag
         response = self.client.post(f'/bag/add/{self.item.id}/',
                                     {'redirect_url': redirect_link,
                                      'item_size': 'M'})
         messages = list(get_messages(response.wsgi_request))
         self.assertEqual(str(messages[2]), 'Updated size M Test quantity to 2')
-        # Test remove from bag
+        # Remove from bag
         response = self.client.post(f'/bag/remove/{self.item.id}/',
                                     {'redirect_url': redirect_link,
                                      'item_size': 'M'})
         messages = list(get_messages(response.wsgi_request))
-        response = self.assertEqual(str(messages[3]), 'Removed size M Test from your bag')
+        response = self.assertEqual(str(messages[3]), 'Removed size '
+                                    f'M Test from your bag')
         self.assertEqual(str(messages[3]), 'Removed size M Test from your bag')
-        # Test adjust quantities
+        # Adjust quantities
+        # Adjust quantity to 10
         response = self.client.post(f'/bag/add/{self.item.id}/',
                                     {'redirect_url': redirect_link,
                                      'item_size': 'M'})
         response = self.client.post(f'/bag/adjust/{self.item.id}/',
                                     {'item_size': 'M',
                                      'quantity': 10})
-        messages = list(get_messages(response.wsgi_request))
-        response = self.assertEqual(str(messages[5]), 'Updated size M Test quantity to 10')
-        
+        bag = self.client.session['bag']
+        values = bag.values()
+        response = self.assertEqual(list(values)[0]['items_by_size']['M'], 10)
+        # Adjust quantity to 0
+        response = self.client.post(f'/bag/adjust/{self.item.id}/',
+                                    {'item_size': 'M',
+                                     'quantity': 0})
+        bag = self.client.session['bag']
+        try:
+            test = list(bag.values())[0]['items_by_size']['M']
+        except IndexError:
+            return self.assertEqual(1, 1)
+        return self.assertEqual(1, 0)
