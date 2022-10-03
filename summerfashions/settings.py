@@ -106,7 +106,7 @@ AUTHENTICATION_BACKENDS = [
 
 ]
 
-SITE_ID = 1
+SITE_ID = 2
 
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
 
@@ -121,12 +121,12 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'summerfashions.wsgi.application'
 
 
-# if 'DATABASE_URL' in os.environ:
-#     DATABASES = {
-#                  'default':
-#                  dj_database_url.parse(os.environ.get('DATABASE_URL'))}
-# else:
-DATABASES = {
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+                 'default':
+                 dj_database_url.parse(os.environ.get('DATABASE_URL'))}
+else:
+    DATABASES = {
                 'default': {
                              'ENGINE': 'django.db.backends.sqlite3',
                              'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
