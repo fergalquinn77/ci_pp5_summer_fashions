@@ -6,13 +6,13 @@ body {
     font-family: 'Arimo', sans-serif;
 }
 
-
 #hero-image {
     background: url('/media/Hero-Image.jpg') no-repeat center center fixed;
     background-size: cover;
     height:100vh;
 }
 
+/* General Fonts/Background - Colors */
 .text-black {
     color: #000 !important;
 }
@@ -94,7 +94,6 @@ header ul{
     font-size: 1.25rem;
 }
 
-
 #mobile-buttons{
     margin-right:1rem;
     float:right;
@@ -116,11 +115,6 @@ input[name='q']::placeholder {
   font-size: 2rem;
 }
 
-/* Footer */
-
-footer h6 {
-font-weight: bold;
-}
 /* Bag Icon in Navbar */
 .bag-icon{
     position: relative;
@@ -133,8 +127,6 @@ font-weight: bold;
     left: 50%;
     transform: translate(-50%, -50%);
   }
-
-  
 
 /* Rounded pill classes for horizontal sides */
 .rounded-pill-left {
