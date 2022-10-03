@@ -23,7 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = os.environ.get('DEBUG')
+
+DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = False
 
 ALLOWED_HOSTS = ['localhost', 'ci-pp5-hot.herokuapp.com']
 
@@ -123,15 +125,15 @@ WSGI_APPLICATION = 'summerfashions.wsgi.application'
 
 if DEBUG:
     DATABASES = {
-                 'default':
-                 dj_database_url.parse(os.environ.get('DATABASE_URL'))}
-else:
-    DATABASES = {
                 'default': {
                              'ENGINE': 'django.db.backends.sqlite3',
                              'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
                             }
                 }
+else:
+    DATABASES = {
+                 'default':
+                 dj_database_url.parse(os.environ.get('DATABASE_URL'))}
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
