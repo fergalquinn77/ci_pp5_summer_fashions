@@ -5,12 +5,8 @@ A module for tests in the clothes views
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 3rd party:
 from django.test import TestCase
-from .models import *
 from clothes.models import Clothes, Category
-from django.contrib.auth import get_user_model
 from django.contrib.messages import get_messages
-from django.test import Client
-from django.contrib.auth.models import User
 from django.urls import reverse
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -40,7 +36,6 @@ class TestViews(TestCase):
     # Test Add to bag
     def test_add_to_bag(self):
         # self.item should have a size - add item to bag without it
-        session = self.client.session
         redirect_link = f'/clothes/{self.item.id}/'
         response = self.client.post(f'/bag/add/{self.item.id}/',
                                     {'redirect_url': redirect_link
@@ -66,8 +61,8 @@ class TestViews(TestCase):
                                     {'redirect_url': redirect_link,
                                      'item_size': 'M'})
         messages = list(get_messages(response.wsgi_request))
-        response = self.assertEqual(str(messages[3]), 'Removed size '
-                                    f'M Test from your bag')
+        response = self.assertEqual(str(messages[3]), ('Removed size '
+                                    'M Test from your bag'))
         self.assertEqual(str(messages[3]), 'Removed size M Test from your bag')
         # Adjust quantities
         # Adjust quantity to 10

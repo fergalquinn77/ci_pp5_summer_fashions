@@ -6,8 +6,6 @@ A module for tests in the clothes views
 # 3rd party:
 from django.test import TestCase
 from .models import *
-from django.contrib.auth import get_user_model
-from django.test import Client
 from django.contrib.auth.models import User
 from django.urls import reverse
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -36,7 +34,7 @@ class TestViews(TestCase):
         self.assertTemplateUsed(response, template_name='clothes/clothes.html')
 
     # Test View item details page
-    def test_view_all(self):
+    def test_item_details(self):
         response = self.client.get(f'/clothes/{self.item.id}/')
         self.assertEqual(response.status_code, 200)
         self.assertTemplateUsed(response,
@@ -83,30 +81,6 @@ class TestViews(TestCase):
         self.client.login(username=self.username, password=self.password)
         response = self.client.get(f'/clothes/edit/{self.item.id}/')
         self.assertEqual(response.status_code, 200)
-        item = Clothes.objects.create(
-            name=self.item.name,
-            category=self.item.category,
-            description=self.item.description,
-            has_sizes=self.item.has_sizes,
-            price=self.item.price,
-            rating=self.item.rating,
-            stock=self.item.stock,
-            on_sale=self.item.on_sale)
-
-        self.client.post(f'/clothes/edit/{item.id}/',
-                         {
-                          'name': self.item.name,
-                          'category': self.item.category,
-                          'description': 'change',
-                          'has_sizes': self.item.has_sizes,
-                          'price': self.item.price,
-                          'rating': self.item.rating,
-                          'stock': self.item.stock,
-                          'on_sale': self.item.on_sale,
-                          }
-                         )
-        item_updated = Clothes.objects.get(id=item.id)
-        # self.assertEqual(item_updated.description, "change")
 
     # Test delete item details page (without login)
     def test_delete_item_no_login(self):
@@ -117,8 +91,8 @@ class TestViews(TestCase):
 
     # Test delete item details page (with normal user login)
     def test_delete_item_normal_user(self):
-        user = User.objects.create_user(self.username, self.email,
-                                        self.password)
+        User.objects.create_user(self.username, self.email,
+                                 self.password)
         self.client.login(username=self.username, password=self.password)
         response = self.client.get(f'/clothes/delete/{self.item.id}/')
         self.assertEqual(response.status_code, 302)
@@ -160,7 +134,6 @@ class TestViews(TestCase):
         user = User.objects.create_user(self.username, self.email,
                                         self.password)
         self.client.login(username=self.username, password=self.password)
-        redirect_url = reverse('clothes')
         response2 = self.client.get(reverse('view_wishlist'))
         self.assertEqual(response2.status_code, 200)
 
@@ -173,8 +146,8 @@ class TestViews(TestCase):
                          HTTP_REFERER=redirect_url)
         updated_item = Clothes.objects.get(id=self.item.id)
         self.assertEqual(updated_item.on_sale, False)
-        user = User.objects.create_superuser(self.username, self.email,
-                                             self.password)
+        User.objects.create_superuser(self.username, self.email,
+                                      self.password)
         self.client.login(username=self.username, password=self.password)
         self.client.get(f'/clothes/{self.item.id}/')
         self.client.post(f'/clothes/sale/{self.item.id}/',
@@ -189,8 +162,8 @@ class TestViews(TestCase):
     # Update Sales Percentage
     def test_update_sales_percent(self):
         redirect_url = f'/clothes/{self.item.id}/'
-        user = User.objects.create_superuser(self.username, self.email,
-                                             self.password)
+        User.objects.create_superuser(self.username, self.email,
+                                      self.password)
         self.client.login(username=self.username, password=self.password)
         response = self.client.post(f'/clothes/update/{self.item.id}/',
                                     {'discount': 10},

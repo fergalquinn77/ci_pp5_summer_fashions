@@ -81,7 +81,7 @@ def add_support_ticket(request):
         if form.is_valid():
             new_form = form.save(commit=False)
             new_form.user = request.user
-            messages.success(request, f'Your query has been added')
+            messages.success(request, 'Your query has been added')
             new_form.save()
             return redirect('open-support-tickets')
     context = {
