@@ -15,7 +15,7 @@ import os
 import dj_database_url
 from pathlib import Path
 
-if os.path.exists('env.py'):
+if os.path.isfile("env.py"):
     import env
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEVELOPMENT' in os.environ
+DEBUG = os.environ.get('DEBUG')
 
 ALLOWED_HOSTS = ['localhost', 'ci-pp5-hot.herokuapp.com']
 
@@ -121,7 +121,7 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'summerfashions.wsgi.application'
 
 
-if 'DATABASE_URL' in os.environ:
+if DEBUG:
     DATABASES = {
                  'default':
                  dj_database_url.parse(os.environ.get('DATABASE_URL'))}

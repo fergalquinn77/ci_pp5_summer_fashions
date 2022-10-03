@@ -108,8 +108,8 @@ def add_item(request):
             return redirect(reverse('add_item'))
         else:
             messages.error(
-                request, (f'Failed to add item. '
-                          f'Please ensure the form is valid.'))
+                request, ('Failed to add item. '
+                          'Please ensure the form is valid.'))
     else:
         form = ProductForm()
 

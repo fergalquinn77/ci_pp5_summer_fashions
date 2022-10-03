@@ -1002,7 +1002,7 @@ The Python of the each page of the site was validated using [Python validation t
 
 ### Accessibility
 
-The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/ was used to ensure the website met high accessibility standards. There were some errors on pages. Some related to the way Bootstrap deals with i variables (Aria-Hidden). There were some contrast issues relating to some buttons. It was felt by the developer that the buttons showed enough contrast for readability.
+The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) was used to ensure the website met high accessibility standards. There were some errors on pages. Some related to the way Bootstrap deals with i variables (Aria-Hidden). There were some contrast issues relating to some buttons. It was felt by the developer that the buttons showed enough contrast for readability.
 
 <details><summary>Home</summary>
 <img src="readme/validation/wave/home.jpg">

@@ -5,7 +5,7 @@ A module for tests in the clothes views
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 3rd party:
 from django.test import TestCase
-from .models import *
+from .models import Clothes, Category
 from django.contrib.auth.models import User
 from django.urls import reverse
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -47,16 +47,16 @@ class TestViews(TestCase):
 
     # Test add item details page (with normal user login)
     def test_add_item_normal_user(self):
-        user = User.objects.create_user(self.username, self.email,
-                                        self.password)
+        User.objects.create_user(self.username, self.email,
+                                 self.password)
         self.client.login(username=self.username, password=self.password)
         response = self.client.get(reverse('add_item'))
         self.assertEqual(response.status_code, 302)
 
     # Test add item details page (with admin login)
     def test_add_item_admin_user(self):
-        user = User.objects.create_superuser(self.username, self.email,
-                                             self.password)
+        User.objects.create_superuser(self.username, self.email,
+                                      self.password)
         self.client.login(username=self.username, password=self.password)
         response = self.client.get(reverse('add_item'))
         self.assertEqual(response.status_code, 200)
@@ -68,16 +68,16 @@ class TestViews(TestCase):
 
     # Test edit item details page (with normal user login)
     def test_edit_item_normal_user(self):
-        user = User.objects.create_user(self.username, self.email,
-                                        self.password)
+        User.objects.create_user(self.username, self.email,
+                                 self.password)
         self.client.login(username=self.username, password=self.password)
         response = self.client.get(f'/clothes/edit/{self.item.id}/')
         self.assertEqual(response.status_code, 302)
 
     # Test edit item details page (with admin login)
     def test_edit_item_admin_user(self):
-        user = User.objects.create_superuser(self.username, self.email,
-                                             self.password)
+        User.objects.create_superuser(self.username, self.email,
+                                      self.password)
         self.client.login(username=self.username, password=self.password)
         response = self.client.get(f'/clothes/edit/{self.item.id}/')
         self.assertEqual(response.status_code, 200)
@@ -101,8 +101,8 @@ class TestViews(TestCase):
 
     # Test delete item details page (with admin login)
     def test_delete_item_admin_user(self):
-        user = User.objects.create_superuser(self.username, self.email,
-                                             self.password)
+        User.objects.create_superuser(self.username, self.email,
+                                      self.password)
         self.client.login(username=self.username, password=self.password)
         id = self.item.id
         response = self.client.get(f'/clothes/delete/{self.item.id}/')
@@ -131,8 +131,8 @@ class TestViews(TestCase):
         # Not logged in
         response = self.client.get(reverse('view_wishlist'))
         self.assertEqual(response.status_code, 302)
-        user = User.objects.create_user(self.username, self.email,
-                                        self.password)
+        User.objects.create_user(self.username, self.email,
+                                 self.password)
         self.client.login(username=self.username, password=self.password)
         response2 = self.client.get(reverse('view_wishlist'))
         self.assertEqual(response2.status_code, 200)
@@ -165,7 +165,7 @@ class TestViews(TestCase):
         User.objects.create_superuser(self.username, self.email,
                                       self.password)
         self.client.login(username=self.username, password=self.password)
-        response = self.client.post(f'/clothes/update/{self.item.id}/',
-                                    {'discount': 10},
-                                    HTTP_REFERER=redirect_url)
+        self.client.post(f'/clothes/update/{self.item.id}/',
+                         {'discount': 10},
+                         HTTP_REFERER=redirect_url)
         self.assertEqual(self.item.sale.percent_off, 10)

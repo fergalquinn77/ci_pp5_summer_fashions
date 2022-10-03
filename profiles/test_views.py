@@ -5,9 +5,8 @@ A module for tests in the profile views
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 3rd party:
 from django.test import TestCase
-from .models import *
+from .models import Support_Tickets, Tickets_Messages
 from django.contrib.auth import get_user_model
-from django.test import Client
 from django.contrib.auth.models import User
 from django.urls import reverse
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -46,7 +45,7 @@ class TestViews(TestCase):
 
     # Test can user display tickets with login
     def test_display_tickets_with_login(self):
-        user = User.objects.create_user('foo', 'myemail@test.com', 'bar')
+        User.objects.create_user('foo', 'myemail@test.com', 'bar')
         self.client.login(username='foo', password='bar')
         response = self.client.get(reverse('open-support-tickets'))
         self.assertEqual(response.status_code, 200)
@@ -55,7 +54,7 @@ class TestViews(TestCase):
 
     # Test can user add ticket when logged in
     def test_add_support_ticket_with_login(self):
-        user = User.objects.create_user('foo', 'myemail@test.com', 'bar')
+        User.objects.create_user('foo', 'myemail@test.com', 'bar')
         self.client.login(username='foo', password='bar')
         response = self.client.get(reverse('add-support-ticket'))
         self.assertEqual(response.status_code, 200)
@@ -70,7 +69,7 @@ class TestViews(TestCase):
 
     # Test can user view ticket details page
     def test_ticket_details(self):
-        user = User.objects.create_user('foo', 'myemail@test.com', 'bar')
+        User.objects.create_user('foo', 'myemail@test.com', 'bar')
         self.client.login(username='foo', password='bar')
         self.client.post(reverse('add-support-ticket'),
                          {'title': 'Test New Query',
@@ -83,7 +82,7 @@ class TestViews(TestCase):
 
     # Test Toggle Ticket
     def test_toggle_ticket(self):
-        user = User.objects.create_user('foo', 'myemail@test.com', 'bar')
+        User.objects.create_user('foo', 'myemail@test.com', 'bar')
         self.client.login(username='foo', password='bar')
         self.client.post(reverse('add-support-ticket'),
                          {'title': 'Test New Query',
@@ -98,9 +97,9 @@ class TestViews(TestCase):
     # Test Posting Message on ticket details page
 
     def test_post_message(self):
-        user = User.objects.create_user('foo', 'myemail@test.com', 'bar')
+        User.objects.create_user('foo', 'myemail@test.com', 'bar')
         self.client.login(username='foo', password='bar')
-        self.client.post(f'/profile/add-ticket/', {'title': 'Test New Query',
+        self.client.post('/profile/add-ticket/', {'title': 'Test New Query',
                          'query': 'Test message'})
         ticket = Support_Tickets.objects.get(title='Test New Query')
         response = self.client.post(f'/profile/ticket-details/{ticket.id}/',

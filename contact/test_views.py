@@ -5,7 +5,7 @@ A module for tests in the clothes views
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 # 3rd party:
 from django.test import TestCase
-from .models import *
+from .models import Contact
 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
@@ -18,7 +18,7 @@ class TestViews(TestCase):
 
     # Test Contact Us
     def test_contact_us(self):
-        response = self.client.post(f'/contact/', {'email': self.email,
-                                    'name': self.username})
+        self.client.post('/contact/', {'email': self.email,
+                         'name': self.username})
         contact = Contact.objects.count()
         self.assertEqual(contact, 1)

@@ -123,7 +123,7 @@ def ticket_details(request, ticket_id):
                 new_form = form.save(commit=False)
                 new_form.user = request.user
                 new_form.ticket = Support_Tickets.objects.get(id=ticket_id)
-                messages.success(request, f'Your message has been posted')
+                messages.success(request, 'Your message has been posted')
                 new_form.save()
                 return redirect('ticket-details', ticket.id)
         else:
