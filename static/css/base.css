@@ -91,6 +91,7 @@ header ul{
 
 #delivery-banner{
     background-color: #2d2d2d!important;
+    font-size: 1.25rem;
 }
 
 
@@ -109,6 +110,10 @@ input[name='q']::placeholder {
 
 .table td, .table th {
   border-top:0;
+}
+
+#summer-fashions-text{
+  font-size: 2rem;
 }
 
 /* Footer */
@@ -223,6 +228,7 @@ footer a:hover, i:hover{
 .sign-join{
   border-bottom: 2px solid;
   border-color: #007bff;
+  font-size:1.5rem;
 }
 
 .order-summary{
@@ -342,6 +348,10 @@ color: #fff;
 
   .header-margin{
     margin-top: 6rem;
+}
+
+#summer-fashions-text{
+  font-size: 1.5rem;
 }
 
 }

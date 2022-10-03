@@ -1004,6 +1004,34 @@ The Python of the each page of the site was validated using [Python validation t
 
 ### Performance 
 
+[Google Lighthouse](https://developers.google.com/web/tools/lighthouse/) was used to measure the performance and speed of the website -performance, accessibility, best practice and SEO with results below:
+
+<details><summary>Home</summary>
+<img src="readme/validation/lighthouse-validation/home.jpg">
+</details>
+
+<details><summary>Clothes</summary>
+<img src="readme/validation/lighthouse-validation/clothes.jpg">
+</details>
+
+<details><summary>Item Details</summary>
+<img src="readme/validation/lighthouse-validation/home.jpg">
+</details>
+
+<details><summary>Contact Us</summary>
+<img src="readme/validation/lighthouse-validation/contact-us.jpg">
+</details>
+
+<details><summary>Sign In</summary>
+<img src="readme/validation/lighthouse-validation/sign-in.jpg">
+</details>
+
+<details><summary>Support Centre</summary>
+<img src="readme/validation/lighthouse-validation/support-centre.jpg">
+</details> 
+
+
+
 ## Testing
 
 ### Manual Testing
@@ -1488,9 +1516,6 @@ The Python of the each page of the site was validated using [Python validation t
 <img src="readme/validation/us-testing/admin-ticket-response.jpg">
 <img src="readme/validation/us-testing/response-in-user-view.jpg">
 </details>
-
-
-
 
 
 ## Automated Testing
