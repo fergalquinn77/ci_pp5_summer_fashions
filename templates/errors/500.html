@@ -13,32 +13,15 @@
 
 <div class="overlay"></div>
 <div class="header-margin container">
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-6">
-            <hr>
-            <h2 class="mb-4 d-flex text-black">Page Not Found</h2>
-            
-            <hr>
+    <div class="jumbotron border justify-content-center">
+        <h2 class="mb-4 text-black text-center mt-5">Server Error</h2>
+        <h6 class="mb-4 text-black text-center mt-5">Please contact our team</h6>
+        <div class="text-center">
+            <a href="{% url 'contact-us' %}" class="btn btn-outline-black rounded-0 btn-lg">
+                
+                <span class="text-uppercase">Contact us </span>
+            </a>
         </div>
-    </div>
-
-    <div class="row justify-content-center">
-        <div class="col-12 col-md-6">
-            <form method="POST" action="{% url 'edit_item' item.id %}" class="form mb-2" enctype="multipart/form-data">
-                {% csrf_token %}
-                    {% for field in form %}
-                        {% if field.name != 'image' %}
-                            {{ field | as_crispy_field }}
-                        {% else %}
-                            {{ field }}
-                        {% endif %}
-                    {% endfor %}
-                <div class="text-right">
-                    <a class="btn btn-danger rounded-0" href="{% url 'clothes' %}">Cancel</a>
-                    <button class="btn btn-success rounded-0" type="submit">Update Item</button>
-                </div>
-            </form>
-        </div>            
     </div>
 </div>
 

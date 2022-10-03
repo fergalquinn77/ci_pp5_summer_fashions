@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accounts/
+Disallow: /bag/
+Sitemap: https://https://ci-pp5-hot.herokuapp.com/sitemap.xml
