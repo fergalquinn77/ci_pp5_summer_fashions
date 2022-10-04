@@ -22,7 +22,7 @@ body {
 }
 
 .page-icon{
-  font-size: 2rem;
+  font-size: 2rem; /* For font awesome */
 }
 
 .bg-custom-grey{
@@ -44,10 +44,12 @@ body {
 }
 
 .margin-detail-view{
+  /* Margin for item detail view */
     margin-top: 10rem;
 }
 
 .margin-view-all{
+  /* Margin for main clothes view */
   margin-top: 18rem;
 }
 
@@ -66,6 +68,7 @@ div.dropdown-multicol2>div.dropdown-col{
   }
 
 .fa-fire{
+  /* Color for Logo Fire */
     color:#f21137;
 }
 

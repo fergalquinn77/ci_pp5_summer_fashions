@@ -1781,7 +1781,15 @@ To deploy this application to Heroku, run the following steps.
 
 ## Credits
 
-
 ### Media
 
+- [Hero Image - iStockphoto](https://www.istockphoto.com/photo/beautiful-woman-with-shopping-bags-in-the-city-sale-shopping-tourism-and-happy-gm1131097418-299374203?phrase=summer%20fashions%20ladies)
+- [Data Set - Kaggle](https://www.kaggle.com/datasets)
+- [Readme Layout - Danny Magnus](https://github.com/dannymagnus/CI_MS5_Ecomm)
+- [Code Institute - Boutique Ado Project](https://codeinstitute.net/ie/)
+
 ### Acknowledgements: 
+
+- To my mentor Mo Shami for his fantastic guidance and direction.
+- Code Institute Tutors - Absolutely invaluable in getting this project to where it is
+- My wife who has been great throughout this course with her encouragment and taking on the Lions share when it comes to minding our two kids. 
