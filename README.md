@@ -162,7 +162,7 @@ The primary goal of the website from a site users perspective is as follows:
 
 ### Target Audience
 - Ladies
-- Fashion concious
+- Fashion conscious
 - Primary age is 18-40 but there would be some market for 13-18 and 40+
 
 ## User Requirements and Expectations
@@ -177,7 +177,7 @@ The primary goal of the website from a site users perspective is as follows:
 
 The primary goal for this project is to sell womens summer fashions direct to the consumer, thus it's a B2C business model. Given the target audience, I've branded the website with a short catchy name, in keeping with the product line. The hero image is a youthful, fun image that encourages user to view the clothing range. 
 
-The site has an easy navigation and has some nice features like wishlist and sales which are quite popular in this business. The model is based on fulfillment done in-house but the model would work with outsourcing fulfilment.
+The site has an easy navigation and has some nice features like wishlist and sales which are quite popular in this business. The model is based on fulfilment done in-house but the model would work with outsourcing fulfilment.
 
 ## SEO
 
@@ -185,7 +185,7 @@ Long tag and short tag keyword were searched for in regards to SEO using Google 
 
 ![SEO keywords HTML](readme/misc/meta-tags.jpg)
 
-For this project, I did not give consideration to the naming of pictures given the amount of them. If I were to use this site in real life, I would name every picture according more in keeping with the product name. For example - the product [Bathing Suit](https://ci-pp5-hot.herokuapp.com/clothes/26/) has an image that is named 'white_bathing_suit.jpg'. Due to time constraints, I could not rename all pictures from the dataset used for the project.
+For this project, I did not give consideration to the naming of pictures given the amount of them. If I were to use this site in real life, I would name every picture more in keeping with the product name. For example - the product [Bathing Suit](https://ci-pp5-hot.herokuapp.com/clothes/26/) has an image that is named 'white_bathing_suit.jpg'. Due to time constraints, I could not rename all pictures from the dataset used for the project.
 
 Future development in the site includes a Blog that can help keep fresh content on the site.
 
@@ -215,8 +215,8 @@ It contains a footer with links to external sites and a mailchimp signup form.
 - Clothes - this app contains the the clothes listings and detail views, users can add items to a shopping cart, filter for items in categories and hosts the results of the product search.  Clicking individual items opens a sub  page where users can see detailed product information.  The clothes app has a wishlist button that allows user to mark items they may wish to purchase in the future.
 
 - Courses - Users can view course listings and details and be redirected to the contact form to get in touch and enquire.
-- Contact - this app is for users to be able to submit a message to the site owners and recieve acknowledgment. For users with a profile, when logged in, the form prepopulates profile data to remove friction to the user.
-- Profile - Users can choose to have a profile either when checking out or when authenticated.  Edit functionality exists and users can view thier purchase history. There is also functionality for submitted support tickets for registered users.
+- Contact - this app is for users to be able to submit a message to the site owners and receive acknowledgment. For users with a profile, when logged in, the form prepopulates profile data to remove friction to the user.
+- Profile - Users can choose to have a profile either when checking out or when authenticated.  Edit functionality exists and users can view their purchase history. There is also functionality for submitted support tickets for registered users.
 - Bag - User can view, add and remove products that they have added to the bag
 - Checkout - Users can use the checkout app to purchase selected items.  They can see items in the cart and have the option to save profile data during the checkout process.
 
@@ -226,7 +226,7 @@ To complement the apps there are
 - templates (app level): each app has it's own templates directory for HTML to consider portability and re-use.
 - urls (app level): each app has it's own url.py file to consider portability and re-use.
 - static: Base css and Javascript files
-- manage.py: This file is used to start the site and perform funcions during development
+- manage.py: This file is used to start the site and perform functions during development
 - README.md: Readme documentation
 - Procfile: To run the application on Heroku
 - Requirements.txt: Containing the project dependencies
@@ -265,7 +265,7 @@ This model contains all fields stored in the database collections with their dat
 
 ##### OrderLineItem
 
-- This model has a foriegn key of order. It contains the items in an order.
+- This model has a foreign key of order. It contains the items in an order.
 - The model contains the following fields - order, item, item_size, quantity, lineitem_total
 
 ##### Contact Model
@@ -297,7 +297,7 @@ This model contains all fields stored in the database collections with their dat
 | 1.6         | As a shopper I can delete my account so that I can permanently erase all information relating to me                                                                                        |
 | 1.7         | As a shopper I can login to my account so that I can start using it                                                                                        |
 | 1.8         | As a registered user I can view and edit my profile information so that I can keep it up to date                                                                                        |
-| **EPIC 2**  | **List/view products, to display all products availabe for sale**                                                                                                                          |
+| **EPIC 2**  | **List/view products, to display all products available for sale**                                                                                                                          |
 | 2.1         | As a shopper I can view products for sale so that I can consider purchasing them                                                                                                           |
 | 2.2         | As a shopper I can view more detail about a product so that I can find out more if I am interested in purchasing                                                                           |
 | 2.3         | As a shopper I can view all products in categories so that I can quickly find what I am looking for                                                                                        |
@@ -316,7 +316,7 @@ This model contains all fields stored in the database collections with their dat
 | 4.2         | As a shopper I can verify the shopping bag before I commit to the purchase so that I can ensure everything is OK                                                                           |
 | 4.3         | As a site user I can choose to save my checkout details for next time so that I can use the details for future purchases                                                                   |
 | 4.4         | As a shopper I can receive an email confirmation detailing my order so that I know my order was processed                                                                                  |
-| 4.5         | As a shopper I can have my order processed even if I exit out of the page before I recieve final confirmation or the connection breaks so that I have security that my order was processed |
+| 4.5         | As a shopper I can have my order processed even if I exit out of the page before I receive final confirmation or the connection breaks so that I have security that my order was processed |
 | 4.6         | As a shopper I can input my credit card details so that I can purchase the items in my basket                                                                                              |
 | 4.7         | As a shopper I can have my credit card transaction processed so that I can pay for my basket of items                                                                                      |
 | **EPIC 5**  | **Ratings and reviews, to allow users to have their opinion about products**                                                                                                               |
@@ -334,8 +334,8 @@ This model contains all fields stored in the database collections with their dat
 | 7.1         | As a shopper I can like a product so that I can filter liked products later                                                                                                                |
 | 7.2         | As a shopper I can purchase and product and it will be taken off my wishlist so that my wishlist is up to date                                                                                                                  |
 | 7.3         | As a shopper I can view/edit products on my wishlist so that I can keep it up to date                                                                                                                                                |
-| **EPIC 8**  | **Sale items - Mark items on sale and apply a cretain discount to the items**                                                                                                              |
-| 8.1         | As a shop owner I can mark certain items/catgories as for sale so that I can entice people to buy them                                                                                     |
+| **EPIC 8**  | **Sale items - Mark items on sale and apply a certain discount to the items**                                                                                                              |
+| 8.1         | As a shop owner I can mark certain items/categories as for sale so that I can entice people to buy them                                                                                     |
 | 8.2         | As a shopper I can easily see items on sale so that I might consider purchasing them                                                                                                       |
 | **EPIC 9**  | **Newsletter**                                                                                                                                                                             |
 | 9.1         | As a shopper I can sign up to a newsletter so that I can keep informed of offers                                                                                                           |
@@ -347,7 +347,7 @@ This model contains all fields stored in the database collections with their dat
 | 10.3        | As a shopper I can receive confirmation that I have submitted an enquiry so that I know it has been received                                                                               |
 | **EPIC 11** | **User support messages (user registration required)**                                                                                                                                     |
 | 11.1        | As a user I can submit a support ticket so that I can get responses to queries I have                                                                                                      |
-| 11.2        | As a shop owner I can view support queries and repsond to them as required so that I can keep my customers happy                                                                           |                                                                        |
+| 11.2        | As a shop owner I can view support queries and respond to them as required so that I can keep my customers happy                                                                           |                                                                        |
 
 #### Agile Tool
 
@@ -404,7 +404,7 @@ The fonts are clear and modern and heading are kept clear to allow easy navigati
 
 ### Colours
 
-The colour scheme is primarily white background to products with a dark header/footer. Text in the header/footer is white with a dark background and in the main body area, it is black with a white background. Colors pass accessability tests using Chrome Lighthouse.
+The colour scheme is primarily white background to products with a dark header/footer. Text in the header/footer is white with a dark background and in the main body area, it is black with a white background. Colors pass accessibility  tests using Chrome Lighthouse.
 
 ### Typography
 
@@ -574,11 +574,11 @@ This feature covers the following user stories:
 
 #### Feature 3 – Password Reset
 <br>![Login](readme/features/password-reset.jpg)
-The password reset feature allows a user to reset their password if they have forgotton it.
+The password reset feature allows a user to reset their password if they have forgotten it.
 
 #### Feature 4 – Password Reset
 <br>![Login](readme/features/password-reset.jpg)
-The password reset feature allows a user to reset their password if they have forgotton it.
+The password reset feature allows a user to reset their password if they have forgotten it.
 
 #### Feature 5 – Logout
 <br>![Logout](readme/features/sign-out.jpg)
@@ -612,7 +612,7 @@ The shopping bag page consists of the following features:
 #### Feature 1 – Update Quantities
 <br>![Update Quantities](readme/features/update-quantities.jpg)
 
-A user can update the quantities of an item in their baseket using the dropdown menu and then clicking the update button
+A user can update the quantities of an item in their basket using the dropdown menu and then clicking the update button
 
 This feature covers the following user stories:
 
@@ -742,7 +742,7 @@ The Django admin panel is a built in tool that enables the admin users to create
 This page covers the following user stories: 
 
 10.2 As a shop owner I can view customer enquiries so that I can respond to them as required
-11.2 As a shop owner I can view support queries and repsond to them as required so that I can keep my customers happy
+11.2 As a shop owner I can view support queries and respond to them as required so that I can keep my customers happy
 
 
 ## Technologies Used
@@ -1180,7 +1180,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|   View By Category   | Click on Cetgories           |     Can view items by category | Works as expected |
+|   View By Category   | Click on Categories           |     Can view items by category | Works as expected |
 
 <details><summary>Images</summary>
 <img src="readme/validation/us-testing/items_by_category.jpg">
@@ -1267,7 +1267,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
-|   Update Quantities/Delete Items   | Update Quantities (delete done already)           |     Bag adjusts acccordingly | Works as expected |
+|   Update Quantities/Delete Items   | Update Quantities (delete done already)           |     Bag adjusts accordingly | Works as expected |
 
 <details><summary>Images</summary>
 <img src="readme/validation/us-testing/update_quantity.jpg">
@@ -1330,7 +1330,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <img src="readme/validation/us-testing/email_confirmation.jpg">
 </details>
 
-4.5 As a shopper I can have my order processed even if I exit out of the page before I recieve final confirmation or the connection breaks so that I have security that my order was processed
+4.5 As a shopper I can have my order processed even if I exit out of the page before I receive final confirmation or the connection breaks so that I have security that my order was processed
 
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
@@ -1407,7 +1407,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <img src="readme/validation/us-testing/order-details-after.jpg">
 </details>
 
-6.5 As a non-site admin I can not access the admin pages so that I am unable to take actions with admin privilages
+6.5 As a non-site admin I can not access the admin pages so that I am unable to take actions with admin privileges
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1448,7 +1448,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <img src="readme/validation/us-testing/remove-wishlist.jpg">
 </details>
 
-8.1 As a shop owner I can mark certain items/catgories as for sale so that I can entice people to buy them
+8.1 As a shop owner I can mark certain items/categories as for sale so that I can entice people to buy them
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1532,7 +1532,7 @@ The [WAVE WebAIM web accessibility evaluation tool](https://wave.webaim.org/) wa
 <img src="readme/validation/us-testing/admin-support-ticket.jpg">
 </details>
 
-11.2 As a shop owner I can view support queries and repsond to them as required so that I can keep my customers happy
+11.2 As a shop owner I can view support queries and respond to them as required so that I can keep my customers happy
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
@@ -1559,7 +1559,7 @@ I tested the following:
 - Add item to bag without size (for an item that should have size)
 - Add same item x 2 times to bag
 - Remove item from bag
-- Adjust quanitity of item in bag to 10
+- Adjust quantity of item in bag to 10
 - Adjust quantity of item in bag to 0
 
 <details><summary>Coverage Report</summary>
@@ -1792,4 +1792,4 @@ To deploy this application to Heroku, run the following steps.
 
 - To my mentor Mo Shami for his fantastic guidance and direction.
 - Code Institute Tutors - Absolutely invaluable in getting this project to where it is
-- My wife who has been great throughout this course with her encouragment and taking on the Lions share when it comes to minding our two kids. 
+- My wife, who has been great throughout this course with her encouragement and taking on the Lions share when it comes to minding our two kids. 
