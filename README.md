@@ -15,7 +15,6 @@ For the expiry date, cvc and postal code any series number(s) can be used(once t
 ## Table of Content
 
 <!-- TOC start -->
-- [User Experience](#user-experience)
   * [Strategy](#strategy)
     + [Site Owner Goals](#site-owner-goals)
     + [User Goals](#user-goals)
@@ -42,7 +41,7 @@ For the expiry date, cvc and postal code any series number(s) can be used(once t
         * [Ticket Messages Model](#ticket-messages-model)
   * [Scope](#scope)
     + [User stories:](#user-stories)
-      - [Error Flow](#error-flow)
+      - [Agile Tool](#agile-tool)
   * [Skeleton](#skeleton)
     + [Wireframes](#wireframes)
   * [Surface](#surface)
@@ -350,7 +349,12 @@ This model contains all fields stored in the database collections with their dat
 | 11.1        | As a user I can submit a support ticket so that I can get responses to queries I have                                                                                                      |
 | 11.2        | As a shop owner I can view support queries and repsond to them as required so that I can keep my customers happy                                                                           |                                                                        |
 
-#### Error Flow
+#### Agile Tool
+
+I used a Kanban Board within GitHub to document and implement user stories for this project
+<details><summary>Kanban Board</summary>
+<img src="readme/misc/Kanban-Board.png">
+</details>
 
 ## Skeleton
 
@@ -1626,7 +1630,15 @@ I tested the following:
 
 ## Bugs
 
-Bugs encountered throughout the project were recorded as an issue and labelled 'bug'. 
+There were numerous bugs encountered throughout development. Some nothworthy were documented and resolved. Here are the details:
+
+- Problem removing items from basket [#57](https://github.com/fergalquinn77/ci_pp5_summer_fashions/issues/57)
+- Issue with search in desktop [#58](https://github.com/fergalquinn77/ci_pp5_summer_fashions/issues/58)
+- "no such table" error [#63](https://github.com/fergalquinn77/ci_pp5_summer_fashions/issues/63)
+- Static files and media not showing [#64](https://github.com/fergalquinn77/ci_pp5_summer_fashions/issues/64)
+- Item details page not rendering right when using postgres vs. sql lite [#73](https://github.com/fergalquinn77/ci_pp5_summer_fashions/issues/73)
+- Comitted Heroku Database details to Github [#74](https://github.com/fergalquinn77/ci_pp5_summer_fashions/issues/74)
+- Duplicate orders when purchasing orders on sale [#75](https://github.com/fergalquinn77/ci_pp5_summer_fashions/issues/75) 
 
 ## Google emails
 To set up the project to send emails and to use a Google account as an SMTP server, the following steps are required
