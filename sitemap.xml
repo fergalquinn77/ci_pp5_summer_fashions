@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/accounts/signup/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/accounts/login/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/bag/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/contact/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?sort=price&amp;direction=asc</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?sort=rating&amp;direction=desc</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?sort=category&amp;direction=asc</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=beachwear</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=blouse</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=dress</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=slimfit</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=gym</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=hats</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=jacket</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=jeans</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=lingerie</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=onepiece</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=pants</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=plussize</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=shoes</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=shorts</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=t-shirts</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?sale=True</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/accounts/password/reset/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/50/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/54/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/155/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/92/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/28/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/93/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/12/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/65/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/14/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/124/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/137/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/33/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/60/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/119/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/4/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/172/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=2</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=12</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/72/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/114/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/59/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/122/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/5/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/175/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/107/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/130/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/94/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/111/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/73/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/82/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/125/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/31/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/177/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/169/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/140/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/26/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/157/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/164/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/85/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/77/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/102/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/129/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/49/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/40/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/9/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/109/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/6/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/139/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/3/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/7/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/8/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/10/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/11/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/13/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/15/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/16/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/17/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/18/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/1/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/30/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/32/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/39/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/41/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/45/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/46/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/51/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/52/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/53/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/56/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/57/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/61/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=4</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/43/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/108/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/190/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/138/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/74/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/37/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/58/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/71/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/89/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/97/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/98/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/112/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/117/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/133/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/152/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/162/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/167/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/55/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/64/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/66/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/67/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/68/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/76/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/78/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/79/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/80/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/120/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/146/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/147/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/158/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/128/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/62/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/105/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/110/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/118/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/131/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/153/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/38/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/42/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/47/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/96/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/99/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/100/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/150/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/161/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/70/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/183/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=tops</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/19/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/20/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/21/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/22/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/23/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/24/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/25/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/27/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/29/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/34/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=1</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=3</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/180/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/181/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/182/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/184/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/185/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/186/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/187/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/188/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/189/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/191/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/2/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=11</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/63/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=5</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?category=yoga</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/35/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/36/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/44/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/48/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/165/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/166/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/168/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/170/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/171/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/173/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/174/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/176/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/178/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/179/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=10</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/69/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/75/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/81/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=6</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/148/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/149/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/151/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/154/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/156/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/159/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/160/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/163/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=9</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/83/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/84/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/86/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/87/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/88/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/90/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/91/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/95/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=7</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.33</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/132/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/134/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/135/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/136/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/141/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/142/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/143/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/144/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/145/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/?page=8</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/101/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/103/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/104/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/106/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/113/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.26</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/115/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/116/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/121/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/123/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/126/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+<url>
+  <loc>https://ci-pp5-hot.herokuapp.com/clothes/127/</loc>
+  <lastmod>2022-10-03T21:31:04+00:00</lastmod>
+  <priority>0.21</priority>
+</url>
+
+
+</urlset>

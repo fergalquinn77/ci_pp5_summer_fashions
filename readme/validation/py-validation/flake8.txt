@@ -1,0 +1,106 @@
+./custom_storages.py:10:44: W292 no newline at end of file
+./env.py:5:205: W292 no newline at end of file
+./.vscode/arctictern.py:10:1: F401 'subprocess' imported but unused
+./.vscode/arctictern.py:14:80: E501 line too long (94 > 79 characters)
+./.vscode/arctictern.py:34:23: E127 continuation line over-indented for visual indent
+./.vscode/arctictern.py:35:23: E128 continuation line under-indented for visual indent
+./.vscode/arctictern.py:36:23: E124 closing bracket does not match visual indentation
+./.vscode/arctictern.py:70:22: E124 closing bracket does not match visual indentation
+./.vscode/arctictern.py:92:1: W293 blank line contains whitespace
+./.vscode/arctictern.py:107:10: E231 missing whitespace after ','
+./.vscode/arctictern.py:116:1: W293 blank line contains whitespace
+./.vscode/arctictern.py:117:80: E501 line too long (80 > 79 characters)
+./.vscode/arctictern.py:162:80: E501 line too long (91 > 79 characters)
+./.vscode/arctictern.py:167:1: W293 blank line contains whitespace
+./.vscode/arctictern.py:184:80: E501 line too long (82 > 79 characters)
+./.vscode/arctictern.py:188:80: E501 line too long (96 > 79 characters)
+./.vscode/arctictern.py:190:80: E501 line too long (101 > 79 characters)
+./.vscode/make_url.py:10:39: E231 missing whitespace after ','
+./.vscode/make_url.py:11:36: E231 missing whitespace after ','
+./.vscode/make_url.py:12:39: E231 missing whitespace after ','
+./bag/contexts.py:36:13: F841 local variable 'sale' is assigned to but never used
+./bag/test_views.py:84:13: F841 local variable 'test' is assigned to but never used
+./bag/views.py:37:37: E127 continuation line over-indented for visual indent
+./checkout/__init__.py:1:52: W292 no newline at end of file
+./checkout/apps.py:15:9: F401 'checkout.signals' imported but unused
+./checkout/models.py:100:9: F841 local variable 'sale_items' is assigned to but never used
+./checkout/tests.py:1:1: F401 'django.test.TestCase' imported but unused
+./checkout/webhooks.py:33:5: F841 local variable 'e' is assigned to but never used
+./checkout/webhooks.py:36:5: F841 local variable 'e' is assigned to but never used
+./checkout/migrations/0001_initial.py:19:80: E501 line too long (117 > 79 characters)
+./checkout/migrations/0001_initial.py:20:80: E501 line too long (82 > 79 characters)
+./checkout/migrations/0001_initial.py:25:80: E501 line too long (85 > 79 characters)
+./checkout/migrations/0001_initial.py:28:80: E501 line too long (92 > 79 characters)
+./checkout/migrations/0001_initial.py:29:80: E501 line too long (83 > 79 characters)
+./checkout/migrations/0001_initial.py:31:80: E501 line too long (98 > 79 characters)
+./checkout/migrations/0001_initial.py:32:80: E501 line too long (97 > 79 characters)
+./checkout/migrations/0001_initial.py:33:80: E501 line too long (97 > 79 characters)
+./checkout/migrations/0001_initial.py:39:80: E501 line too long (117 > 79 characters)
+./checkout/migrations/0001_initial.py:40:80: E501 line too long (85 > 79 characters)
+./checkout/migrations/0001_initial.py:42:80: E501 line too long (104 > 79 characters)
+./checkout/migrations/0001_initial.py:43:80: E501 line too long (111 > 79 characters)
+./checkout/migrations/0001_initial.py:44:80: E501 line too long (137 > 79 characters)
+./checkout/migrations/0004_auto_20220905_1942.py:20:80: E501 line too long (155 > 79 characters)
+./checkout/migrations/0004_auto_20220905_1942.py:25:80: E501 line too long (105 > 79 characters)
+./clothes/tests.py:1:1: F401 'django.test.TestCase' imported but unused
+./clothes/views.py:23:5: F841 local variable 'category' is assigned to but never used
+./clothes/migrations/0001_initial.py:18:80: E501 line too long (117 > 79 characters)
+./clothes/migrations/0001_initial.py:20:80: E501 line too long (91 > 79 characters)
+./clothes/migrations/0001_initial.py:29:80: E501 line too long (117 > 79 characters)
+./clothes/migrations/0001_initial.py:32:80: E501 line too long (89 > 79 characters)
+./clothes/migrations/0001_initial.py:34:80: E501 line too long (103 > 79 characters)
+./clothes/migrations/0001_initial.py:35:80: E501 line too long (87 > 79 characters)
+./clothes/migrations/0001_initial.py:36:80: E501 line too long (82 > 79 characters)
+./clothes/migrations/0001_initial.py:37:80: E501 line too long (140 > 79 characters)
+./clothes/migrations/0003_category_clothes.py:19:80: E501 line too long (117 > 79 characters)
+./clothes/migrations/0003_category_clothes.py:21:80: E501 line too long (91 > 79 characters)
+./clothes/migrations/0003_category_clothes.py:30:80: E501 line too long (117 > 79 characters)
+./clothes/migrations/0003_category_clothes.py:33:80: E501 line too long (89 > 79 characters)
+./clothes/migrations/0003_category_clothes.py:35:80: E501 line too long (103 > 79 characters)
+./clothes/migrations/0003_category_clothes.py:37:80: E501 line too long (87 > 79 characters)
+./clothes/migrations/0003_category_clothes.py:38:80: E501 line too long (82 > 79 characters)
+./clothes/migrations/0003_category_clothes.py:39:80: E501 line too long (140 > 79 characters)
+./clothes/migrations/0005_wishlist.py:19:80: E501 line too long (117 > 79 characters)
+./clothes/migrations/0005_wishlist.py:22:80: E501 line too long (111 > 79 characters)
+./clothes/migrations/0005_wishlist.py:23:80: E501 line too long (118 > 79 characters)
+./clothes/migrations/0008_auto_20220911_1128.py:22:80: E501 line too long (107 > 79 characters)
+./clothes/migrations/0009_auto_20220911_1136.py:18:80: E501 line too long (107 > 79 characters)
+./clothes/migrations/0010_itemreview.py:19:80: E501 line too long (117 > 79 characters)
+./clothes/migrations/0010_itemreview.py:21:80: E501 line too long (119 > 79 characters)
+./clothes/migrations/0010_itemreview.py:22:80: E501 line too long (84 > 79 characters)
+./clothes/migrations/0010_itemreview.py:25:80: E501 line too long (111 > 79 characters)
+./clothes/migrations/0010_itemreview.py:26:80: E501 line too long (130 > 79 characters)
+./clothes/migrations/0012_sale.py:17:80: E501 line too long (117 > 79 characters)
+./clothes/migrations/0012_sale.py:18:80: E501 line too long (85 > 79 characters)
+./clothes/migrations/0012_sale.py:21:80: E501 line too long (138 > 79 characters)
+./clothes/migrations/0013_alter_sale_clothes.py:17:80: E501 line too long (129 > 79 characters)
+./clothes/migrations/0014_auto_20220917_1413.py:16:80: E501 line too long (81 > 79 characters)
+./clothes/migrations/0015_auto_20220917_1459.py:20:80: E501 line too long (81 > 79 characters)
+./clothes/migrations/0016_auto_20220921_1043.py:16:80: E501 line too long (81 > 79 characters)
+./contact/tests.py:1:1: F401 'django.test.TestCase' imported but unused
+./contact/migrations/0001_initial.py:17:80: E501 line too long (117 > 79 characters)
+./home/admin.py:1:1: F401 'django.contrib.admin' imported but unused
+./home/models.py:1:1: F401 'django.db.models' imported but unused
+./home/tests.py:1:1: F401 'django.test.TestCase' imported but unused
+./profiles/models.py:65:5: F811 redefinition of unused 'Meta' from line 62
+./profiles/models.py:86:5: F811 redefinition of unused 'Meta' from line 80
+./profiles/test_views.py:92:9: F841 local variable 'response' is assigned to but never used
+./profiles/tests.py:1:1: F401 'django.test.TestCase' imported but unused
+./profiles/migrations/0001_initial.py:21:80: E501 line too long (117 > 79 characters)
+./profiles/migrations/0001_initial.py:22:80: E501 line too long (97 > 79 characters)
+./profiles/migrations/0001_initial.py:23:80: E501 line too long (111 > 79 characters)
+./profiles/migrations/0001_initial.py:24:80: E501 line too long (93 > 79 characters)
+./profiles/migrations/0001_initial.py:25:80: E501 line too long (97 > 79 characters)
+./profiles/migrations/0001_initial.py:26:80: E501 line too long (100 > 79 characters)
+./profiles/migrations/0001_initial.py:27:80: E501 line too long (100 > 79 characters)
+./profiles/migrations/0001_initial.py:28:80: E501 line too long (91 > 79 characters)
+./profiles/migrations/0001_initial.py:29:80: E501 line too long (121 > 79 characters)
+./profiles/migrations/0002_support_tickets_tickets_messages.py:19:80: E501 line too long (117 > 79 characters)
+./profiles/migrations/0002_support_tickets_tickets_messages.py:22:80: E501 line too long (97 > 79 characters)
+./profiles/migrations/0002_support_tickets_tickets_messages.py:25:80: E501 line too long (149 > 79 characters)
+./profiles/migrations/0002_support_tickets_tickets_messages.py:34:80: E501 line too long (117 > 79 characters)
+./profiles/migrations/0002_support_tickets_tickets_messages.py:37:80: E501 line too long (146 > 79 characters)
+./profiles/migrations/0002_support_tickets_tickets_messages.py:38:80: E501 line too long (118 > 79 characters)
+./summerfashions/settings.py:19:5: F401 'env' imported but unused
+./summerfashions/urls.py:18:1: F811 redefinition of unused 'handler404' from line 5
+./summerfashions/urls.py:19:1: F811 redefinition of unused 'handler500' from line 5

@@ -890,7 +890,7 @@ The Javascript of the each page of the site was validated using [JSHint validati
 
 ### Py Validation
 
-The Python of the each page of the site was validated using [Python validation tool](http://pep8online.com/).  All pages returned a pass with 0 errors and 0 warnings.
+The Python of the each page of the site was validated using [Python validation tool](http://pep8online.com/).  All pages returned a pass with 0 errors and 0 warnings. I also ran Flake8 test and solved all relevant errors - [results here](readme/validation/py-validation/flake8.txt)
 
 #### Admin py-validation
 
