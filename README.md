@@ -890,7 +890,7 @@ The Javascript of the each page of the site was validated using [JSHint validati
 
 ### Py Validation
 
-The Python of the each page of the site was validated using [Python validation tool](http://pep8online.com/).  All pages returned a pass with 0 errors and 0 warnings. I also ran Flake8 test and solved all relevant errors - [results here](readme/validation/py-validation/flake8.txt)
+The Python of the each page of the site was validated using [Python validation tool](http://pep8online.com/).  All pages returned a pass with 0 errors and 0 warnings. I also ran Flake8 test and solved all relevant errors - [results here](readme/validation/py-validation/flake8.txt).
 
 #### Admin py-validation
 
@@ -1754,19 +1754,21 @@ To run this project locally, you will need to clone the repository
 ## Heroku and Postgres Database
 To deploy this application to Heroku, run the following steps.
 1. Create an account at heroku.com
-2. Create an app, give it a name for example scuabasport, and select a region
+2. Create an app, give it a name for example hot, and select a region
 3. Under resources search for postgres, and add a Postgres database to the app
+<br>![Heroku Postgres](readme/misc/postgres.jpg)
 4. Note the DATABASE_URL, this can be set as an environment variable in Heroku and your local deployment(env.py)
 5. Install the plugins dj-database-url and psycopg2-binary.
 6. Run pip3 freeze > requirements.txt so both are added to the requirements.txt file
 7. Create a Procfile with the text: web: gunicorn summerfashions.wsgi:application for example
 8. In the settings.py ensure the connection is to the Heroku postgres database
+<br>![Heroku Postgres](readme/misc/database.jpg)
 9. Ensure debug is set to false in the settings.py file
-10. Add localhost/127.0.0.1, and scuabasport.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
+10. Add localhost/127.0.0.1, and hot.herokuapp.com to the ALLOWED_HOSTS variable in settings.py
 11. Run "python3 manage.py showmigrations" to check the status of the migrations
 12. Run "python3 manage.py migrate" to migrate the database
 13. Run "python3 manage.py createsuperuser" to create a super/admin user
-14. Run python3 manage.py loaddata db.json
+14. Run manage.py loaddata categories.json to load categories first and then run manage.py loaddata clothes.json to load products into the database
 16. Install gunicorn and add it to the requirements.tx file using the command pip3 freeze > requirements.txt
 17. From the CLI login to Heroku using the command heroku git:remote -a hot
 18. Disable collectstatic in Heroku before any code is pushed using the command heroku config:set DISABLE_COLLECTSTATIC=1 -a hot

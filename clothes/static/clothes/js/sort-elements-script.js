@@ -1,5 +1,5 @@
 // Script to sort items on display
-/* jshint esnext: true */
+/*jshint esversion: 6 */
 $('#sort-selector').change(function () {
     var selector = $(this);
     var currentUrl = new URL(window.location);
